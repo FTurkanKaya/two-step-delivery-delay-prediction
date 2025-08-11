@@ -1,7 +1,7 @@
 # Two-Step Delivery Delay Prediction
 
 ## 📌 Overview  
-This project was developed as part of a **Data Science training program provided by Study**.  
+This project was developed as part of a **Data Science training program provided by euroTech Study**.  
 It focuses on a **machine learning-based delivery delay prediction** system for e-commerce orders.
 
 Using the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), the project aims to:  
@@ -52,11 +52,11 @@ Data preprocessing involves merging relevant tables, handling missing values, cr
 
 ```mermaid
 flowchart TD
-    A[📥 Data Acquisition] --> B[🧹 Data Preprocessing<br>- Merge datasets<br>- Handle missing values<br>- Feature engineering]
-    B --> C[📊 Exploratory Data Analysis<br>- Delivery time analysis<br>- Delay patterns<br>- Visualization]
-    C --> D[🧠 Step 1: Classification Model<br>- Predict if delayed<br>- Accuracy, Precision, Recall, F1-score]
-    D --> E[⏳ Step 2: Regression Model<br>- Predict delay duration (days)<br>- RMSE, MAE, R² score]
-    E --> F[📈 Insights & Reporting<br>- Key delay factors<br>- Recommendations]
+    A[📥 Data Acquisition] --> B[🧹 Data Preprocessing - Merge datasets, handle missing values, feature engineering]
+    B --> C[📊 Exploratory Data Analysis - Delivery time analysis, delay patterns, visualization]
+    C --> D[🧠 Step 1: Classification Model - Predict if delayed, accuracy, precision, recall, F1-score]
+    D --> E[⏳ Step 2: Regression Model - Predict delay duration (days), RMSE, MAE, R2 score]
+    E --> F[📈 Insights & Reporting - Key delay factors, recommendations]
 
 ## Data Preparation
 
