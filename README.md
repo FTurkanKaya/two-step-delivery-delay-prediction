@@ -71,11 +71,7 @@ Target: Delay days (numeric).
 Algorithms: Linear Regression, Random Forest Regressor, XGBoost.
 
 ## flowchart TD
-    A[📥 Data Acquisition] --> B[🧹 Data Preprocessing<br>- Merge datasets<br>- Handle missing values<br>- Feature engineering]
-    B --> C[📊 Exploratory Data Analysis<br>- Delivery time analysis<br>- Delay patterns<br>- Visualization]
-    C --> D[🧠 Step 1: Classification Model<br>- Predict if delayed<br>- Accuracy, Precision, Recall, F1-score]
-    D --> E[⏳ Step 2: Regression Model<br>- Predict delay duration (days)<br>- RMSE, MAE, R² score]
-    E --> F[📈 Insights & Reporting<br>- Key delay factors<br>- Recommendations]
+    <pre> ```mermaid flowchart TD A[📥 Data Acquisition] --> B[🧹 Data Preprocessing<br>- Merge datasets<br>- Handle missing values<br>- Feature engineering] B --> C[📊 Exploratory Data Analysis<br>- Delivery time analysis<br>- Delay patterns<br>- Visualization] C --> D[🧠 Step 1: Classification Model<br>- Predict if delayed<br>- Accuracy, Precision, Recall, F1-score] D --> E[⏳ Step 2: Regression Model<br>- Predict delay duration (days)<br>- RMSE, MAE, R² score] E --> F[📈 Insights & Reporting<br>- Key delay factors<br>- Recommendations] ``` </pre>
     
 ## Model Evaluation
 
