@@ -1,56 +1,64 @@
 # Two-Step Delivery Delay Prediction
-📌 Overview
-This project was developed as part of a Data Science training program provided by Study.
-It focuses on a machine learning-based delivery delay prediction system for e-commerce orders.
 
-Using the Brazilian E-Commerce Public Dataset by Olist, the project aims to:
+## 📌 Overview  
+This project was developed as part of a **Data Science training program provided by Study**.  
+It focuses on a **machine learning-based delivery delay prediction** system for e-commerce orders.
 
-Classify whether an order will be delivered late.
+Using the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), the project aims to:  
+1. **Classify** whether an order will be delivered late.  
+2. **Predict** the number of days the delivery will be delayed (if a delay is expected).
 
-Predict the number of days the delivery will be delayed (if a delay is expected).
+By applying a **two-step predictive modeling approach**, we aim to support logistics optimization, reduce delays, and improve customer satisfaction.
 
-By applying a two-step predictive modeling approach, we aim to support logistics optimization, reduce delays, and improve customer satisfaction.
+---
 
-## 🎯 Project Goals
-Understand e-commerce order and delivery patterns.
+## 🎯 Project Goals  
+- Understand e-commerce order and delivery patterns.  
+- Build two machine learning models:  
+  - **Classification model** → Predict if an order will be late.  
+  - **Regression model** → Predict delay duration in days.  
+- Extract actionable insights for business and logistics decision-making.
 
-Build two machine learning models:
+---
 
-Classification model → Predict if an order will be late.
-
-Regression model → Predict delay duration in days.
-
-Extract actionable insights for business and logistics decision-making.
-
-## 📂 Dataset Information
+## 📂 Dataset Information  
 The dataset contains multiple CSV files, including:
 
-## File	Description
-olist_orders_dataset.csv	Order purchase, shipping limit, and delivery timestamps.
-olist_order_items_dataset.csv	Product details for each order.
-olist_order_reviews_dataset.csv	Customer reviews and ratings.
-olist_customers_dataset.csv	Customer location data.
-olist_sellers_dataset.csv	Seller location data.
-olist_geolocation_dataset.csv	Geolocation mapping for postal codes.
-olist_order_payments_dataset.csv	Payment methods and amounts.
+| File | Description |
+|------|-------------|
+| `olist_orders_dataset.csv` | Order purchase, shipping limit, and delivery timestamps. |
+| `olist_order_items_dataset.csv` | Product details for each order. |
+| `olist_order_reviews_dataset.csv` | Customer reviews and ratings. |
+| `olist_customers_dataset.csv` | Customer location data. |
+| `olist_sellers_dataset.csv` | Seller location data. |
+| `olist_geolocation_dataset.csv` | Geolocation mapping for postal codes. |
+| `olist_order_payments_dataset.csv` | Payment methods and amounts. |
 
 Data preprocessing involves merging relevant tables, handling missing values, creating delivery time metrics, and computing distances between customers and sellers.
 
-## 🛠️ Technologies Used
-Python
+---
 
-Pandas / NumPy for data manipulation
+## 🛠️ Technologies Used  
+- **Python**  
+- **Pandas / NumPy** for data manipulation  
+- **Matplotlib / Seaborn** for visualization  
+- **Scikit-learn** for machine learning  
+- **Jupyter Notebook** for analysis and development  
+- **Kaggle API** for dataset access
 
-Matplotlib / Seaborn for visualization
+---
 
-Scikit-learn for machine learning
+## 📊 Machine Learning Workflow  
 
-Jupyter Notebook for analysis and development
+```mermaid
+flowchart TD
+    A[📥 Data Acquisition] --> B[🧹 Data Preprocessing<br>- Merge datasets<br>- Handle missing values<br>- Feature engineering]
+    B --> C[📊 Exploratory Data Analysis<br>- Delivery time analysis<br>- Delay patterns<br>- Visualization]
+    C --> D[🧠 Step 1: Classification Model<br>- Predict if delayed<br>- Accuracy, Precision, Recall, F1-score]
+    D --> E[⏳ Step 2: Regression Model<br>- Predict delay duration (days)<br>- RMSE, MAE, R² score]
+    E --> F[📈 Insights & Reporting<br>- Key delay factors<br>- Recommendations]
 
-Kaggle API for dataset access
-
-## 📊 Machine Learning Workflow
-Data Preparation
+## Data Preparation
 
 Merge datasets into one analytical table.
 
@@ -70,16 +78,13 @@ Target: Delay days (numeric).
 
 Algorithms: Linear Regression, Random Forest Regressor, XGBoost.
 
-## flowchart TD
-    <pre> ```mermaid flowchart TD A[📥 Data Acquisition] --> B[🧹 Data Preprocessing<br>- Merge datasets<br>- Handle missing values<br>- Feature engineering] B --> C[📊 Exploratory Data Analysis<br>- Delivery time analysis<br>- Delay patterns<br>- Visualization] C --> D[🧠 Step 1: Classification Model<br>- Predict if delayed<br>- Accuracy, Precision, Recall, F1-score] D --> E[⏳ Step 2: Regression Model<br>- Predict delay duration (days)<br>- RMSE, MAE, R² score] E --> F[📈 Insights & Reporting<br>- Key delay factors<br>- Recommendations] ``` </pre>
-    
-## Model Evaluation
+Model Evaluation
 
 Classification: Accuracy, Precision, Recall, F1-score.
 
 Regression: RMSE, MAE, R² score.
 
-## 🚀 Expected Outcomes
+🚀 Expected Outcomes
 Early detection of delays for proactive customer communication.
 
 Accurate estimation of delay duration to optimize delivery operations.
