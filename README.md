@@ -76,31 +76,6 @@ Classification: Accuracy, Precision, Recall, F1-score.
 
 Regression: RMSE, MAE, R² score.
 
-## Data Preparation
-
-Merge datasets into one analytical table.
-
-Calculate delivery times and determine delays.
-
-Feature engineering: distances, product categories, payment types, etc.
-
-Step 1: Delay Classification
-
-Target: On-time (0) vs. Delayed (1).
-
-Algorithms: Logistic Regression, Random Forest, Gradient Boosting.
-
-Step 2: Delay Duration Prediction
-
-Target: Delay days (numeric).
-
-Algorithms: Linear Regression, Random Forest Regressor, XGBoost.
-
-Model Evaluation
-
-Classification: Accuracy, Precision, Recall, F1-score.
-
-Regression: RMSE, MAE, R² score.
 
 🚀 Expected Outcomes
 Early detection of delays for proactive customer communication.
