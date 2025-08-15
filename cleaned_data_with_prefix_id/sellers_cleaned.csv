@@ -1,3096 +1,3096 @@
-seller_simple_id,zip_code_prefix,seller_city,seller_state,simple_id
-SEL001,13023,campinas,SP,1
-SEL002,13844,mogi guacu,SP,2
-SEL003,20031,rio de janeiro,RJ,3
-SEL004,4195,sao paulo,SP,4
-SEL005,12914,braganca paulista,SP,5
-SEL006,20920,rio de janeiro,RJ,6
-SEL007,55325,brejao,PE,7
-SEL008,16304,penapolis,SP,8
-SEL009,1529,sao paulo,SP,9
-SEL010,80310,curitiba,PR,10
-SEL011,75110,anapolis,GO,11
-SEL012,13530,itirapina,SP,12
-SEL013,1222,sao paulo,SP,13
-SEL014,5372,sao paulo,SP,14
-SEL015,88705,tubarao,SC,15
-SEL016,42738,lauro de freitas,BA,16
-SEL017,88780,imbituba,SC,17
-SEL018,70740,brasilia,DF,18
-SEL019,45810,porto seguro,BA,19
-SEL020,5138,sao paulo,SP,20
-SEL021,11440,guaruja,SP,21
-SEL022,14910,tabatinga,SP,22
-SEL023,4156,sao paulo,SP,23
-SEL024,13320,salto,SP,24
-SEL025,98910,tres de maio,RS,25
-SEL026,30494,belo horizonte,MG,26
-SEL027,86707,arapongas,PR,27
-SEL028,9850,sao bernardo do campo,SP,28
-SEL029,4857,sao paulo,SP,29
-SEL030,18500,tatui,SP,30
-SEL031,80210,curitiba,PR,31
-SEL032,2261,sao paulo,SP,32
-SEL033,88495,garopaba,SC,33
-SEL034,3562,sao paulo,SP,34
-SEL035,37650,camanducaia,MG,35
-SEL036,17602,tupa,SP,36
-SEL037,7241,guarulhos,SP,37
-SEL038,83050,sao jose dos pinhais,PR,38
-SEL039,3445,sao paulo,SP,39
-SEL040,4133,sao paulo,SP,40
-SEL041,72233,brasilia,DF,41
-SEL042,70645,brasilia,DF,42
-SEL043,88730,sao ludgero,SC,43
-SEL044,88075,sao jose,SC,44
-SEL045,13416,piracicaba,SP,45
-SEL046,90850,porto alegre,RS,46
-SEL047,37584,congonhal,MG,47
-SEL048,31950,belo horizonte,MG,48
-SEL049,31555,belo horizonte,MG,49
-SEL050,9251,santo andre,SP,50
-SEL051,4705,sao paulo,SP,51
-SEL052,6144,osasco,SP,52
-SEL053,13270,valinhos,SP,53
-SEL054,89214,joinville,SC,54
-SEL055,11446,guaruja,SP,55
-SEL056,28990,saquarema,RJ,56
-SEL057,88390,barra velha,SC,57
-SEL058,25730,petropolis,RJ,58
-SEL059,95500,santo antonio da patrulha,RS,59
-SEL060,84010,ponta grossa,PR,60
-SEL061,6544,santana de parnaiba,SP,61
-SEL062,9121,santo andre,SP,62
-SEL063,13568,sao carlos,SP,63
-SEL064,6056,osasco,SP,64
-SEL065,14940,ibitinga,SP,65
-SEL066,5741,sao paulo,SP,66
-SEL067,83010,sao jose dos pinhais,PR,67
-SEL068,3702,sao paulo,SP,68
-SEL069,6429,barueri,SP,69
-SEL070,6192,osasco,SP,70
-SEL071,95076,caxias do sul,SP,71
-SEL072,3569,sao paulo,SP,72
-SEL073,89207,joinville,SC,73
-SEL074,38440,araguari,MG,74
-SEL075,32180,contagem,MG,75
-SEL076,89258,jaragua do sul,SC,76
-SEL077,14940,ibitinga,SP,77
-SEL078,9715,sao bernardo do campo,SP,78
-SEL079,88501,lages - sc,SC,79
-SEL080,95711,bento goncalves,RS,80
-SEL081,15805,catanduva,SP,81
-SEL082,9400,ribeirao pires,SP,82
-SEL083,4726,sao paulo,SP,83
-SEL084,14882,jaboticabal,SP,84
-SEL085,19830,echapora,SP,85
-SEL086,6713,cotia,SP,86
-SEL087,89160,rio do sul,SC,87
-SEL088,4275,sao paulo,SP,88
-SEL089,18040,sorocaba,SP,89
-SEL090,21235,rio de janeiro,RJ,90
-SEL091,14850,pradopolis,SP,91
-SEL092,22420,rio de janeiro,RJ,92
-SEL093,1125,sao paulo,SP,93
-SEL094,24813,itaborai,RJ,94
-SEL095,5786,sao paulo,SP,95
-SEL096,15137,mirassol,SP,96
-SEL097,9190,santo andre,SP,97
-SEL098,16200,birigui,SP,98
-SEL099,3569,sao paulo,SP,99
-SEL100,31730,belo horizonte,MG,100
-SEL101,20785,rio de janeiro,RJ,101
-SEL102,20060,rio de janeiro,RJ,102
-SEL103,14940,ibitinga,SP,103
-SEL104,12401,sao paulo,SP,104
-SEL105,1425,sao paulo,SP,105
-SEL106,19803,assis,SP,106
-SEL107,13820,jaguariuna,SP,107
-SEL108,14801,araraquara,SP,108
-SEL109,27963,macae,RJ,109
-SEL110,13320,salto,SP,110
-SEL111,13504,rio claro,SP,111
-SEL112,86039,londrina,PR,112
-SEL113,5101,sao paulo,SP,113
-SEL114,14010,ribeirao preto,SP,114
-SEL115,21210,rio de janeiro,RN,115
-SEL116,37410,tres coracoes,MG,116
-SEL117,4248,sao paulo,SP,117
-SEL118,15190,nhandeara,SP,118
-SEL119,14940,ibitinga,SP,119
-SEL120,3514,sao paulo,SP,120
-SEL121,71070,brasilia,DF,121
-SEL122,6465,barueri,SP,122
-SEL123,1044,sao paulo,SP,123
-SEL124,88870,orleans,SC,124
-SEL125,70384,brasilia,DF,125
-SEL126,2310,sao paulo,SP,126
-SEL127,2016,sao paulo,SP,127
-SEL128,78095,cuiaba,MT,128
-SEL129,13575,sao carlos,SP,129
-SEL130,1040,sao paulo,SP,130
-SEL131,3322,sao paulo,SP,131
-SEL132,20261,rio de janeiro,RJ,132
-SEL133,85830,formosa do oeste,PR,133
-SEL134,23550,rio de janeiro,RJ,134
-SEL135,11085,santos,SP,135
-SEL136,3417,sao paulo,SP,136
-SEL137,76500,santa terezinha de goias,GO,137
-SEL138,81210,curitiba,PR,138
-SEL139,8260,sao paulo,SP,139
-SEL140,95995,arvorezinha,RS,140
-SEL141,4674,sao paulo,SP,141
-SEL142,14020,ribeirao preto,SP,142
-SEL143,36525,guiricema,MG,143
-SEL144,95072,caxias do sul,RS,144
-SEL145,55004,caruaru,PE,145
-SEL146,80045,curitiba,PR,146
-SEL147,14401,franca,SP,147
-SEL148,81030,curitiba,PR,148
-SEL149,40243,salvador,BA,149
-SEL150,9951,diadema,SP,150
-SEL151,8573,itaquaquecetuba,SP,151
-SEL152,18682,lencois paulista,SP,152
-SEL153,7091,guarulhos,SP,153
-SEL154,6341,carapicuiba,SP,154
-SEL155,76400,uruacu,GO,155
-SEL156,88301,itajai,SC,156
-SEL157,3280,sao paulo,SP,157
-SEL158,1545,sao paulo,SP,158
-SEL159,1026,sao paulo,SP,159
-SEL160,80620,curitiba,PR,160
-SEL161,87900,loanda,PR,161
-SEL162,3186,sao paulo,SP,162
-SEL163,19400,sao paulo,SP,163
-SEL164,2839,sao paulo,SP,164
-SEL165,87014,maringa,PR,165
-SEL166,1207,sao paulo,SP,166
-SEL167,1411,sao paulo,SP,167
-SEL168,30190,belo horizonte,MG,168
-SEL169,8502,ferraz de vasconcelos,SP,169
-SEL170,1541,sao paulo,SP,170
-SEL171,13481,limeira,SP,171
-SEL172,11040,santos,SP,172
-SEL173,6436,barueri,SP,173
-SEL174,2310,sao paulo,SP,174
-SEL175,35530,claudio,MG,175
-SEL176,14080,ribeirao preto,SP,176
-SEL177,24355,niteroi,RJ,177
-SEL178,17700,osvaldo cruz,SP,178
-SEL179,6380,carapicuiba,SP,179
-SEL180,6016,osasco,SP,180
-SEL181,24451,sao goncalo,RJ,181
-SEL182,78820,jaciara,MT,182
-SEL183,88330,balenario camboriu,SC,183
-SEL184,4009,sao paulo,SP,184
-SEL185,89120,timbo,SC,185
-SEL186,14075,ribeirao preto,SP,186
-SEL187,5424,sao paulo,SP,187
-SEL188,99730,jacutinga,RS,188
-SEL189,60440,fortaleza,CE,189
-SEL190,7242,guarulhos,SP,190
-SEL191,7051,guarulhos,SP,191
-SEL192,8517,ferraz de  vasconcelos,SP,192
-SEL193,16800,mirandopolis,SP,193
-SEL194,89228,joinville,SC,194
-SEL195,30421,belo horizonte,MG,195
-SEL196,17056,bauru,SP,196
-SEL197,12308,jacarei,SP,197
-SEL198,13304,itu,SP,198
-SEL199,85301,laranjeiras do sul,SP,199
-SEL200,3554,sao paulo,SP,200
-SEL201,89560,videira,SC,201
-SEL202,88058,florianopolis,SC,202
-SEL203,6853,itapecerica da serra,SP,203
-SEL204,58280,mamanguape,PB,204
-SEL205,8490,sao paulo,SP,205
-SEL206,35430,ponte nova,MG,206
-SEL207,87360,goioere,SP,207
-SEL208,17280,pederneiras,SP,208
-SEL209,6653,itapevi,SP,209
-SEL210,74563,goiania,GO,210
-SEL211,4821,sao paulo,SP,211
-SEL212,21820,rio de janeiro,RJ,212
-SEL213,1026,sao paulo,SP,213
-SEL214,3308,sao paulo,SP,214
-SEL215,95070,caxias do sul,RS,215
-SEL216,9640,sao bernardo do campo,SP,216
-SEL217,58400,campina grande,PB,217
-SEL218,93608,estancia velha,RS,218
-SEL219,27525,resende,RJ,219
-SEL220,89251,jaragua do sul,SC,220
-SEL221,2215,sao paulo,SP,221
-SEL222,5524,sao paulo,SP,222
-SEL223,22790,rio de janeiro,RJ,223
-SEL224,8041,sao paulo,SP,224
-SEL225,5715,sao paulo,SP,225
-SEL226,88032,florianopolis,SC,226
-SEL227,18055,sorocaba,SP,227
-SEL228,2112,sao paulo,SP,228
-SEL229,14075,ribeirao preto,SP,229
-SEL230,18048,sorocaba,SP,230
-SEL231,9336,maua,SP,231
-SEL232,17030,bauru,SP,232
-SEL233,17052,bauru,SP,233
-SEL234,30620,belo horizonte,MG,234
-SEL235,13327,salto,SP,235
-SEL236,74343,goiania,GO,236
-SEL237,35300,caratinga,MG,237
-SEL238,15350,auriflama/sp,SP,238
-SEL239,21240,rio de janeiro,RJ,239
-SEL240,14407,franca,SP,240
-SEL241,16500,cafelandia,SP,241
-SEL242,2518,sao paulo,SP,242
-SEL243,14050,ribeirao preto,SP,243
-SEL244,88730,sao ludgero,SC,244
-SEL245,36502,uba,MG,245
-SEL246,9751,sao bernardo do campo,SP,246
-SEL247,3407,sao paulo / sao paulo,SP,247
-SEL248,14940,ibitinga,SP,248
-SEL249,87035,maringa,PR,249
-SEL250,15062,sao jose do rio preto,SP,250
-SEL251,13064,campinas,SP,251
-SEL252,21020,rio de janeiro,RJ,252
-SEL253,13660,porto ferreira,SP,253
-SEL254,95660,tres coroas,RS,254
-SEL255,9080,santo andre,SP,255
-SEL256,89031,blumenau,SC,256
-SEL257,9110,santo andre,SP,257
-SEL258,9230,santo andre,SP,258
-SEL259,3951,sao paulo,SP,259
-SEL260,3172,sao paulo,SP,260
-SEL261,3334,sao paulo,SP,261
-SEL262,89070,blumenau,SC,262
-SEL263,8773,mogi das cruzes,SP,263
-SEL264,11013,santos,SP,264
-SEL265,6286,osasco,SP,265
-SEL266,15155,jaci,SP,266
-SEL267,35530,claudio,MG,267
-SEL268,74045,goiania,GO,268
-SEL269,18500,laranjal paulista,SP,269
-SEL270,18048,sorocaba,SP,270
-SEL271,1126,sao paulo,SP,271
-SEL272,13478,americana,SP,272
-SEL273,1303,sao paulo,SP,273
-SEL274,2739,sao paulo,SP,274
-SEL275,20921,rio de janeiro,RJ,275
-SEL276,86170,sertanopolis,SP,276
-SEL277,14940,ibitinga,SP,277
-SEL278,86808,apucarana,PR,278
-SEL279,15046,sao jose do rio preto,SP,279
-SEL280,22230,rio de janeiro,RJ,280
-SEL281,87035,maringa,PR,281
-SEL282,4102,sao paulo,SP,282
-SEL283,7052,guarulhos,SP,283
-SEL284,16301,penapolis,SP,284
-SEL285,24020,niteroi,RJ,285
-SEL286,89204,joinville,SC,286
-SEL287,83408,colombo,PR,287
-SEL288,11450,vicente de carvalho,SP,288
-SEL289,26562,mesquita,RJ,289
-SEL290,86010,londrina,PR,290
-SEL291,2051,sao pauo,SP,291
-SEL292,88056,florianopolis,SC,292
-SEL293,30550,belo horizonte,MG,293
-SEL294,2820,sao paulo,SP,294
-SEL295,85802,cascavel,PR,295
-SEL296,83830,fazenda rio grande,PR,296
-SEL297,4508,sao paulo,SP,297
-SEL298,6775,taboao da serra,SP,298
-SEL299,1550,sao paulo,SP,299
-SEL300,22783,rio de janeiro,RJ,300
-SEL301,81070,curitiba,PR,301
-SEL302,4716,sao paulo,SP,302
-SEL303,12233,sao jose dos campos,SP,303
-SEL304,7084,guarulhos,SP,304
-SEL305,3384,sao paulo,SP,305
-SEL306,85903,toledo,PR,306
-SEL307,82510,curitiba,PR,307
-SEL308,15081,sao jose do rio preto,SP,308
-SEL309,8411,sao paulo,SP,309
-SEL310,17047,bauru,SP,310
-SEL311,11045,santos,SP,311
-SEL312,85960,marechal candido rondon,SP,312
-SEL313,80010,curitiba,PR,313
-SEL314,8710,mogi das cruzes,SP,314
-SEL315,91130,porto alegre,RS,315
-SEL316,12238,sao jose dos campos,SP,316
-SEL317,6236,osasco,SP,317
-SEL318,13203,jundiai,SP,318
-SEL319,83800,mandirituba,PR,319
-SEL320,3551,sao paulo,SP,320
-SEL321,8655,suzano,SP,321
-SEL322,33200,vespasiano,MG,322
-SEL323,80040,curitiba,PR,323
-SEL324,20735,rio de janeiro,RJ,324
-SEL325,89031,blumenau,SC,325
-SEL326,1417,sao paulo,SP,326
-SEL327,98780,santa rosa,RS,327
-SEL328,15015,sao jose do rio preto,SP,328
-SEL329,14600,sao joaquim da barra,SP,329
-SEL330,5125,sao paulo,SP,330
-SEL331,81050,curitiba,PR,331
-SEL332,13830,santo antonio de posse,SP,332
-SEL333,1212,sao paulo,SP,333
-SEL334,97502,uruguaiana,RS,334
-SEL335,80215,curitiba,PR,335
-SEL336,6703,cotia,SP,336
-SEL337,13480,limeira,SP,337
-SEL338,37400,campanha,MG,338
-SEL339,14940,ibitinga,SP,339
-SEL340,4811,sao paulo,SP,340
-SEL341,75640,piracanjuba,GO,341
-SEL342,3306,sao paulo,SP,342
-SEL343,95034,caxias do sul,RS,343
-SEL344,30640,belo horizonte,MG,344
-SEL345,89701,concordia,SC,345
-SEL346,2880,sao paulo,SP,346
-SEL347,3688,sao paulo,SP,347
-SEL348,74043,goiania,GO,348
-SEL349,37540,santa rita do sapucai,MG,349
-SEL350,81925,curitiba,PR,350
-SEL351,6246,osasco,SP,351
-SEL352,80510,curitiba,PR,352
-SEL353,80240,curitiba,PR,353
-SEL354,14780,barretos,SP,354
-SEL355,13330,indaiatuba,SP,355
-SEL356,26525,nilopolis,RJ,356
-SEL357,9380,maua,SP,357
-SEL358,17580,pompeia,SP,358
-SEL359,44895,barro alto,BA,359
-SEL360,13840,mogi guacu,SP,360
-SEL361,4557,são paulo,SP,361
-SEL362,4311,sao paulo,SP,362
-SEL363,11702,praia grande,SP,363
-SEL364,14406,franca,SP,364
-SEL365,22783,rio de janeiro,SP,365
-SEL366,89128,luiz alves,SC,366
-SEL367,2036,sao paulo,SP,367
-SEL368,6038,osasco,SP,368
-SEL369,88351,brusque,SC,369
-SEL370,88804,criciuma,SC,370
-SEL371,5729,sao paulo,SP,371
-SEL372,6519,santana de parnaiba,SP,372
-SEL373,6016,osasco,SP,373
-SEL374,89222,joinville,SC,374
-SEL375,2252,sao paulo,SP,375
-SEL376,7179,guarulhos,SP,376
-SEL377,31050,belo horizonte,MG,377
-SEL378,13480,limeira,SP,378
-SEL379,15805,catanduva,SP,379
-SEL380,89052,blumenau,SC,380
-SEL381,31255,belo horizonte,MG,381
-SEL382,15704,jales,SP,382
-SEL383,20270,rio de janeiro,RJ,383
-SEL384,86060,londrina,PR,384
-SEL385,12944,atibaia,SP,385
-SEL386,69900,rio branco,AC,386
-SEL387,86046,londrina,PR,387
-SEL388,27321,barra mansa,RJ,388
-SEL389,5632,sao paulo,SP,389
-SEL390,3161,sao paulo,SP,390
-SEL391,4782,sao paulo,SP,391
-SEL392,14403,franca,SP,392
-SEL393,87013,maringa,PR,393
-SEL394,9405,ribeirao pires,SP,394
-SEL395,2310,sao paulo,SP,395
-SEL396,4363,sao paulo,SP,396
-SEL397,1539,sao paulo,SP,397
-SEL398,13560,sao carlos,SP,398
-SEL399,2238,sao paulo,SP,399
-SEL400,15055,sao jose do rio preto,SP,400
-SEL401,82220,curitiba,PR,401
-SEL402,17520,marilia,SP,402
-SEL403,3060,sao paulo,SP,403
-SEL404,9443,ribeirao pires,SP,404
-SEL405,14096,ribeirao preto,SP,405
-SEL406,48602,bahia,BA,406
-SEL407,91740,porto alegre,RS,407
-SEL408,86047,londrina,PR,408
-SEL409,85807,cascavel,PR,409
-SEL410,12020,taubate,SP,410
-SEL411,85802,cascavael,PR,411
-SEL412,1320,sao paulo,SP,412
-SEL413,12250,monteiro lobato,SP,413
-SEL414,81250,curitiba,PR,414
-SEL415,29138,viana,ES,415
-SEL416,7145,guarulhos,SP,416
-SEL417,88107,sao jose,SC,417
-SEL418,25850,paraiba do sul,RJ,418
-SEL419,13730,mococa,SP,419
-SEL420,18130,sao roque,SP,420
-SEL421,37900,passos,MG,421
-SEL422,14940,ibitinga,SP,422
-SEL423,85603,francisco beltrao,PR,423
-SEL424,3821,sao paulo,SP,424
-SEL425,36512,tocantins,SP,425
-SEL426,76400,uruacu,GO,426
-SEL427,87083,maringa,PR,427
-SEL428,74473,goiania,GO,428
-SEL429,21931,rio de janeiro,RJ,429
-SEL430,14055,ribeirao preto,SP,430
-SEL431,88210,porto belo,SC,431
-SEL432,13105,campinas,SP,432
-SEL433,26255,nova iguacu,RJ,433
-SEL434,3343,sao paulo,SP,434
-SEL435,17512,marilia,SP,435
-SEL436,88820,icara,SC,436
-SEL437,3543,sao paulo,SP,437
-SEL438,95910,lajeado,RS,438
-SEL439,3694,sao paulo,SP,439
-SEL440,3029,sao paulo,SP,440
-SEL441,37540,santa rita do sapucai,MG,441
-SEL442,13042,campinas,SP,442
-SEL443,1201,sao paulo,SP,443
-SEL444,9230,santo andre,SP,444
-SEL445,88359,brusque,SC,445
-SEL446,98920,horizontina,RS,446
-SEL447,4364,sao paulo,SP,447
-SEL448,3416,sao paulo,SP,448
-SEL449,9350,maua,SP,449
-SEL450,1214,sao paulo,SP,450
-SEL451,2880,sao paulo,SP,451
-SEL452,9220,santo andre,SP,452
-SEL453,18110,votorantim,SP,453
-SEL454,35530,claudio,MG,454
-SEL455,93700,campo bom,RS,455
-SEL456,3659,sao paulo,SP,456
-SEL457,1123,sao paulo,SP,457
-SEL458,15910,monte alto,SP,458
-SEL459,3103,sao paulo,SP,459
-SEL460,14078,ribeirao preto,SP,460
-SEL461,15601,fernandopolis,SP,461
-SEL462,89041,blumenau,SC,462
-SEL463,17500,marilia,SP,463
-SEL464,84010,ponta grossa,PR,464
-SEL465,7093,guarulhos,SP,465
-SEL466,31560,belo horizonte,MG,466
-SEL467,13920,pedreira,SP,467
-SEL468,86800,apucarana,PR,468
-SEL469,7062,guarulhos,SP,469
-SEL470,88351,brusque,SC,470
-SEL471,8550,poa,SP,471
-SEL472,3471,sao paulo,SP,472
-SEL473,87047,maringa,PR,473
-SEL474,82040,curitiba,PR,474
-SEL475,15025,sao jose do rio preto,SP,475
-SEL476,35500,divinopolis,MG,476
-SEL477,13450,santa barbara d´oeste,SP,477
-SEL478,92025,canoas,RS,478
-SEL479,13310,itu,SP,479
-SEL480,89217,joinville,SC,480
-SEL481,13375,mombuca,SP,481
-SEL482,9628,sao bernardo do campo,SP,482
-SEL483,6539,santana de parnaiba,SP,483
-SEL484,81350,curitiba,PR,484
-SEL485,86040,londrina,PR,485
-SEL486,14405,franca,SP,486
-SEL487,35700,sete lagoas,MG,487
-SEL488,37165,campo do meio,MG,488
-SEL489,85904,toledo,PR,489
-SEL490,8780,mogi das cruzes,SP,490
-SEL491,13219,jundiai,SP,491
-SEL492,17509,marilia,SP,492
-SEL493,60741,fortaleza,CE,493
-SEL494,3311,sao paulo,SP,494
-SEL495,13490,cordeiropolis,SP,495
-SEL496,38410,uberlandia,MG,496
-SEL497,75123,anapolis,GO,497
-SEL498,14092,ribeirao preto,SP,498
-SEL499,15085,sao jose do rio preto,SP,499
-SEL500,4578,sao paulo,SP,500
-SEL501,91310,porto alegre,RS,501
-SEL502,20756,rio de janeiro,RJ,502
-SEL503,1233,sao paulo,SP,503
-SEL504,8223,sao paulo,SP,504
-SEL505,4782,sao paulo,SP,505
-SEL506,83402,colombo,PR,506
-SEL507,9920,diadema,SP,507
-SEL508,13419,piracicaba,SP,508
-SEL509,20021,rio de janeiro,RJ,509
-SEL510,18072,sorocaba,SP,510
-SEL511,13456,santa barbara d oeste,SP,511
-SEL512,13920,pedreira,SP,512
-SEL513,86702,arapongas,PR,513
-SEL514,27277,volta redonda,SP,514
-SEL515,13660,porto ferreira,SP,515
-SEL516,89030,blumenau,SC,516
-SEL517,6787,taboao da serra,SP,517
-SEL518,22790,04482255,RJ,518
-SEL519,16072,aracatuba,SP,519
-SEL520,81830,curitiba,PR,520
-SEL521,74210,goiania,GO,521
-SEL522,16200,birigui,SP,522
-SEL523,18070,sorocaba,SP,523
-SEL524,37580,monte siao,MG,524
-SEL525,13073,campinas,SP,525
-SEL526,89248,garuva,SC,526
-SEL527,38650,bonfinopolis de minas,MG,527
-SEL528,13150,cosmopolis,SP,528
-SEL529,14092,ribeirao preto,SP,529
-SEL530,15800,catanduva,SP,530
-SEL531,1215,sao paulo,SP,531
-SEL532,24451,sao goncalo,RJ,532
-SEL533,4386,sao paulo,SP,533
-SEL534,5547,sao paulo,SP,534
-SEL535,21070,rio de janeiro,RJ,535
-SEL536,37706,pocos de caldas,MG,536
-SEL537,24725,sao goncalo,RJ,537
-SEL538,13160,artur nogueira,SP,538
-SEL539,11015,santos,SP,539
-SEL540,4209,sao paulo,SP,540
-SEL541,30575,belo horizonte,MG,541
-SEL542,6513,santana de parnaiba,SP,542
-SEL543,20520,rio de janeiro,RJ,543
-SEL544,58030,joao pessoa,PB,544
-SEL545,17300,dois corregos,SP,545
-SEL546,89245,araquari,SC,546
-SEL547,1220,sao paulo,SP,547
-SEL548,90230,porto alegre,RS,548
-SEL549,83075,sao jose dos pinhais,PR,549
-SEL550,31570,belo horizonte,SP,550
-SEL551,36500,uba,MG,551
-SEL552,93310,"novo hamburgo, rio grande do sul, brasil",RS,552
-SEL553,84035,ponta grossa,PR,553
-SEL554,80330,curitiba,PR,554
-SEL555,89218,joinville,SC,555
-SEL556,88056,floranopolis,SC,556
-SEL557,15155,jaci,SP,557
-SEL558,13170,sumare,SP,558
-SEL559,83070,sao jose dos pinhais,PR,559
-SEL560,9350,maua,SP,560
-SEL561,85980,guaira,PR,561
-SEL562,2118,sao paulo,SP,562
-SEL563,12242,sao jose dos campos,SP,563
-SEL564,29313,cachoeiro de itapemirim,ES,564
-SEL565,14150,serrana,SP,565
-SEL566,5108,sao paulo,SP,566
-SEL567,86604,rolandia,PR,567
-SEL568,4360,sao paulo,SP,568
-SEL569,23062,rio de janeiro,RJ,569
-SEL570,3029,sao paulo,SP,570
-SEL571,4054,sao paulo,SP,571
-SEL572,36415,congonhas,MG,572
-SEL573,15046,sao jose do rio preto,SP,573
-SEL574,5537,sao paulo,SP,574
-SEL575,12943,atibaia,SP,575
-SEL576,6852,itapecerica da serra,SP,576
-SEL577,83091,sao  jose dos pinhais,PR,577
-SEL578,18035,sorocaba,SP,578
-SEL579,18550,boituva,SP,579
-SEL580,13405,piracicaba,SP,580
-SEL581,3275,sao paulo,SP,581
-SEL582,14400,franca,SP,582
-SEL583,88495,garopaba,SC,583
-SEL584,90010,porto alegre,RS,584
-SEL585,17604,tupa,SP,585
-SEL586,3612,sao paulo,SP,586
-SEL587,5268,sao paulo,SP,587
-SEL588,13660,porto ferreira,SP,588
-SEL589,3059,sao paulo,SP,589
-SEL590,7600,mairipora,SP,590
-SEL591,1547,sao paulo,SP,591
-SEL592,13041,campinas,SP,592
-SEL593,16480,guaimbe,SP,593
-SEL594,95360,parai,RS,594
-SEL595,17700,osvaldo cruz,SP,595
-SEL596,9862,sao bernardo do campo,SP,596
-SEL597,37706,pocos de caldas,MG,597
-SEL598,28495,aperibe,RJ,598
-SEL599,35500,divinopolis,MG,599
-SEL600,1021,sao paulo,SP,600
-SEL601,17605,tupa,SP,601
-SEL602,80610,curitiba,PR,602
-SEL603,18053,sorocaba,SP,603
-SEL604,88715,jaguaruna,SC,604
-SEL605,86707,arapongas,PR,605
-SEL606,26210,nova iguacu,RJ,606
-SEL607,8250,sao paulo,SP,607
-SEL608,29101,vila velha,SP,608
-SEL609,14801,araraquara,SP,609
-SEL610,9182,santo andre,SP,610
-SEL611,89210,joinville,SC,611
-SEL612,13085,campinas,SP,612
-SEL613,21070,rio de janeiro,RJ,613
-SEL614,7194,guarulhos,SP,614
-SEL615,36052,juiz de fora,MG,615
-SEL616,23080,rio de janeiro,RJ,616
-SEL617,38230,fronteira,MG,617
-SEL618,14960,novo horizonte,SP,618
-SEL619,18185,pilar do sul,SP,619
-SEL620,15840,itajobi,SP,620
-SEL621,87050,maringa,PR,621
-SEL622,4815,sao paulo,SP,622
-SEL623,29142,cariacica / es,ES,623
-SEL624,36320,prados,MG,624
-SEL625,88020,florianopolis,SC,625
-SEL626,13560,sao carlos,SP,626
-SEL627,11065,santos,SP,627
-SEL628,8598,itaquaquecetuba,SP,628
-SEL629,62170,mucambo,CE,629
-SEL630,83409,colombo,PR,630
-SEL631,13504,rio claro,SP,631
-SEL632,14940,ibitinga,SP,632
-SEL633,95705,bento goncalves,RS,633
-SEL634,4041,sao paulo,SP,634
-SEL635,12080,taubate,SP,635
-SEL636,81210,curitiba,PR,636
-SEL637,87050,maringa,PR,637
-SEL638,86026,londrina,PR,638
-SEL639,1244,sao paulo,SP,639
-SEL640,39400,montes claros,MG,640
-SEL641,82810,curitiba,PR,641
-SEL642,4613,sao paulo,SP,642
-SEL643,9694,sao bernardo do campo,SP,643
-SEL644,11701,praia grande,SP,644
-SEL645,7152,guarulhos,SP,645
-SEL646,92310,canoas,RS,646
-SEL647,82510,curitiba,PR,647
-SEL648,36570,vicosa,MG,648
-SEL649,13090,campinas,SP,649
-SEL650,5201,sao paulo,SP,650
-SEL651,3126,sao paulo,SP,651
-SEL652,21041,rio de janeiro,RJ,652
-SEL653,82130,curitiba,PR,653
-SEL654,76804,porto velho,RO,654
-SEL655,40130,salvador,BA,655
-SEL656,13720,sao jose do rio pardo,SP,656
-SEL657,32260,contagem,MG,657
-SEL658,85501,pato branco,PR,658
-SEL659,36301,sao joao del rei,MG,659
-SEL660,14091,ribeirao preto,SP,660
-SEL661,19042,presidente prudente,SP,661
-SEL662,8743,mogi das cruzes,SP,662
-SEL663,26600,paracambi,RJ,663
-SEL664,13312,itu,SP,664
-SEL665,13930,serra negra,SP,665
-SEL666,15052,sao jose do rio preto,SP,666
-SEL667,9541,sao caetano do sul,SP,667
-SEL668,1420,sao paulo,SP,668
-SEL669,1239,sao paulo,SP,669
-SEL670,13418,piracicaba,SP,670
-SEL671,13820,jaguariuna,SP,671
-SEL672,4001,sao paulo,SP,672
-SEL673,17051,bauru,SP,673
-SEL674,15081,sao jose do rio preto,SP,674
-SEL675,9550,sao caetano do sul,SP,675
-SEL676,89256,jaragua do sul,SC,676
-SEL677,2523,sao paulo,SP,677
-SEL678,5462,sao paulo,SP,678
-SEL679,83411,colombo,PR,679
-SEL680,89069,blumenau,SC,680
-SEL681,36010,juiz de fora,SP,681
-SEL682,4154,sao paulo,SP,682
-SEL683,28660,bom jardim,RJ,683
-SEL684,58385,serra redonda,PB,684
-SEL685,14940,ibitinga,SP,685
-SEL686,82800,curitiba,PR,686
-SEL687,4133,sao paulo,SP,687
-SEL688,2851,sao paulo,SP,688
-SEL689,89240,sao francisco do sul,SC,689
-SEL690,7052,guarulhos,SP,690
-SEL691,29104,vila velha,ES,691
-SEL692,19010,presidente prudente,SP,692
-SEL693,32672,betim,MG,693
-SEL694,1303,sao paulo,SP,694
-SEL695,4676,sao paulo,SP,695
-SEL696,3910,sao paulo,SP,696
-SEL697,81200,curitiba,PR,697
-SEL698,9411,ribeirao pires,SP,698
-SEL699,81070,curitiba,PR,699
-SEL700,84430,imbituva,PR,700
-SEL701,83280,guaratuba,PR,701
-SEL702,91520,porto alegre,SP,702
-SEL703,5615,sao paulo,SP,703
-SEL704,64033,teresina,PI,704
-SEL705,4164,sao paulo,SP,705
-SEL706,91360,porto alegre,RS,706
-SEL707,14406,franca,SP,707
-SEL708,89900,sao miguel d'oeste,SC,708
-SEL709,18550,boituva,SP,709
-SEL710,12941,atibaia,SP,710
-SEL711,12230,sao jose dos campos,SP,711
-SEL712,18132,sao roque,SP,712
-SEL713,86820,california,PR,713
-SEL714,8020,sao paulo,SP,714
-SEL715,14802,araraquara,SP,715
-SEL716,7135,guarulhos,SP,716
-SEL717,17600,tupa,SP,717
-SEL718,2562,sao paulo,SP,718
-SEL719,84920,japira,PR,719
-SEL720,20751,rio de janeiro,RJ,720
-SEL721,70610,brasilia,DF,721
-SEL722,9190,santo andre,SP,722
-SEL723,85851,foz do iguacu,PR,723
-SEL724,12080,taubate,SP,724
-SEL725,9780,sao bernardo do campo,SP,725
-SEL726,13483,limeira,SP,726
-SEL727,13180,sumare,SP,727
-SEL728,2215,sao paulo,SP,728
-SEL729,8583,itaquaquecetuba,SP,729
-SEL730,28633,nova friburgo,RJ,730
-SEL731,21862,rio de janeiro,RJ,731
-SEL732,4438,sao paulo,SP,732
-SEL733,3521,sao paulo,SP,733
-SEL734,30120,belo horizonte,MG,734
-SEL735,37975,itau de minas,MG,735
-SEL736,3654,sao paulo,SP,736
-SEL737,36050,juiz de fora,MG,737
-SEL738,88085,florianopolis,SC,738
-SEL739,5171,sao paulo,SP,739
-SEL740,16200,birigui,SP,740
-SEL741,35540,oliveira,MG,741
-SEL742,34710,sabara,MG,742
-SEL743,19865,pedrinhas paulista,SP,743
-SEL744,9810,sao bernardo do campo,SP,744
-SEL745,31510,belo horizonte,MG,745
-SEL746,2515,sao paulo,SP,746
-SEL747,15500,votuporanga,SP,747
-SEL748,19025,presidente prudente,SP,748
-SEL749,13825,holambra,SP,749
-SEL750,8752,mogi das cruzes,SP,750
-SEL751,88901,ararangua,SC,751
-SEL752,83324,pinhais,PR,752
-SEL753,2117,sao paulo,SP,753
-SEL754,9540,sao caetano do sul,SP,754
-SEL755,4361,sao paulo,SP,755
-SEL756,3306,sao paulo,SP,756
-SEL757,86047,londrina,PR,757
-SEL758,4213,sao paulo,SP,758
-SEL759,14092,ribeirao preto,SP,759
-SEL760,14026,ribeirao preto,SP,760
-SEL761,16200,birigui,SP,761
-SEL762,1254,sao paulo,SP,762
-SEL763,74435,goiania,GO,763
-SEL764,1026,sao paulo,SP,764
-SEL765,26020,nova iguacu,RJ,765
-SEL766,7140,guarulhos,SP,766
-SEL767,90560,porto alegre,RS,767
-SEL768,3307,sao paulo,SP,768
-SEL769,2804,sao paulo,SP,769
-SEL770,13480,limeira,SP,770
-SEL771,22790,rio de janeiro,RJ,771
-SEL772,85948,pato bragado,PR,772
-SEL773,99500,carazinho,RS,773
-SEL774,38680,arinos,MG,774
-SEL775,13520,sao pedro,SP,775
-SEL776,88504,lages,SC,776
-SEL777,4122,sao paulo,SP,777
-SEL778,9320,maua,SP,778
-SEL779,1223,sao paulo,SP,779
-SEL780,13660,porto ferreira,SP,780
-SEL781,6365,carapicuiba,SP,781
-SEL782,85640,ampere,PR,782
-SEL783,35500,divinopolis,MG,783
-SEL784,30180,belo horizonte,MG,784
-SEL785,83010,sao jose dos pinhais,PR,785
-SEL786,1026,sao paulo,SP,786
-SEL787,35680,itauna,MG,787
-SEL788,11443,guaruja,SP,788
-SEL789,3065,sao paulo,SP,789
-SEL790,88063,florianopolis,SC,790
-SEL791,3533,sao paulo,SP,791
-SEL792,91901,porto alegre,RS,792
-SEL793,13800,mogi mirim,SP,793
-SEL794,89224,joinville,SC,794
-SEL795,89520,curitibanos,SC,795
-SEL796,71906,brasilia df,DF,796
-SEL797,37410,tres coracoes,MG,797
-SEL798,5849,sao paulo,SP,798
-SEL799,60346,fortaleza,CE,799
-SEL800,1403,sao paulo,SP,800
-SEL801,2727,sao paulo,SP,801
-SEL802,12215,sao jose dos campos,SP,802
-SEL803,8710,mogi das cruses,SP,803
-SEL804,2565,sao paulo,SP,804
-SEL805,4256,sao paulo,SP,805
-SEL806,13088,campinas,SP,806
-SEL807,13185,hortolandia,SP,807
-SEL808,4160,sao paulo,SP,808
-SEL809,30310,belo horizonte,MG,809
-SEL810,87025,maringa,PR,810
-SEL811,20771,rio de janeiro,RJ,811
-SEL812,12940,atibaia,SP,812
-SEL813,88210,porto belo,SC,813
-SEL814,85900,toledo,PR,814
-SEL815,17511,marilia,SP,815
-SEL816,82940,curitiba,PR,816
-SEL817,35162,ipatinga,MG,817
-SEL818,95059,caxias do sul,RS,818
-SEL819,88790,laguna,SP,819
-SEL820,13920,pedreira,SP,820
-SEL821,2407,sao paulo,SP,821
-SEL822,13041,campinas,SP,822
-SEL823,12942,atibaia,SP,823
-SEL824,36071,juiz de fora,MG,824
-SEL825,1310,sao paulo,SP,825
-SEL826,36213,dores de campos,MG,826
-SEL827,5353,sao paulo - sp,SP,827
-SEL828,2532,sao paulo,SP,828
-SEL829,9560,sao caetano do sul,SP,829
-SEL830,13603,araras,SP,830
-SEL831,37142,divisa nova,MG,831
-SEL832,5138,sao paulo,SP,832
-SEL833,7071,guarulhos,SP,833
-SEL834,9111,santo andre,SP,834
-SEL835,18040,sorocaba,SP,835
-SEL836,13085,campinas,SP,836
-SEL837,17350,igaracu do tiete,SP,837
-SEL838,13473,americana,SP,838
-SEL839,88353,brusque,SC,839
-SEL840,88350,brusque,SC,840
-SEL841,9510,sao caetano do sul,SP,841
-SEL842,38412,uberlandia,MG,842
-SEL843,14750,pitangueiras,SP,843
-SEL844,30120,belo horizonte,MG,844
-SEL845,14400,franca,SP,845
-SEL846,4131,sao paulo,SP,846
-SEL847,22451,rio de janeiro,RJ,847
-SEL848,4317,sao paulo,SP,848
-SEL849,1001,sao paulo,SP,849
-SEL850,5705,sao paulo,SP,850
-SEL851,81650,curitiba,PR,851
-SEL852,7160,guarulhos,SP,852
-SEL853,18085,sorocaba,SP,853
-SEL854,81020,curitiba,PR,854
-SEL855,79090,campo grande,MS,855
-SEL856,1226,sao paulo,SP,856
-SEL857,3303,sao paulo,SP,857
-SEL858,3567,sao paulo,SP,858
-SEL859,9270,santo andre,SP,859
-SEL860,17400,garca,SP,860
-SEL861,19470,presidente epitacio,SP,861
-SEL862,91510,porto alegre,RS,862
-SEL863,14940,ibitinga,SP,863
-SEL864,3613,sao paulo,SP,864
-SEL865,31255,belo horizonte,MG,865
-SEL866,14940,ibitinga,SP,866
-SEL867,74340,goiania,GO,867
-SEL868,2124,sao paulo,SP,868
-SEL869,14910,tabatinga,SP,869
-SEL870,9726,sbc/sp,SP,870
-SEL871,85904,toledo,PR,871
-SEL872,81730,curitiba,PR,872
-SEL873,89211,joinville,SC,873
-SEL874,5174,sao paulo,SP,874
-SEL875,45816,arraial d'ajuda (porto seguro),BA,875
-SEL876,13481,limeira,SP,876
-SEL877,61800,pacatuba,CE,877
-SEL878,13930,serra negra,SP,878
-SEL879,4087,sao paulo,SP,879
-SEL880,23095,rio de janeiro,RJ,880
-SEL881,73801,formosa,GO,881
-SEL882,7023,guarulhos,SP,882
-SEL883,3167,sao paulo,SP,883
-SEL884,4833,sao paulo,SP,884
-SEL885,24346,niteroi,RJ,885
-SEL886,37564,borda da mata,MG,886
-SEL887,81825,curitiba,PR,887
-SEL888,11680,ubatuba,SP,888
-SEL889,85988,entre rios do oeste,PR,889
-SEL890,13566,sao carlos,SP,890
-SEL891,37540,sao paulo,SP,891
-SEL892,15813,catanduva,SP,892
-SEL893,11013,santos,SP,893
-SEL894,20751,rio de janeiro,RJ,894
-SEL895,6768,taboao da serra,SP,895
-SEL896,3550,sao paulo,SP,896
-SEL897,35570,formiga,MG,897
-SEL898,1139,sao paulo,SP,898
-SEL899,11075,santos,SP,899
-SEL900,95012,caxias do sul,RS,900
-SEL901,27930,macae,RJ,901
-SEL902,42738,lauro de freitas,BA,902
-SEL903,31230,belo horizonte,MG,903
-SEL904,13506,rio claro,SP,904
-SEL905,95900,lajeado,RS,905
-SEL906,85804,cascavel,PR,906
-SEL907,14020,ribeirao preto,SP,907
-SEL908,95800,venancio aires,RS,908
-SEL909,79107,campo grande,MS,909
-SEL910,15041,sao jose do rio preto,SP,910
-SEL911,88370,navegantes,SC,911
-SEL912,30130,belo horizonte,MG,912
-SEL913,9633,sao bernardo do campo,SP,913
-SEL914,6717,cotia,SP,914
-SEL915,2220,sao paulo,SP,915
-SEL916,4456,sao paulo,SP,916
-SEL917,11070,santos,SP,917
-SEL918,13481,limeira,SP,918
-SEL919,6513,santana de parnaiba,SP,919
-SEL920,81050,curitiba,PR,920
-SEL921,12701,cruzeiro,SP,921
-SEL922,2372,sao paulo,SP,922
-SEL923,14940,ibitinga,SP,923
-SEL924,9920,diadema,SP,924
-SEL925,5041,sao paulo,SP,925
-SEL926,87050,maringa,PR,926
-SEL927,97050,santa maria,RS,927
-SEL928,71200,brasilia,DF,928
-SEL929,18047,sorocaba,SP,929
-SEL930,15085,sao jose do rio preto,SP,930
-SEL931,15130,mirassol,SP,931
-SEL932,6033,osasco,SP,932
-SEL933,36886,muriae,MG,933
-SEL934,1311,sao paulo,SP,934
-SEL935,2510,sao paulo,SP,935
-SEL936,92420,canoas,RS,936
-SEL937,22745,rio de janeiro,RJ,937
-SEL938,9810,sao bernardo do campo,SP,938
-SEL939,15076,sao jose do rio preto,SP,939
-SEL940,27274,volta redonda,RJ,940
-SEL941,7170,guarulhos,SP,941
-SEL942,4144,sao paulo,SP,942
-SEL943,5319,sao paulo,SP,943
-SEL944,5315,sao paulo,SP,944
-SEL945,4827,sao paulo,SP,945
-SEL946,9230,santo andre/sao paulo,SP,946
-SEL947,95240,ipe,RS,947
-SEL948,1230,sao paulo,SP,948
-SEL949,59775,messias targino,RN,949
-SEL950,25750,petropolis,RJ,950
-SEL951,1224,sao paulo,SP,951
-SEL952,13082,campinas,SP,952
-SEL953,2751,sao paulo,SP,953
-SEL954,81540,curitiba,PR,954
-SEL955,13660,porto ferreira,SP,955
-SEL956,37004,varginha,MG,956
-SEL957,31130,belo horizonte,MG,957
-SEL958,91150,porto alegre,RS,958
-SEL959,72125,brasilia,DF,959
-SEL960,14050,ribeirao preto,SP,960
-SEL961,18608,botucatu,SP,961
-SEL962,81320,curitiba,PR,962
-SEL963,8220,sao paulo,SP,963
-SEL964,29260,domingos martins,ES,964
-SEL965,13030,campinas,SP,965
-SEL966,3644,sao paulo,SP,966
-SEL967,38010,uberaba,MG,967
-SEL968,19027,presidente prudente,SP,968
-SEL969,1031,sao paulo,SP,969
-SEL970,3282,sao paulo,SP,970
-SEL971,35170,coronel fabriciano,MG,971
-SEL972,3390,sao paulo,SP,972
-SEL973,94930,cachoeirinha,RS,973
-SEL974,5311,sao paulo,SP,974
-SEL975,14940,ibitinga,SP,975
-SEL976,3333,sao paulo,SP,976
-SEL977,9320,maua,SP,977
-SEL978,24754,sao goncalo,RJ,978
-SEL979,9820,sao bernardo do campo,SP,979
-SEL980,15014,s jose do rio preto,SP,980
-SEL981,14092,ribeirao preto,SP,981
-SEL982,19820,taruma,SP,982
-SEL983,4088,sao paulo,SP,983
-SEL984,17400,garca,SP,984
-SEL985,7043,guarulhos,SP,985
-SEL986,38414,uberlandia,MG,986
-SEL987,13481,limeira,SP,987
-SEL988,4160,sao paulo,SP,988
-SEL989,4693,sao paulo,SP,989
-SEL990,3060,sao paulo,SP,990
-SEL991,13632,pirassununga,SP,991
-SEL992,2116,sao paulo,SP,992
-SEL993,8280,sao paulo,SP,993
-SEL994,18015,sorocaba,SP,994
-SEL995,18015,sorocaba,SP,995
-SEL996,4567,sao paulo,SP,996
-SEL997,31844,belo horizonte,MG,997
-SEL998,14020,ribeirao preto,SP,998
-SEL999,13030,campinas,SP,999
-SEL1000,7402,aruja,SP,1000
-SEL1001,2035,sao paulo,SP,1001
-SEL1002,74223,goiania,GO,1002
-SEL1003,13575,sao carlos,SP,1003
-SEL1004,1156,sao paulo,SP,1004
-SEL1005,3363,sp / sp,SP,1005
-SEL1006,85802,cascavel,PR,1006
-SEL1007,2258,sao paulo,SP,1007
-SEL1008,30310,belo horizonte,MG,1008
-SEL1009,23954,angra dos reis,RJ,1009
-SEL1010,23050,rio de janeiro,RJ,1010
-SEL1011,87015,maringa,PR,1011
-SEL1012,8673,suzano,SP,1012
-SEL1013,9850,sao bernardo do campo,SP,1013
-SEL1014,63020,juzeiro do norte,CE,1014
-SEL1015,3370,sao paulo,SP,1015
-SEL1016,35501,divinopolis,MG,1016
-SEL1017,89170,laurentino,SC,1017
-SEL1018,6717,cotia,SP,1018
-SEL1019,3372,sao paulo,SP,1019
-SEL1020,1319,sao paulo,SP,1020
-SEL1021,95270,flores da cunha,RS,1021
-SEL1022,88780,imbituba,SC,1022
-SEL1023,89256,jaragua do sul,SC,1023
-SEL1024,86035,londrina,PR,1024
-SEL1025,95780,montenegro,RS,1025
-SEL1026,20051,rio de janeiro,RJ,1026
-SEL1027,3382,sao paulo,SP,1027
-SEL1028,81200,curitiba,PR,1028
-SEL1029,3673,sao paulo,SP,1029
-SEL1030,86802,apucarana,PR,1030
-SEL1031,2189,sao paulo,SP,1031
-SEL1032,3077,sao paulo,SP,1032
-SEL1033,6036,osasco,SP,1033
-SEL1034,5030,sao paulo,SP,1034
-SEL1035,5634,sao paulo,SP,1035
-SEL1036,41820,salvador,BA,1036
-SEL1037,6753,taboao da serra,SP,1037
-SEL1038,3059,sao paulo,SP,1038
-SEL1039,13660,porto ferreira,SP,1039
-SEL1040,14470,pedregulho,SP,1040
-SEL1041,9210,santo andre,SP,1041
-SEL1042,93542,novo hamburgo,RS,1042
-SEL1043,30111,belo horizonte,MG,1043
-SEL1044,13930,serra negra,SP,1044
-SEL1045,83015,sao jose dos pinhais,PR,1045
-SEL1046,8730,mogi das cruzes,SP,1046
-SEL1047,95560,torres,RS,1047
-SEL1048,49055,aracaju,SE,1048
-SEL1049,13484,limeira,SP,1049
-SEL1050,88316,itajai,SC,1050
-SEL1051,88135,santa catarina,SC,1051
-SEL1052,81930,curitiba,PR,1052
-SEL1053,95076,caxias do sul,RS,1053
-SEL1054,8111,sao paulo,SP,1054
-SEL1055,89254,jaragua do sul,SC,1055
-SEL1056,3331,sao paulo,SP,1056
-SEL1057,80060,curitiba,PR,1057
-SEL1058,38770,joao pinheiro,MG,1058
-SEL1059,9271,santo andre,SP,1059
-SEL1060,86706,arapongas,PR,1060
-SEL1061,15115,bady bassitt,SP,1061
-SEL1062,89053,blumenau,SC,1062
-SEL1063,3632,sao paulo,SP,1063
-SEL1064,78552,sinop,MT,1064
-SEL1065,3804,sao paulo,SP,1065
-SEL1066,13330,indaiatuba,SP,1066
-SEL1067,17510,marilia,SP,1067
-SEL1068,85065,guarapuava,PR,1068
-SEL1069,83707,araucaria,PR,1069
-SEL1070,92030,canoas,RS,1070
-SEL1071,18683,lencois paulista,SP,1071
-SEL1072,95110,caxias do sul,RS,1072
-SEL1073,36015,juiz de fora,MG,1073
-SEL1074,12020,taubate,SP,1074
-SEL1075,2992,sao paulo,SP,1075
-SEL1076,88115,sao jose,SC,1076
-SEL1077,29090,vitoria,ES,1077
-SEL1078,3225,sao paulo,SP,1078
-SEL1079,7013,guarulhos,SP,1079
-SEL1080,14300,batatais,SP,1080
-SEL1081,95082,caxias do sul,RS,1081
-SEL1082,33400,lagoa santa,MG,1082
-SEL1083,9911,sao paulo,SP,1083
-SEL1084,4711,sao paulo,SP,1084
-SEL1085,89801,chapeco,SC,1085
-SEL1086,85801,cascavel,PR,1086
-SEL1087,40285,salvador,BA,1087
-SEL1088,20520,rio de janeiro,RJ,1088
-SEL1089,11701,praia grande,SP,1089
-SEL1090,80710,curitiba,PR,1090
-SEL1091,5051,sao paulo,SP,1091
-SEL1092,8840,mogi das cruzes,SP,1092
-SEL1093,87502,umuarama,PR,1093
-SEL1094,83709,araucaria,PR,1094
-SEL1095,9690,sao bernardo do campo,SP,1095
-SEL1096,8225,sao paulo,SP,1096
-SEL1097,31110,belo horizonte,MG,1097
-SEL1098,6460,barueri,SP,1098
-SEL1099,9220,santo andre,SP,1099
-SEL1100,4602,sao paulo,SP,1100
-SEL1101,88359,brusque,SC,1101
-SEL1102,4781,sao paulo,SP,1102
-SEL1103,95055,caxias do sul,SP,1103
-SEL1104,87083,maringa,PR,1104
-SEL1105,18040,sorocaba,SP,1105
-SEL1106,3244,sao paulo,SP,1106
-SEL1107,16200,birigui,SP,1107
-SEL1108,5782,sao paulo,SP,1108
-SEL1109,26112,belford roxo,RJ,1109
-SEL1110,29156,cariacica,ES,1110
-SEL1111,13272,valinhos,SP,1111
-SEL1112,13101,campinas,SP,1112
-SEL1113,13043,campinas,SP,1113
-SEL1114,4111,sao paulo,SP,1114
-SEL1115,13820,monte alegre do sul,SP,1115
-SEL1116,3087,sao paulo,SP,1116
-SEL1117,9370,maua,SP,1117
-SEL1118,12903,sp,SP,1118
-SEL1119,35590,lagoa da prata,MG,1119
-SEL1120,95690,rolante,RS,1120
-SEL1121,4216,sao paulo,SP,1121
-SEL1122,4119,sao paulo,SP,1122
-SEL1123,2755,sao paulo,SP,1123
-SEL1124,3057,sao paulo,SP,1124
-SEL1125,9570,sao caetano do sul,SP,1125
-SEL1126,9070,santo andre,SP,1126
-SEL1127,25963,teresopolis,RJ,1127
-SEL1128,13604,araras,SP,1128
-SEL1129,18480,itaporanga,SP,1129
-SEL1130,13330,indaiatuba,SP,1130
-SEL1131,9810,sao bernardo do campo,SP,1131
-SEL1132,9010,santo andre,SP,1132
-SEL1133,37564,borda da mata,MG,1133
-SEL1134,13015,campinas,SP,1134
-SEL1135,3513,sao paulo,SP,1135
-SEL1136,7113,guarulhos,SP,1136
-SEL1137,14406,franca,SP,1137
-SEL1138,18680,lencois paulista,SP,1138
-SEL1139,4308,sao paulo,SP,1139
-SEL1140,14940,ibitinga,SP,1140
-SEL1141,89218,joinville,SC,1141
-SEL1142,81350,curitiba,PR,1142
-SEL1143,1209,sao paulo,SP,1143
-SEL1144,6290,osasco,SP,1144
-SEL1145,11704,praia grande,SP,1145
-SEL1146,7122,guarulhos,SP,1146
-SEL1147,22785,rio de janeiro,RJ,1147
-SEL1148,7094,guarulhos,SP,1148
-SEL1149,9895,sao bernardo do campo,SP,1149
-SEL1150,8215,sao paulo,SP,1150
-SEL1151,13561,sao carlos,SP,1151
-SEL1152,5319,sao paulo,SP,1152
-SEL1153,30710,belo horizonte,MG,1153
-SEL1154,86707,arapongas,PR,1154
-SEL1155,83605,campo largo,PR,1155
-SEL1156,18131,sao roque,SP,1156
-SEL1157,14804,araraquara,SP,1157
-SEL1158,2274,sao paulo,SP,1158
-SEL1159,25550,sao joao de meriti,RJ,1159
-SEL1160,9380,maua/sao paulo,SP,1160
-SEL1161,6501,santana de parnaiba,SP,1161
-SEL1162,4880,sao paulo,SP,1162
-SEL1163,12955,bom jesus dos perdoes,SP,1163
-SEL1164,3449,sao paulo,SP,1164
-SEL1165,4296,sao paulo,SP,1165
-SEL1166,4564,sao paulo,SP,1166
-SEL1167,5639,sao paulo,SP,1167
-SEL1168,2047,sao paulo,SP,1168
-SEL1169,83820,fazenda rio grande,PR,1169
-SEL1170,4186,sao paulo,SP,1170
-SEL1171,5059,sao paulo,SP,1171
-SEL1172,5588,sao paulo,SP,1172
-SEL1173,9291,santo andre,SP,1173
-SEL1174,17380,brotas,SP,1174
-SEL1175,3236,sao paulo,SP,1175
-SEL1176,2376,sao paulo,SP,1176
-SEL1177,9111,santo andre,SP,1177
-SEL1178,8411,sao paulo,SP,1178
-SEL1179,2034,sao paulo,SP,1179
-SEL1180,14940,ibitinga,SP,1180
-SEL1181,44900,irece,BA,1181
-SEL1182,79400,coxim,MS,1182
-SEL1183,8577,itaquaquecetuba,SP,1183
-SEL1184,14940,ibitinga,SP,1184
-SEL1185,3184,sao paulo,SP,1185
-SEL1186,17210,jau,SP,1186
-SEL1187,29102,vila velha,ES,1187
-SEL1188,36408,conselheiro lafaiete,MG,1188
-SEL1189,83322,pinhais,PR,1189
-SEL1190,88704,tubarao,SC,1190
-SEL1191,8320,sao paulo,SP,1191
-SEL1192,38442,araguari,MG,1192
-SEL1193,3548,sao paulo,SP,1193
-SEL1194,86050,londrina,PR,1194
-SEL1195,5528,sao paulo,SP,1195
-SEL1196,20931,rio de janeiro,RJ,1196
-SEL1197,6341,carapicuiba,SP,1197
-SEL1198,6714,cotia,SP,1198
-SEL1199,86804,apucarana,PR,1199
-SEL1200,5727,sao paulo,SP,1200
-SEL1201,13900,amparo,SP,1201
-SEL1202,92120,canoas,RS,1202
-SEL1203,89900,sao miguel do oeste,SC,1203
-SEL1204,28630,nova friburgo,RJ,1204
-SEL1205,36500,uba,MG,1205
-SEL1206,89114,gaspar,SC,1206
-SEL1207,28800,rio bonito,RJ,1207
-SEL1208,7174,guarulhos,SP,1208
-SEL1209,90640,porto alegre,RS,1209
-SEL1210,88501,lages,SC,1210
-SEL1211,80420,curitiba,PR,1211
-SEL1212,16300,penapolis,SP,1212
-SEL1213,1023,sao paulo,SP,1213
-SEL1214,6341,carapicuiba,SP,1214
-SEL1215,4447,sao paulo,SP,1215
-SEL1216,19814,assis,SP,1216
-SEL1217,89170,laurentino,SC,1217
-SEL1218,13275,valinhos,SP,1218
-SEL1219,5503,sao paulo,SP,1219
-SEL1220,37540,santa rita do sapucai,MG,1220
-SEL1221,13202,jundiai,SP,1221
-SEL1222,81110,curitiba,PR,1222
-SEL1223,29304,cachoeiro de itapemirim,ES,1223
-SEL1224,8150,sao paulo,SP,1224
-SEL1225,86706,arapongas,PR,1225
-SEL1226,31030,belo horizonte,MG,1226
-SEL1227,20031,rio de janeiro,RJ,1227
-SEL1228,5048,sao paulo,SP,1228
-SEL1229,86975,mandaguari,PR,1229
-SEL1230,81070,curitiba,PR,1230
-SEL1231,37074,varginha,MG,1231
-SEL1232,6795,taboao da serra,SP,1232
-SEL1233,36500,uba,MG,1233
-SEL1234,81560,curitiba,SP,1234
-SEL1235,89219,joinville,SC,1235
-SEL1236,9370,maua,SP,1236
-SEL1237,6717,cotia,SP,1237
-SEL1238,13211,jundiai,SP,1238
-SEL1239,5373,sao paulo,SP,1239
-SEL1240,12226,sao jose dos campos,SP,1240
-SEL1241,15015,sao jose do rio preto,SP,1241
-SEL1242,88020,florianopolis,SC,1242
-SEL1243,12328,jacarei,SP,1243
-SEL1244,13501,rio claro,SP,1244
-SEL1245,14405,franca,SP,1245
-SEL1246,14085,ribeirao preto,SP,1246
-SEL1247,4776,sp,SP,1247
-SEL1248,6730,vargem grande paulista,SP,1248
-SEL1249,87050,maringa,PR,1249
-SEL1250,30775,belo horizonte,MG,1250
-SEL1251,37590,jacutinga,MG,1251
-SEL1252,32372,contagem,MG,1252
-SEL1253,6280,sao paulo,SP,1253
-SEL1254,14403,franca,SP,1254
-SEL1255,74323,goiania,GO,1255
-SEL1256,13835,conchal,SP,1256
-SEL1257,30140,belo horizonte,MG,1257
-SEL1258,14940,ibitinga,SP,1258
-SEL1259,3178,sao paulo,SP,1259
-SEL1260,86192,cambe,PR,1260
-SEL1261,29107,vila velha,ES,1261
-SEL1262,20061,rio de janeiro,RJ,1262
-SEL1263,90020,porto alegre,RS,1263
-SEL1264,35680,itauna,MG,1264
-SEL1265,94965,cachoeirinha,RS,1265
-SEL1266,14940,ibitinga,SP,1266
-SEL1267,17201,jau,SP,1267
-SEL1268,2066,sao paulo,SP,1268
-SEL1269,4283,sao paulo,SP,1269
-SEL1270,81280,curitiba,PR,1270
-SEL1271,73020,brasilia,DF,1271
-SEL1272,86990,marialva,PR,1272
-SEL1273,9230,santo andre,SP,1273
-SEL1274,20930,rio de janeiro,RJ,1274
-SEL1275,3827,sao paulo,SP,1275
-SEL1276,18131,sao roque,SP,1276
-SEL1277,4615,sao paulo,SP,1277
-SEL1278,37135,alfenas,MG,1278
-SEL1279,88330,balneario camboriu,SC,1279
-SEL1280,5269,sao paulo,SP,1280
-SEL1281,13503,rio claro,SP,1281
-SEL1282,9541,sao caetano do sul,SP,1282
-SEL1283,12209,sao jose dos campos,SP,1283
-SEL1284,35570,formiga,MG,1284
-SEL1285,21635,rio de janeiro,RJ,1285
-SEL1286,81130,curitiba,PR,1286
-SEL1287,1123,sao paulo,SP,1287
-SEL1288,88035,florianopolis,SC,1288
-SEL1289,88138,palhoca,SC,1289
-SEL1290,9721,sao bernardo do capo,SP,1290
-SEL1291,13480,limeira,SP,1291
-SEL1292,18052,sorocaba,SP,1292
-SEL1293,7031,guarulhos,SP,1293
-SEL1294,22640,rio de janeiro,RJ,1294
-SEL1295,4809,sao paulo,SP,1295
-SEL1296,36576,vicosa,MG,1296
-SEL1297,80420,curitiba,PR,1297
-SEL1298,6018,osasco,SP,1298
-SEL1299,89220,joinville,SC,1299
-SEL1300,37540,santa rita do sapucai,MG,1300
-SEL1301,1541,sao paulo,SP,1301
-SEL1302,22713,rio de janeiro,RJ,1302
-SEL1303,14580,guara,SP,1303
-SEL1304,88301,itajai,SP,1304
-SEL1305,86061,londrina,PR,1305
-SEL1306,9560,sao paulo,SP,1306
-SEL1307,86185,cambe,PR,1307
-SEL1308,60710,fortaleza,CE,1308
-SEL1309,8260,sao paulo,SP,1309
-SEL1310,13505,rio claro,SP,1310
-SEL1311,9020,santo andre,SP,1311
-SEL1312,12940,atibaia,SP,1312
-SEL1313,4794,sao paulo,SP,1313
-SEL1314,4761,sao paulo,SP,1314
-SEL1315,9416,ribeirao pires,SP,1315
-SEL1316,29704,colatina,ES,1316
-SEL1317,9750,sao bernardo do campo,SP,1317
-SEL1318,85501,pato branco,PR,1318
-SEL1319,7866,franco da rocha,SP,1319
-SEL1320,13178,sumare,SP,1320
-SEL1321,26562,mesquita,RJ,1321
-SEL1322,3270,sao paulo,SP,1322
-SEL1323,4801,sao paulo,SP,1323
-SEL1324,12246,sao jose dos campos,SP,1324
-SEL1325,4307,sao paulo,SP,1325
-SEL1326,37480,lambari,MG,1326
-SEL1327,85853,foz do iguacu,PR,1327
-SEL1328,4186,sao paulo,SP,1328
-SEL1329,32677,betim,MG,1329
-SEL1330,80215,curitiba,PR,1330
-SEL1331,83830,fazenda rio grande,PR,1331
-SEL1332,32110,contagem,MG,1332
-SEL1333,9182,santo andre,SP,1333
-SEL1334,18604,botucatu,SP,1334
-SEL1335,3564,sao paulo,SP,1335
-SEL1336,8021,sao paulo,SP,1336
-SEL1337,3526,sao paulo,SP,1337
-SEL1338,8717,mogi das cruzes / sp,SP,1338
-SEL1339,14090,ribeirao preto,SP,1339
-SEL1340,85900,toledo,PR,1340
-SEL1341,88032,florianopolis,SC,1341
-SEL1342,84020,ponta grossa,PR,1342
-SEL1343,29300,cachoeiro de itapemirim,ES,1343
-SEL1344,89650,treze tilias,SC,1344
-SEL1345,18681,lencois paulista,SP,1345
-SEL1346,13015,campinas,SP,1346
-SEL1347,22050,rio de janeiro \rio de janeiro,RJ,1347
-SEL1348,15015,sao jose do rio preto,SP,1348
-SEL1349,88490,paulo lopes,SC,1349
-SEL1350,3122,sao paulo,SP,1350
-SEL1351,22793,rio de janeiro,RJ,1351
-SEL1352,70235,brasilia,DF,1352
-SEL1353,88350,brusque,SC,1353
-SEL1354,88036,florianopolis,SC,1354
-SEL1355,89540,santa cecilia,SC,1355
-SEL1356,17026,bauru,SP,1356
-SEL1357,15603,fernandopolis,SP,1357
-SEL1358,13033,campinas,SP,1358
-SEL1359,88750,braco do norte,SC,1359
-SEL1360,4281,sao paulo,SP,1360
-SEL1361,5571,sao paulo,SP,1361
-SEL1362,87120,floresta,PR,1362
-SEL1363,8080,sao paulo,SP,1363
-SEL1364,35701,sete lagoas,MG,1364
-SEL1365,95170,farroupilha,RS,1365
-SEL1366,84178,castro,PR,1366
-SEL1367,3275,sao paulo,SP,1367
-SEL1368,72801,luziania,GO,1368
-SEL1369,35930,joao monlevade,MG,1369
-SEL1370,96020,pelotas,RS,1370
-SEL1371,8790,mogi das cruzes,SP,1371
-SEL1372,88050,florianopolis,SC,1372
-SEL1373,58865,sao bento,PB,1373
-SEL1374,12916,braganca paulista,SP,1374
-SEL1375,91350,porto alegre,RS,1375
-SEL1376,5685,sao paulo,SP,1376
-SEL1377,89259,jaragua do sul,SC,1377
-SEL1378,28035,campos dos goytacazes,RJ,1378
-SEL1379,95013,caxias do sul,RS,1379
-SEL1380,37570,ouro fino,MG,1380
-SEL1381,83040,sao jose dos pinhas,PR,1381
-SEL1382,27972,macae,RJ,1382
-SEL1383,8710,mogi das cruzes,SP,1383
-SEL1384,18530,tiete,SP,1384
-SEL1385,4087,sao paulo,SP,1385
-SEL1386,94410,viamao,RS,1386
-SEL1387,22745,rio de janeiro,RJ,1387
-SEL1388,39442,janauba,MG,1388
-SEL1389,13360,capivari,SP,1389
-SEL1390,5734,sao paulo,SP,1390
-SEL1391,85875,santa terezinha de itaipu,PR,1391
-SEL1392,4180,sao paulo,SP,1392
-SEL1393,38400,uberlandia,MG,1393
-SEL1394,3031,sao paulo,SP,1394
-SEL1395,85863,foz do iguacu,PR,1395
-SEL1396,9831,sao bernardo do campo,SP,1396
-SEL1397,4378,sao paulo,SP,1397
-SEL1398,16022,aracatuba,SP,1398
-SEL1399,95650,igrejinha,RS,1399
-SEL1400,3031,sao paulo,SP,1400
-SEL1401,89287,sao bento do sul,SC,1401
-SEL1402,3194,sao paulo,SP,1402
-SEL1403,13481,limeira,SP,1403
-SEL1404,32315,contagem,MG,1404
-SEL1405,31535,belo horizonte,MG,1405
-SEL1406,25251,duque de caxias,RJ,1406
-SEL1407,38182,araxa,MG,1407
-SEL1408,14784,barretos,SP,1408
-SEL1409,13311,itu,SP,1409
-SEL1410,9271,santo andre,SP,1410
-SEL1411,86065,londrina,PR,1411
-SEL1412,35501,divinopolis,MG,1412
-SEL1413,37048,varginha,MG,1413
-SEL1414,9015,santo andre,SP,1414
-SEL1415,32604,betim,MG,1415
-SEL1416,89460,canoinhas,SC,1416
-SEL1417,88801,criciuma,SC,1417
-SEL1418,80060,curitiba,PR,1418
-SEL1419,83321,pinhais,PR,1419
-SEL1420,14940,ibitinga,SP,1420
-SEL1421,13570,sao carlos,SP,1421
-SEL1422,84010,ponta grossa,PR,1422
-SEL1423,13912,jaguariuna,SP,1423
-SEL1424,3035,sao paulo,SP,1424
-SEL1425,29010,vitoria,ES,1425
-SEL1426,35501,divinopolis,MG,1426
-SEL1427,22775,rio de janeiro,RJ,1427
-SEL1428,14910,tabatinga,SP,1428
-SEL1429,30421,belo horizonte,MG,1429
-SEL1430,15025,sao jose do rio preto,SP,1430
-SEL1431,3550,sao paulo,SP,1431
-SEL1432,2022,sao paulo,SP,1432
-SEL1433,89251,jaragua do sul,SC,1433
-SEL1434,14940,ibitinga,SP,1434
-SEL1435,7183,guarulhos,SP,1435
-SEL1436,36504,uba,MG,1436
-SEL1437,95900,lajeado,RS,1437
-SEL1438,14940,ibitinga,SP,1438
-SEL1439,51250,recife,PE,1439
-SEL1440,31210,belo horizonte,MG,1440
-SEL1441,93608,estancia velha,RS,1441
-SEL1442,15085,sao jose do rio preto,SP,1442
-SEL1443,87043,maringa,PR,1443
-SEL1444,13056,campinas,SP,1444
-SEL1445,18130,sao roque,SP,1445
-SEL1446,37540,santa rita do sapucai,MG,1446
-SEL1447,94910,cachoeirinha,RS,1447
-SEL1448,36200,barbacena/ minas gerais,MG,1448
-SEL1449,82320,curitiba,PR,1449
-SEL1450,88301,itajai,SP,1450
-SEL1451,3477,sao paulo,SP,1451
-SEL1452,9434,ribeirao pires,SP,1452
-SEL1453,17560,vera cruz,SP,1453
-SEL1454,12914,braganca paulista,SP,1454
-SEL1455,32140,contagem,MG,1455
-SEL1456,11015,santos,SP,1456
-SEL1457,88037,florianopolis,SC,1457
-SEL1458,14020,ribeirao preto,SP,1458
-SEL1459,99500,carazinho,RS,1459
-SEL1460,59152,parnamirim,RN,1460
-SEL1461,9560,sao caetano do sul,SP,1461
-SEL1462,9810,sao bernardo do campo,SP,1462
-SEL1463,1530,sao paulo,SP,1463
-SEL1464,13086,campinas,SP,1464
-SEL1465,80020,curitiba,PR,1465
-SEL1466,85851,foz do iguacu,PR,1466
-SEL1467,18074,sorocaba,SP,1467
-SEL1468,6080,osasco,SP,1468
-SEL1469,6162,osasco,SP,1469
-SEL1470,30285,belo horizonte,MG,1470
-SEL1471,1210,sao paulo,SP,1471
-SEL1472,8710,mogi das cruzes,SP,1472
-SEL1473,13322,salto,SP,1473
-SEL1474,3568,sao paulo,SP,1474
-SEL1475,98803,santo angelo,RS,1475
-SEL1476,21941,rio de janeiro,RJ,1476
-SEL1477,9060,santo andre,SP,1477
-SEL1478,80240,curitiba,PR,1478
-SEL1479,14870,jaboticabal,SP,1479
-SEL1480,14940,ibitinga,SP,1480
-SEL1481,30315,belo horizonte,MG,1481
-SEL1482,14315,batatais,SP,1482
-SEL1483,87030,maringa,PR,1483
-SEL1484,13272,valinhos,SP,1484
-SEL1485,3448,sao paulo,SP,1485
-SEL1486,1212,sao paulo,SP,1486
-SEL1487,12240,sao jose dos campos,SP,1487
-SEL1488,4615,sao paulo,SP,1488
-SEL1489,15804,catanduva,SP,1489
-SEL1490,9360,maua,SP,1490
-SEL1491,7241,guarulhos,SP,1491
-SEL1492,82515,curitiba,PR,1492
-SEL1493,87140,paincandu,PR,1493
-SEL1494,13087,campinas,SP,1494
-SEL1495,88136,palhoca,SP,1495
-SEL1496,13503,rio claro,SP,1496
-SEL1497,8752,mogi das cruzes,SP,1497
-SEL1498,9163,santo andre,SP,1498
-SEL1499,2750,sao paulo,SP,1499
-SEL1500,20910,rio de janeiro,RJ,1500
-SEL1501,28605,nova friburgo,RJ,1501
-SEL1502,13322,salto,SP,1502
-SEL1503,5713,sao paulo,SP,1503
-SEL1504,2925,sao paulo,SP,1504
-SEL1505,25803,tres rios,RJ,1505
-SEL1506,15130,mirassol,SP,1506
-SEL1507,5083,sao paulo,SP,1507
-SEL1508,13043,campinas,SP,1508
-SEL1509,30620,belo horizonte,MG,1509
-SEL1510,1042,sao paulo,SP,1510
-SEL1511,12228,sao jose dos campos,SP,1511
-SEL1512,9111,santo andre,SP,1512
-SEL1513,15170,tanabi,SP,1513
-SEL1514,3470,sao paulo,SP,1514
-SEL1515,74645,goiania,GO,1515
-SEL1516,36500,uba,MG,1516
-SEL1517,13660,portoferreira,SP,1517
-SEL1518,26125,belford roxo,RJ,1518
-SEL1519,3643,sao paulo,SP,1519
-SEL1520,18080,sorocaba,SP,1520
-SEL1521,4810,sao paulo,SP,1521
-SEL1522,7032,guarulhos,SP,1522
-SEL1523,14312,batatais,SP,1523
-SEL1524,2737,sao paulo,SP,1524
-SEL1525,6449,barueri,SP,1525
-SEL1526,4255,sao paulo,SP,1526
-SEL1527,8410,sao paulo,SP,1527
-SEL1528,7074,guarulhos,SP,1528
-SEL1529,18087,sorocaba,SP,1529
-SEL1530,4403,sao paulo,SP,1530
-SEL1531,14940,ibitinga,SP,1531
-SEL1532,13360,capivari,SP,1532
-SEL1533,14806,araraquara,SP,1533
-SEL1534,71691,brasilia,DF,1534
-SEL1535,14802,araraquara,SP,1535
-SEL1536,13257,itatiba,SP,1536
-SEL1537,70767,brasilia,DF,1537
-SEL1538,4534,sao paulo,SP,1538
-SEL1539,21041,rio de janeiro,RJ,1539
-SEL1540,87114,sarandi,PR,1540
-SEL1541,8223,sao paulo,SP,1541
-SEL1542,5767,sao paulo,SP,1542
-SEL1543,18110,votorantim,SP,1543
-SEL1544,22790,rio de janeiro,RJ,1544
-SEL1545,6700,cotia,SP,1545
-SEL1546,3520,sao paulo,SP,1546
-SEL1547,13920,pedreira,SP,1547
-SEL1548,14140,cravinhos,SP,1548
-SEL1549,80310,curitiba,PR,1549
-SEL1550,80710,curitiba,PR,1550
-SEL1551,73020,brasilia,DF,1551
-SEL1552,8140,sao paulo,SP,1552
-SEL1553,89803,chapeco,SP,1553
-SEL1554,75650,morrinhos,GO,1554
-SEL1555,1545,sao paulo,SP,1555
-SEL1556,14709,bebedouro,SP,1556
-SEL1557,29032,vitoria,ES,1557
-SEL1558,74560,goiania,GO,1558
-SEL1559,89201,joinville,SC,1559
-SEL1560,6268,osasco,SP,1560
-SEL1561,95913,lajeado,RS,1561
-SEL1562,83507,almirante tamandare,PR,1562
-SEL1563,19025,presidente prudente,SP,1563
-SEL1564,4719,sao paulo,SP,1564
-SEL1565,14781,barretos,SP,1565
-SEL1566,11250,bertioga,SP,1566
-SEL1567,2941,sao paulo,SP,1567
-SEL1568,1022,sao paulo,SP,1568
-SEL1569,94451,viamao,RS,1569
-SEL1570,2537,sao paulo,SP,1570
-SEL1571,60110,fortaleza,CE,1571
-SEL1572,59077,natal,RN,1572
-SEL1573,2972,sao paulo,SP,1573
-SEL1574,13210,jundiai,SP,1574
-SEL1575,15155,jaci,SP,1575
-SEL1576,37704,pocos de caldas,MG,1576
-SEL1577,86702,arapongas,PR,1577
-SEL1578,95800,venancio aires,RS,1578
-SEL1579,20930,rio de janeiro,RJ,1579
-SEL1580,30150,belo horizonte,MG,1580
-SEL1581,4130,sao paulo - sp,SP,1581
-SEL1582,81530,curitiba,PR,1582
-SEL1583,14940,ibitinga,SP,1583
-SEL1584,82540,curitiba,PR,1584
-SEL1585,86800,apucarana,PR,1585
-SEL1586,31255,belo horizont,MG,1586
-SEL1587,13481,limeira,SP,1587
-SEL1588,81350,curitiba,PR,1588
-SEL1589,21340,rio de janeiro,RJ,1589
-SEL1590,90240,porto alegre,RS,1590
-SEL1591,5138,sao paulo,SP,1591
-SEL1592,21210,rio de janeiro,RJ,1592
-SEL1593,7025,guarulhos,SP,1593
-SEL1594,1035,sao paulo,SP,1594
-SEL1595,3655,sao paulo,SP,1595
-SEL1596,13848,mogi guacu,SP,1596
-SEL1597,13560,sao carlos,SP,1597
-SEL1598,87900,loanda,PR,1598
-SEL1599,4141,sao paulo,SP,1599
-SEL1600,14808,araraquara,SP,1600
-SEL1601,80430,curitiba,PR,1601
-SEL1602,85804,cascavel,PR,1602
-SEL1603,4133,sao paulo,SP,1603
-SEL1604,93900,ivoti,RS,1604
-SEL1605,3635,sao paulo,SP,1605
-SEL1606,4424,sao paulo,SP,1606
-SEL1607,30170,belo horizonte,MG,1607
-SEL1608,80010,curitiba,PR,1608
-SEL1609,8180,sao paulo,SP,1609
-SEL1610,3589,sao paulo,SP,1610
-SEL1611,86385,andira-pr,PR,1611
-SEL1612,9572,sao caetano do sul,SP,1612
-SEL1613,58073,joao pessoa,PB,1613
-SEL1614,89120,timbo,SC,1614
-SEL1615,4361,sao paulo,SP,1615
-SEL1616,81350,curitiba,PR,1616
-SEL1617,15840,itajobi,SP,1617
-SEL1618,6154,osasco,SP,1618
-SEL1619,3933,sao paulo,SP,1619
-SEL1620,90220,porto alegre,RS,1620
-SEL1621,86706,arapongas,PR,1621
-SEL1622,9130,santo andre,SP,1622
-SEL1623,7400,aruja,SP,1623
-SEL1624,13560,sao carlos,SP,1624
-SEL1625,18611,botucatu,SP,1625
-SEL1626,88132,palhoca,SC,1626
-SEL1627,88330,balneario camboriu,SC,1627
-SEL1628,11704,praia grande,SP,1628
-SEL1629,32604,betim,MG,1629
-SEL1630,3820,sao paulo,SP,1630
-SEL1631,35570,formiga,MG,1631
-SEL1632,93700,campo bom,RS,1632
-SEL1633,1131,sao paulo,SP,1633
-SEL1634,6780,taboao da serra,SP,1634
-SEL1635,6132,osasco,SP,1635
-SEL1636,1127,sao paulo,SP,1636
-SEL1637,18760,cerqueira cesar,SP,1637
-SEL1638,12952,atibaia,SP,1638
-SEL1639,15845,marapoama,SP,1639
-SEL1640,95885,imigrante,RS,1640
-SEL1641,80740,curitiba,PR,1641
-SEL1642,18120,mairinque,SP,1642
-SEL1643,83020,sao jose dos pinhais,SP,1643
-SEL1644,13570,sao carlos,SP,1644
-SEL1645,1207,sao paulo sp,SP,1645
-SEL1646,4558,sao paulo,SP,1646
-SEL1647,95020,caxias do sul,RS,1647
-SEL1648,13843,mogi guacu,SP,1648
-SEL1649,1039,sao paulo,SP,1649
-SEL1650,20081,rio de janeiro / rio de janeiro,RJ,1650
-SEL1651,90670,porto alegre,RS,1651
-SEL1652,9070,santo andre,SP,1652
-SEL1653,89219,joinville,SC,1653
-SEL1654,4571,sao paulo,SP,1654
-SEL1655,13170,sumare,SP,1655
-SEL1656,95910,lajeado,RS,1656
-SEL1657,37795,andradas,SP,1657
-SEL1658,87015,maringa,PR,1658
-SEL1659,2611,sao paulo,SP,1659
-SEL1660,35501,divinopolis,MG,1660
-SEL1661,4123,sao paulo,SP,1661
-SEL1662,2316,sao paulo,SP,1662
-SEL1663,22745,rio de janeiro,RJ,1663
-SEL1664,26230,nova iguacu,RJ,1664
-SEL1665,12327,jacarei,SP,1665
-SEL1666,9931,diadema,SP,1666
-SEL1667,9190,sando andre,SP,1667
-SEL1668,80320,curitiba,PR,1668
-SEL1669,85906,toledo,PR,1669
-SEL1670,25070,duque de caxias,RJ,1670
-SEL1671,3178,sao paulo,SP,1671
-SEL1672,14403,franca,SP,1672
-SEL1673,72580,brasilia,DF,1673
-SEL1674,13382,nova odessa,SP,1674
-SEL1675,6420,barueri,SP,1675
-SEL1676,5413,sao paulo,SP,1676
-SEL1677,50751,recife,PE,1677
-SEL1678,13145,paulinia,SP,1678
-SEL1679,15502,votuporanga,SP,1679
-SEL1680,37640,extrema,MG,1680
-SEL1681,15400,olimpia,SP,1681
-SEL1682,13486,limeira,SP,1682
-SEL1683,1311,sao paulo,SP,1683
-SEL1684,4142,sao paulo,SP,1684
-SEL1685,7112,guarulhos,SP,1685
-SEL1686,9015,santo andre,SP,1686
-SEL1687,23943,angra dos reis rj,RJ,1687
-SEL1688,9015,santo andre,SP,1688
-SEL1689,6763,taboao da serra,SP,1689
-SEL1690,1129,sao paulo,SP,1690
-SEL1691,6180,osasco,SP,1691
-SEL1692,88359,brusque,SC,1692
-SEL1693,86020,londrina,PR,1693
-SEL1694,31160,belo horizonte,MG,1694
-SEL1695,85904,toledo,PR,1695
-SEL1696,87505,umuarama,PR,1696
-SEL1697,5008,sao paulo,SP,1697
-SEL1698,16200,birigui,SP,1698
-SEL1699,4142,sao paulo,SP,1699
-SEL1700,60025,fortaleza,CE,1700
-SEL1701,24855,rio de janeiro,RJ,1701
-SEL1702,82400,curitiba,PR,1702
-SEL1703,80050,curitiba,PR,1703
-SEL1704,74230,goiania,GO,1704
-SEL1705,99670,ronda alta,RS,1705
-SEL1706,5303,sao  paulo,SP,1706
-SEL1707,2030,sao paulo,SP,1707
-SEL1708,3185,sao paulo,SP,1708
-SEL1709,2976,sao paulo,SP,1709
-SEL1710,11370,sao vicente,SP,1710
-SEL1711,88704,tubarao,SC,1711
-SEL1712,14940,ibitinga,SP,1712
-SEL1713,83327,pinhais/pr,PR,1713
-SEL1714,93180,portao,RS,1714
-SEL1715,13145,paulinia,SP,1715
-SEL1716,13478,americana,SP,1716
-SEL1717,81810,curitiba,PR,1717
-SEL1718,11900,registro,SP,1718
-SEL1719,35570,formiga,MG,1719
-SEL1720,86065,londrina,PR,1720
-SEL1721,81320,curitiba,PR,1721
-SEL1722,3561,sao paulo,SP,1722
-SEL1723,4445,sao paulo,SP,1723
-SEL1724,80220,curitiba,PR,1724
-SEL1725,89030,blumenau,SC,1725
-SEL1726,81730,curitiba,PR,1726
-SEL1727,21041,rio de janeiro,RJ,1727
-SEL1728,19023,presidente prudente,SP,1728
-SEL1729,9687,ao bernardo do campo,SP,1729
-SEL1730,8452,sao paulo,SP,1730
-SEL1731,6060,osasco,SP,1731
-SEL1732,82510,curitiba,PR,1732
-SEL1733,92010,canoas,RS,1733
-SEL1734,14090,ribeirao preto,SP,1734
-SEL1735,8032,sao paulo,SP,1735
-SEL1736,37564,borda da mata,MG,1736
-SEL1737,1319,sao paulo,SP,1737
-SEL1738,28630,nova friburgo,RJ,1738
-SEL1739,9912,diadema,SP,1739
-SEL1740,35557,carmo do cajuru,MG,1740
-SEL1741,14940,ibitinga,SP,1741
-SEL1742,3951,sao paulo,SP,1742
-SEL1743,7123,guarulhos,SP,1743
-SEL1744,84020,ponta grossa,PR,1744
-SEL1745,8431,sao paulo,SP,1745
-SEL1746,4773,sao paulo,SP,1746
-SEL1747,6268,osasco,SP,1747
-SEL1748,3423,sao paulo,SP,1748
-SEL1749,2611,sao paulo,SP,1749
-SEL1750,22061,rio de janeiro,RJ,1750
-SEL1751,5424,sao paulo,SP,1751
-SEL1752,80030,curitiba,PR,1752
-SEL1753,6807,embu das artes,SP,1753
-SEL1754,80045,curitiba,PR,1754
-SEL1755,15940,fernando prestes,SP,1755
-SEL1756,39801,castro pires,MG,1756
-SEL1757,3520,sao paulo,SP,1757
-SEL1758,13806,mogi mirim,SP,1758
-SEL1759,13880,vargem grande do sul,SP,1759
-SEL1760,3638,sao paulo,SP,1760
-SEL1761,4310,sao paulo,SP,1761
-SEL1762,5181,sao paulo,SP,1762
-SEL1763,80710,curitiba,PR,1763
-SEL1764,88061,florianopolis,SC,1764
-SEL1765,7082,guarulhos,SP,1765
-SEL1766,13060,campinas,SP,1766
-SEL1767,5594,sao paulo,SP,1767
-SEL1768,9721,sao bernardo do campo,SP,1768
-SEL1769,13500,rio claro,SP,1769
-SEL1770,82940,curitiba,PR,1770
-SEL1771,17580,pompeia,SP,1771
-SEL1772,15502,votuporanga,SP,1772
-SEL1773,98975,campina das missoes,RS,1773
-SEL1774,14110,ribeirao preto,SP,1774
-SEL1775,3658,sao paulo,SP,1775
-SEL1776,1206,sao paulo,SP,1776
-SEL1777,80730,curitiba,PR,1777
-SEL1778,18015,sorocaba,SP,1778
-SEL1779,4708,sao paulo,SP,1779
-SEL1780,88802,criciuma,SC,1780
-SEL1781,74565,goiania,GO,1781
-SEL1782,12940,atibaia,SP,1782
-SEL1783,12062,taubate,SP,1783
-SEL1784,2955,sao paulo,SP,1784
-SEL1785,14079,ribeirao preto,SP,1785
-SEL1786,4773,sao paulo,SP,1786
-SEL1787,6340,carapicuiba,SP,1787
-SEL1788,28941,sao pedro da aldeia,RJ,1788
-SEL1789,83323,pinhais,PR,1789
-SEL1790,14940,ibitinga,SP,1790
-SEL1791,13321,salto,SP,1791
-SEL1792,17510,marilia,SP,1792
-SEL1793,6455,barueri,SP,1793
-SEL1794,14530,miguelopolis,SP,1794
-SEL1795,72304,brasilia,DF,1795
-SEL1796,3701,sao paulo,SP,1796
-SEL1797,2470,sao paulo,SP,1797
-SEL1798,52020,recife,PE,1798
-SEL1799,13070,campinas,SP,1799
-SEL1800,6330,carapicuiba,SP,1800
-SEL1801,18053,sorocaba,SP,1801
-SEL1802,3187,sao paulo,SP,1802
-SEL1803,7600,mairipora,SP,1803
-SEL1804,15810,catanduva,SP,1804
-SEL1805,82620,curitiba,PR,1805
-SEL1806,2050,sao paulo,SP,1806
-SEL1807,4367,sao paulo,SP,1807
-SEL1808,17230,itapui,SP,1808
-SEL1809,13033,campinas,SP,1809
-SEL1810,25730,petropolis,RJ,1810
-SEL1811,13023,campinas,SP,1811
-SEL1812,2134,sao paulo,SP,1812
-SEL1813,37135,alfenas,MG,1813
-SEL1814,3006,sao paulo,SP,1814
-SEL1815,9861,sbc,SP,1815
-SEL1816,80330,curitiba,PR,1816
-SEL1817,3265,sao paulo,SP,1817
-SEL1818,80220,curitiba,PR,1818
-SEL1819,24710,sao goncalo,RJ,1819
-SEL1820,86076,londrina,SP,1820
-SEL1821,4905,sao paulo,SP,1821
-SEL1822,13920,pedreira,SP,1822
-SEL1823,15806,catanduva,SP,1823
-SEL1824,21545,rio de janeiro,RJ,1824
-SEL1825,37564,borda da mata,MG,1825
-SEL1826,37795,andradas,MG,1826
-SEL1827,49980,neopolis,SE,1827
-SEL1828,8599,itaquaquecetuba,SP,1828
-SEL1829,17320,mineiros do tiete,SP,1829
-SEL1830,13224,varzea paulista,SP,1830
-SEL1831,3563,sao paulo,SP,1831
-SEL1832,7859,franco da rocha,SP,1832
-SEL1833,13500,rio claro,SP,1833
-SEL1834,6332,carapicuiba,SP,1834
-SEL1835,13212,jundiai,SP,1835
-SEL1836,82400,curitiba,PR,1836
-SEL1837,14092,ribeirao preto,SP,1837
-SEL1838,14075,ribeirao preto,SP,1838
-SEL1839,34006,nova lima,MG,1839
-SEL1840,36201,barbacena,MG,1840
-SEL1841,12238,sao jose dos campos,SP,1841
-SEL1842,9360,maua,SP,1842
-SEL1843,7747,caieiras,SP,1843
-SEL1844,4160,sao paulo,SP,1844
-SEL1845,9725,sao bernardo do campo,SP,1845
-SEL1846,9131,santo andre,SP,1846
-SEL1847,15290,buritama,SP,1847
-SEL1848,14407,franca,SP,1848
-SEL1849,87504,umuarama,PR,1849
-SEL1850,75650,morrinhos,GO,1850
-SEL1851,99700,erechim,RS,1851
-SEL1852,18200,itapetininga,SP,1852
-SEL1853,4710,sao paulo,SP,1853
-SEL1854,3631,sao paulo,SP,1854
-SEL1855,12240,sao jose dos campos,SP,1855
-SEL1856,13835,conchal,SP,1856
-SEL1857,8270,sao paulo,SP,1857
-SEL1858,89870,pinhalzinho,SC,1858
-SEL1859,18015,sorocaba,SP,1859
-SEL1860,90230,porto alegre,RS,1860
-SEL1861,3062,sao paulo,SP,1861
-SEL1862,12224,sao jose dos campos,SP,1862
-SEL1863,13690,descalvado,SP,1863
-SEL1864,11075,santos,SP,1864
-SEL1865,85200,pitanga,PR,1865
-SEL1866,22793,rio de janeiro,RJ,1866
-SEL1867,4870,sao paulo,SP,1867
-SEL1868,80230,curitiba,PR,1868
-SEL1869,9210,santo andre,SP,1869
-SEL1870,13070,campinas,SP,1870
-SEL1871,13880,vargem grande do sul,SP,1871
-SEL1872,1209,sao paulo,SP,1872
-SEL1873,88354,brusque,SC,1873
-SEL1874,13405,piracicaba,SP,1874
-SEL1875,4365,sao paulo,SP,1875
-SEL1876,17515,marilia,SP,1876
-SEL1877,3134,sao paulo,SP,1877
-SEL1878,95020,caxias do sul,RS,1878
-SEL1879,96400,bage,RS,1879
-SEL1880,3667,sao paulo,SP,1880
-SEL1881,5126,sao paulo,SP,1881
-SEL1882,86600,rolandia,PR,1882
-SEL1883,89190,taio,SC,1883
-SEL1884,6803,embu das artes,SP,1884
-SEL1885,3210,sao paulo,SP,1885
-SEL1886,18025,sorocaba,SP,1886
-SEL1887,16200,birigui,SP,1887
-SEL1888,1026,sao paulo,SP,1888
-SEL1889,4058,sao paulo,SP,1889
-SEL1890,16021,sp,SP,1890
-SEL1891,13457,santa barbara d'oeste,SP,1891
-SEL1892,14020,ribeirao preto,SP,1892
-SEL1893,19800,assis,SP,1893
-SEL1894,25645,petropolis,RJ,1894
-SEL1895,4319,sao paulo,SP,1895
-SEL1896,38701,patos de minas,MG,1896
-SEL1897,3916,sao paulo,SP,1897
-SEL1898,7077,garulhos,SP,1898
-SEL1899,30270,belo horizonte,MG,1899
-SEL1900,82640,curitiba,PR,1900
-SEL1901,89117,gaspar,SC,1901
-SEL1902,14940,ibitinga,SP,1902
-SEL1903,85601,francisco beltrao,PR,1903
-SEL1904,87030,maringa,PR,1904
-SEL1905,1511,sao paulo,SP,1905
-SEL1906,80240,curitiba,SP,1906
-SEL1907,17514,marilia,SP,1907
-SEL1908,2013,sao paulo,SP,1908
-SEL1909,18200,itapetininga,SP,1909
-SEL1910,35530,claudio,MG,1910
-SEL1911,13240,jarinu,SP,1911
-SEL1912,13347,indaiatuba,SP,1912
-SEL1913,15025,sao jose do rio preto,SP,1913
-SEL1914,14057,ribeirao preto,SP,1914
-SEL1915,38402,uberlandia,MG,1915
-SEL1916,31920,belo horizonte,MG,1916
-SEL1917,1215,sao paulo,SP,1917
-SEL1918,82510,curitiba,PR,1918
-SEL1919,95150,nova petropolis,RS,1919
-SEL1920,13454,santa barbara d'oeste,SP,1920
-SEL1921,14079,ribeirao preto / sao paulo,SP,1921
-SEL1922,4276,sao paulo,SP,1922
-SEL1923,13506,rio claro,SP,1923
-SEL1924,15807,catanduva,SP,1924
-SEL1925,88340,camboriu,SC,1925
-SEL1926,14076,ribeirao preto,SP,1926
-SEL1927,88270,nova trento,SC,1927
-SEL1928,18103,sorocaba,SP,1928
-SEL1929,96020,pelotas,RS,1929
-SEL1930,82510,curitiba,PR,1930
-SEL1931,65072,sao luis,MA,1931
-SEL1932,2285,sao paulo,SP,1932
-SEL1933,86039,londrina,PR,1933
-SEL1934,81770,curitiba,PR,1934
-SEL1935,19013,presidente prudente,SP,1935
-SEL1936,22775,rio de janeiro,RJ,1936
-SEL1937,3963,sao paulo,SP,1937
-SEL1938,15051,sao jose do rio pret,SP,1938
-SEL1939,13160,artur nogueira,SP,1939
-SEL1940,19806,assis,SP,1940
-SEL1941,8275,sao paulo,SP,1941
-SEL1942,13420,sao paulo,SP,1942
-SEL1943,13330,indaiatuba,SP,1943
-SEL1944,88102,sao jose,SC,1944
-SEL1945,70070,brasilia,DF,1945
-SEL1946,61760,eusebio,CE,1946
-SEL1947,89069,blumenau,SC,1947
-SEL1948,95800,venancio aires,RS,1948
-SEL1949,85880,itaipulandia,PR,1949
-SEL1950,7056,guarulhos,SP,1950
-SEL1951,9111,santo andre,SP,1951
-SEL1952,3378,sao paulo,SP,1952
-SEL1953,13040,campinas,SP,1953
-SEL1954,4850,sao paulo,SP,1954
-SEL1955,87025,maringa,PR,1955
-SEL1956,80540,curitiba,PR,1956
-SEL1957,85601,francisco beltrao,PR,1957
-SEL1958,83402,colombo,PR,1958
-SEL1959,14940,ibitinga,SP,1959
-SEL1960,86010,londrina,PR,1960
-SEL1961,3431,sao paulo,SP,1961
-SEL1962,14096,ribeirao preto,SP,1962
-SEL1963,31210,belo horizonte,MG,1963
-SEL1964,9541,sao caetano do sul,SP,1964
-SEL1965,14090,ribeirao preto,SP,1965
-SEL1966,15076,sao jose do rio preto,SP,1966
-SEL1967,13070,campinas,SP,1967
-SEL1968,5424,sao paulo,SP,1968
-SEL1969,15093,sao jose do rio preto,SP,1969
-SEL1970,93347,novo hamburgo,RS,1970
-SEL1971,44600,ipira,BA,1971
-SEL1972,2119,sao paulo,SP,1972
-SEL1973,88306,itajai,SC,1973
-SEL1974,52010,recife,PE,1974
-SEL1975,83280,guaratuba,PR,1975
-SEL1976,8290,sao paulo,SP,1976
-SEL1977,83535,campo magro,PR,1977
-SEL1978,3052,sao paulo,SP,1978
-SEL1979,36325,tiradentes,MG,1979
-SEL1980,30270,belo horizonte,MG,1980
-SEL1981,13076,campinas,SP,1981
-SEL1982,82515,curitiba,PR,1982
-SEL1983,13456,santa barbara d'oeste,SP,1983
-SEL1984,15075,sao jose do rio preto,SP,1984
-SEL1985,19804,assis,SP,1985
-SEL1986,8050,sao paluo,SP,1986
-SEL1987,87060,maringa,PR,1987
-SEL1988,11442,guaruja,SP,1988
-SEL1989,4367,sao paulo,SP,1989
-SEL1990,26051,rio de janeiro,RJ,1990
-SEL1991,87040,maringa,PR,1991
-SEL1992,5061,sao paulo,SP,1992
-SEL1993,85801,cascavel,PR,1993
-SEL1994,13215,jundiai,SP,1994
-SEL1995,83823,fazenda rio grande,PR,1995
-SEL1996,37443,baependi,MG,1996
-SEL1997,9170,santo andre,SP,1997
-SEL1998,81070,curitiba,PR,1998
-SEL1999,88090,florianopolis,SC,1999
-SEL2000,81260,curitiba,PR,2000
-SEL2001,4756,sao paulo,SP,2001
-SEL2002,31255,belo horizonte,MG,2002
-SEL2003,3809,sao paulo,SP,2003
-SEL2004,14085,ribeirao preto,SP,2004
-SEL2005,9812,sao bernardo do campo,SP,2005
-SEL2006,5734,sao paulo,SP,2006
-SEL2007,6900,embu guacu,SP,2007
-SEL2008,24445,sao goncalo,RJ,2008
-SEL2009,3461,sao paulo,SP,2009
-SEL2010,35530,claudio,MG,2010
-SEL2011,5763,sao paulo,SP,2011
-SEL2012,72318,brasilia,DF,2012
-SEL2013,17011,bauru,SP,2013
-SEL2014,14085,ribeirao preto,SP,2014
-SEL2015,79104,campo grande,MS,2015
-SEL2016,9720,sao bernardo do campo,SP,2016
-SEL2017,2451,sao paulo,SP,2017
-SEL2018,85200,pitanga,PR,2018
-SEL2019,3962,sao paulo,SP,2019
-SEL2020,4282,sao paulo,SP,2020
-SEL2021,6276,osasco,SP,2021
-SEL2022,1021,sao paulo,SP,2022
-SEL2023,86703,arapongas,PR,2023
-SEL2024,14403,franca,SP,2024
-SEL2025,11701,praia grande,SP,2025
-SEL2026,14940,ibitinga,SP,2026
-SEL2027,8226,sao paulo,SP,2027
-SEL2028,9530,sao caetano do sul,SP,2028
-SEL2029,3001,sao paulo,SP,2029
-SEL2030,17056,bauru,SP,2030
-SEL2031,4843,sao paulo,SP,2031
-SEL2032,31520,belo horizonte,MG,2032
-SEL2033,9350,maua,SP,2033
-SEL2034,88075,florianopolis,SP,2034
-SEL2035,14401,franca,SP,2035
-SEL2036,38408,uberlandia,MG,2036
-SEL2037,13456,santa barbara d'oeste,SP,2037
-SEL2038,1550,sao paulo,SP,2038
-SEL2039,74343,goiania,GO,2039
-SEL2040,7133,guarulhos,SP,2040
-SEL2041,81050,curitiba,PR,2041
-SEL2042,89251,jaragua do sul,SC,2042
-SEL2043,96530,paraiso do sul,RS,2043
-SEL2044,12570,aparecida,SP,2044
-SEL2045,18015,sorocaba,SP,2045
-SEL2046,36773,cataguases,MG,2046
-SEL2047,2634,sao paulo,SP,2047
-SEL2048,82520,curitiba,PR,2048
-SEL2049,44600,ipira,SP,2049
-SEL2050,17250,bariri,SP,2050
-SEL2051,36300,sao joao del rei,MG,2051
-SEL2052,12231,sao jose dos campos,SP,2052
-SEL2053,13177,sumare,SP,2053
-SEL2054,13465,americana,SP,2054
-SEL2055,32185,contagem,MG,2055
-SEL2056,3647,sao paulo,SP,2056
-SEL2057,8710,mogi das cruzes,SP,2057
-SEL2058,14940,ibitinga,SP,2058
-SEL2059,4809,sao paulo,SP,2059
-SEL2060,13900,amparo,SP,2060
-SEL2061,27353,barra mansa,RJ,2061
-SEL2062,88306,itajai,SC,2062
-SEL2063,4362,sao paulo,SP,2063
-SEL2064,29150,cariacica,ES,2064
-SEL2065,11707,praia grande,SP,2065
-SEL2066,20910,rio de janeiro,RJ,2066
-SEL2067,3171,sao paulo,SP,2067
-SEL2068,75345,abadia de goias,GO,2068
-SEL2069,89165,rio do sul,SC,2069
-SEL2070,13504,rio claro,SP,2070
-SEL2071,3573,sao paulo,SP,2071
-SEL2072,3929,sao paulo,SP,2072
-SEL2073,85905,toledo,PR,2073
-SEL2074,3191,sao paulo,SP,2074
-SEL2075,7077,guarulhos,SP,2075
-SEL2076,16074,aracatuba,SP,2076
-SEL2077,17512,marilia,SP,2077
-SEL2078,93425,novo hamburgo,RS,2078
-SEL2079,13473,americana,SP,2079
-SEL2080,30170,belo horizonte,MG,2080
-SEL2081,3410,sao paulo,SP,2081
-SEL2082,1552,sao paulo,SP,2082
-SEL2083,91910,porto alegre,RS,2083
-SEL2084,4763,sao paulo,SP,2084
-SEL2085,12230,sao jose dos campos,SP,2085
-SEL2086,6409,barueri,SP,2086
-SEL2087,83005,sao jose dos pinhais,PR,2087
-SEL2088,97110,santa maria,RS,2088
-SEL2089,4276,sao paulo,SP,2089
-SEL2090,13560,sao carlos,SP,2090
-SEL2091,81520,curitiba,PR,2091
-SEL2092,74550,goiania,GO,2092
-SEL2093,85865,foz do iguacu,PR,2093
-SEL2094,4137,sao paulo,SP,2094
-SEL2095,88135,palhoca,SC,2095
-SEL2096,92020,canoas,RS,2096
-SEL2097,37410,tres coracoes,MG,2097
-SEL2098,13660,porto ferreira,SP,2098
-SEL2099,4106,sao paulo,SP,2099
-SEL2100,31340,contagem,MG,2100
-SEL2101,14075,ribeirao preto,SP,2101
-SEL2102,9570,sao caetano do sul,SP,2102
-SEL2103,87060,maringa,PR,2103
-SEL2104,11013,santos,SP,2104
-SEL2105,37006,varginha,MG,2105
-SEL2106,99500,carazinho,RS,2106
-SEL2107,6097,osasco,SP,2107
-SEL2108,14940,ibitinga,SP,2108
-SEL2109,8280,sao paulo,SP,2109
-SEL2110,17580,pompeia,SP,2110
-SEL2111,30431,belo horizonte,MG,2111
-SEL2112,13800,mogi mirim,SP,2112
-SEL2113,12308,jacarei,SP,2113
-SEL2114,8290,sao paulo,SP,2114
-SEL2115,3872,sao paulo,SP,2115
-SEL2116,18220,alambari,SP,2116
-SEL2117,1156,sao paulo,SP,2117
-SEL2118,18683,lencois paulista,SP,2118
-SEL2119,16012,aracatuba,SP,2119
-SEL2120,87005,maringa,PR,2120
-SEL2121,17700,osvaldo cruz,SP,2121
-SEL2122,85807,cascavel,PR,2122
-SEL2123,76900,ji parana,RO,2123
-SEL2124,15030,sao jose do rio preto,SP,2124
-SEL2125,27700,vassouras,RJ,2125
-SEL2126,17350,igaracu do tiete,SP,2126
-SEL2127,13215,jundiai,SP,2127
-SEL2128,12600,lorena,SP,2128
-SEL2129,89136,rodeio,SC,2129
-SEL2130,13290,louveira,SP,2130
-SEL2131,15803,catanduva,SP,2131
-SEL2132,39740,guanhaes,MG,2132
-SEL2133,17506,marilia,SP,2133
-SEL2134,89215,joinville,SC,2134
-SEL2135,28470,santo antonio de padua,RJ,2135
-SEL2136,14940,ibitinga,SP,2136
-SEL2137,87020,maringa,PR,2137
-SEL2138,6040,osasco,SP,2138
-SEL2139,12924,braganca paulista,SP,2139
-SEL2140,89150,presidente getulio,SC,2140
-SEL2141,12995,pinhalzinho,SP,2141
-SEL2142,89620,campos novos,SC,2142
-SEL2143,4273,sao paulo,SP,2143
-SEL2144,2150,sao paulo,SP,2144
-SEL2145,45820,eunapolis,BA,2145
-SEL2146,13482,limeira,SP,2146
-SEL2147,13165,engenheiro coelho,SP,2147
-SEL2148,8011,sao paulo,SP,2148
-SEL2149,13390,rio das pedras,SP,2149
-SEL2150,89220,joinville,SC,2150
-SEL2151,3147,sao paulo,SP,2151
-SEL2152,6663,itapevi,SP,2152
-SEL2153,15601,fernandopolis,SP,2153
-SEL2154,29600,afonso claudio,ES,2154
-SEL2155,18279,tatui,SP,2155
-SEL2156,5170,sao paulo,SP,2156
-SEL2157,15055,sao jose do rio preto,SP,2157
-SEL2158,4476,sao paulo,SP,2158
-SEL2159,2030,sao paulo,SP,2159
-SEL2160,13040,campinas,SP,2160
-SEL2161,3017,sao paulo,SP,2161
-SEL2162,85810,cascavel,PR,2162
-SEL2163,6311,carapicuiba / sao paulo,SP,2163
-SEL2164,13154,cosmopolis,SP,2164
-SEL2165,15050,sao jose do rio preto,SP,2165
-SEL2166,13480,limeira,SP,2166
-SEL2167,13084,campinas,SP,2167
-SEL2168,6186,osasco,SP,2168
-SEL2169,89046,blumenau,SC,2169
-SEL2170,38414,uberlandia,MG,2170
-SEL2171,24020,niteroi,RJ,2171
-SEL2172,4251,sao paulo,SP,2172
-SEL2173,80045,curitiba,PR,2173
-SEL2174,86800,apucarana,PR,2174
-SEL2175,4424,sao paulo,SP,2175
-SEL2176,4293,sao paulo,SP,2176
-SEL2177,6317,carapicuiba,SP,2177
-SEL2178,35170,coronel fabriciano,MG,2178
-SEL2179,30240,belo horizonte,MG,2179
-SEL2180,85813,cascavel,PR,2180
-SEL2181,81900,curitiba,PR,2181
-SEL2182,2963,sao paulo,SP,2182
-SEL2183,7412,aruja,SP,2183
-SEL2184,35660,centro,MG,2184
-SEL2185,19815,assis,SP,2185
-SEL2186,4904,sao paulo,SP,2186
-SEL2187,89225,joinville,SC,2187
-SEL2188,8275,sao paulo,SP,2188
-SEL2189,87083,parana,PR,2189
-SEL2190,89080,indaial,SC,2190
-SEL2191,90630,porto alegre,RS,2191
-SEL2192,88215,bombinhas,SC,2192
-SEL2193,13140,paulinia,SP,2193
-SEL2194,40368,salvador,BA,2194
-SEL2195,3345,sao paulo,SP,2195
-SEL2196,6283,osasco,SP,2196
-SEL2197,13360,capivari,SP,2197
-SEL2198,6696,itapevi,SP,2198
-SEL2199,14401,franca,SP,2199
-SEL2200,24240,niteroi,RJ,2200
-SEL2201,9220,santo andre,SP,2201
-SEL2202,87050,maringa,PR,2202
-SEL2203,9921,diadema,SP,2203
-SEL2204,13880,vargem grande do sul,SP,2204
-SEL2205,22051,rio de janeiro,RJ,2205
-SEL2206,7084,guarulhos,SP,2206
-SEL2207,3029,sao paulo,SP,2207
-SEL2208,3426,sao paulo,SP,2208
-SEL2209,32280,contagem,MG,2209
-SEL2210,15013,sao jose do rio preto,SP,2210
-SEL2211,14940,ibitinga,SP,2211
-SEL2212,4937,sao paulo,SP,2212
-SEL2213,14620,orlandia,SP,2213
-SEL2214,13405,piracicaba,SP,2214
-SEL2215,18401,itapeva,SP,2215
-SEL2216,35700,sete lagoas,MG,2216
-SEL2217,13418,piracicaba,SP,2217
-SEL2218,7140,guarulhos,SP,2218
-SEL2219,12940,atibaia,SP,2219
-SEL2220,9280,santo andre,SP,2220
-SEL2221,11600,sao sebastiao,SP,2221
-SEL2222,3976,sao paulo,SP,2222
-SEL2223,16500,cafelandia,SP,2223
-SEL2224,17290,macatuba,SP,2224
-SEL2225,11707,praia grande,SP,2225
-SEL2226,13908,amparo,SP,2226
-SEL2227,89560,videira,SC,2227
-SEL2228,72251,brasilia,DF,2228
-SEL2229,88137,palhoca,SC,2229
-SEL2230,13870,sao joao da boa vista,SP,2230
-SEL2231,2236,sao paulo,SP,2231
-SEL2232,88813,criciuma,SC,2232
-SEL2233,84530,teixeira soares,PR,2233
-SEL2234,26551,mesquita,RJ,2234
-SEL2235,15600,fernandopolis,SP,2235
-SEL2236,81720,curitiba,PR,2236
-SEL2237,2544,sao paulo,SP,2237
-SEL2238,87160,mandaguacu,PR,2238
-SEL2239,83823,fazenda rio grande,PR,2239
-SEL2240,2710,sao paulo,SP,2240
-SEL2241,86040,londrina,PR,2241
-SEL2242,25957,teresopolis,RJ,2242
-SEL2243,17606,sao paulo,SP,2243
-SEL2244,87015,maringa,PR,2244
-SEL2245,89180,rio do oeste,SC,2245
-SEL2246,3804,sao paulo,SP,2246
-SEL2247,13339,indaiatuba,SP,2247
-SEL2248,88330,balneario camboriu,SC,2248
-SEL2249,13403,piracicaba,SP,2249
-SEL2250,83280,guaratuba,PR,2250
-SEL2251,1403,sao paulo,SP,2251
-SEL2252,14802,araraquara,SP,2252
-SEL2253,88135,palhoca,SC,2253
-SEL2254,7176,guarulhos,SP,2254
-SEL2255,81510,curitiba,PR,2255
-SEL2256,12215,sao jose dos campos,SP,2256
-SEL2257,13573,sao carlos,SP,2257
-SEL2258,11010,santos,SP,2258
-SEL2259,87025,vendas@creditparts.com.br,PR,2259
-SEL2260,28950,armacao dos buzios,RJ,2260
-SEL2261,4714,sao paulo,SP,2261
-SEL2262,5127,sao paulo,SP,2262
-SEL2263,35670,mateus leme,MG,2263
-SEL2264,3581,sao paulop,SP,2264
-SEL2265,87083,maringa,PR,2265
-SEL2266,1408,sao paulo,SP,2266
-SEL2267,6766,taboao da serra,SP,2267
-SEL2268,14940,ibitinga,SP,2268
-SEL2269,11431,guaruja,SP,2269
-SEL2270,36087,juiz de fora,MG,2270
-SEL2271,4438,sao paulo,SP,2271
-SEL2272,74305,goiania,GO,2272
-SEL2273,9041,santo andre,SP,2273
-SEL2274,13232,campo limpo paulista,SP,2274
-SEL2275,13960,socorro,SP,2275
-SEL2276,2475,sao paulo,SP,2276
-SEL2277,85603,francisco beltrao,PR,2277
-SEL2278,13070,campinas,SP,2278
-SEL2279,13271,valinhos,SP,2279
-SEL2280,1512,sao paulo,SP,2280
-SEL2281,29161,serra,ES,2281
-SEL2282,83450,bocaiuva do sul,PR,2282
-SEL2283,3304,sao paulo,SP,2283
-SEL2284,3273,sao paulo,SP,2284
-SEL2285,17051,bauru,SP,2285
-SEL2286,31573,belo horizonte,MG,2286
-SEL2287,13471,americana,SP,2287
-SEL2288,45658,ilheus,BA,2288
-SEL2289,88715,jaguaruna,SC,2289
-SEL2290,13911,jaguariuna,SP,2290
-SEL2291,6440,barueri,SP,2291
-SEL2292,15015,sao jose do rio preto,SP,2292
-SEL2293,95780,montenegro,RS,2293
-SEL2294,14940,ibitinga,SP,2294
-SEL2295,13097,campinas,SP,2295
-SEL2296,2279,sao paulo,SP,2296
-SEL2297,24440,sao goncalo,RJ,2297
-SEL2298,5743,sao paulo,SP,2298
-SEL2299,89203,joinville,SC,2299
-SEL2300,32240,contagem,MG,2300
-SEL2301,5595,sao paulo,SP,2301
-SEL2302,13505,rio claro,SP,2302
-SEL2303,4291,sao paulo,SP,2303
-SEL2304,2110,sao paulo,SP,2304
-SEL2305,8577,itaquaquecetuba,SP,2305
-SEL2306,8420,sao paulo,SP,2306
-SEL2307,17018,bauru,SP,2307
-SEL2308,95625,imbe,RS,2308
-SEL2309,6419,barueri,SP,2309
-SEL2310,4101,sao paulo,SP,2310
-SEL2311,6150,osasco,SP,2311
-SEL2312,2113,sao paulo,SP,2312
-SEL2313,83323,pinhais,PR,2313
-SEL2314,9090,santo andre,SP,2314
-SEL2315,5043,sao paulo,SP,2315
-SEL2316,83602,campo largo,PR,2316
-SEL2317,14021,ribeirao preto,SP,2317
-SEL2318,95020,caxias do sul,RS,2318
-SEL2319,99300,soledade,RS,2319
-SEL2320,31035,belo horizonte,MG,2320
-SEL2321,7790,cajamar,SP,2321
-SEL2322,72015,brasilia,DF,2322
-SEL2323,3725,sao paulo,SP,2323
-SEL2324,88303,itajai,SC,2324
-SEL2325,14801,araraquara,SP,2325
-SEL2326,35700,sete lagoas,MG,2326
-SEL2327,36032,juiz de fora,MG,2327
-SEL2328,89295,rio negrinho,SC,2328
-SEL2329,5530,sao paulo,SP,2329
-SEL2330,6018,osasco,SP,2330
-SEL2331,13840,mogi guacu,SP,2331
-SEL2332,16250,clementina,SP,2332
-SEL2333,1023,sao paulo,SP,2333
-SEL2334,2610,sao paulo,SP,2334
-SEL2335,15070,sao jose do rio preto,SP,2335
-SEL2336,71825,brasilia,DF,2336
-SEL2337,4250,sao paulo,SP,2337
-SEL2338,1220,sao paulo,SP,2338
-SEL2339,9175,santo andre,SP,2339
-SEL2340,18044,sorocaba,SP,2340
-SEL2341,13450,santa barbara d´oeste,SP,2341
-SEL2342,25035,duque de caxias,RJ,2342
-SEL2343,14780,barretos,SP,2343
-SEL2344,86047,londrina,PR,2344
-SEL2345,7901,francisco morato,SP,2345
-SEL2346,13232,campo limpo paulista,SP,2346
-SEL2347,13408,piracicaba,SP,2347
-SEL2348,96203,rio grande,RS,2348
-SEL2349,89041,blumenau,SC,2349
-SEL2350,93510,novo hamburgo,RS,2350
-SEL2351,2752,sao paulo,SP,2351
-SEL2352,87040,maringa,PR,2352
-SEL2353,89825,xaxim,SC,2353
-SEL2354,13043,campinas,SP,2354
-SEL2355,18550,boituva,SP,2355
-SEL2356,20061,rio de janeiro,RJ,2356
-SEL2357,1257,sao paulo,SP,2357
-SEL2358,87025,maringa,PR,2358
-SEL2359,14020,ribeirao preto,SP,2359
-SEL2360,80215,curitiba,PR,2360
-SEL2361,74210,goiania,GO,2361
-SEL2362,89160,rio do sul,SC,2362
-SEL2363,4911,sao paulo,SP,2363
-SEL2364,1031,sao paulo,SP,2364
-SEL2365,80230,curitiba,PR,2365
-SEL2366,9340,maua,SP,2366
-SEL2367,69005,manaus,AM,2367
-SEL2368,3542,sao paulo,SP,2368
-SEL2369,2411,sao paulo,SP,2369
-SEL2370,5455,sao paulo,SP,2370
-SEL2371,15115,bady bassitt,SP,2371
-SEL2372,24120,niteroi,RJ,2372
-SEL2373,1314,sao paulo,SP,2373
-SEL2374,25900,rio de janeiro,RJ,2374
-SEL2375,87240,terra boa,PR,2375
-SEL2376,8011,sao paulo,SP,2376
-SEL2377,13660,porto ferreira,SP,2377
-SEL2378,18608,botucatu,SP,2378
-SEL2379,15070,sao jose do rio preto,SP,2379
-SEL2380,78020,cuiaba,MT,2380
-SEL2381,37165,minas gerais,MG,2381
-SEL2382,4083,sao paulo,SP,2382
-SEL2383,18130,sao roque,SP,2383
-SEL2384,6694,itapevi,SP,2384
-SEL2385,6790,taboao da serra,SP,2385
-SEL2386,89023,blumenau,SC,2386
-SEL2387,9720,sao bernardo do campo,SP,2387
-SEL2388,29160,serra,ES,2388
-SEL2389,2066,sao paulo,SP,2389
-SEL2390,87050,maringa,PR,2390
-SEL2391,13347,indaiatuba,SP,2391
-SEL2392,4265,sao paulo,SP,2392
-SEL2393,87502,umuarama,PR,2393
-SEL2394,13920,pedreira,SP,2394
-SEL2395,3560,sao paulo,SP,2395
-SEL2396,13160,artur nogueira,SP,2396
-SEL2397,18701,avare,SP,2397
-SEL2398,17400,garca,SP,2398
-SEL2399,32419,ibirite,MG,2399
-SEL2400,83607,campo largo,PR,2400
-SEL2401,3731,sao paulo,SP,2401
-SEL2402,14401,franca,SP,2402
-SEL2403,31710,belo horizonte,MG,2403
-SEL2404,83405,colombo,PR,2404
-SEL2405,14790,guaira,SP,2405
-SEL2406,14940,ibitinga,SP,2406
-SEL2407,4660,sao paulo,SP,2407
-SEL2408,13347,indaiatuba,SP,2408
-SEL2409,82315,curitiba,PR,2409
-SEL2410,3658,sao paulo,SP,2410
-SEL2411,6715,cotia,SP,2411
-SEL2412,32604,betim,MG,2412
-SEL2413,89063,blumenau,SC,2413
-SEL2414,8030,sao paulo,SP,2414
-SEL2415,36046,juiz de fora,MG,2415
-SEL2416,2334,sao paulo,SP,2416
-SEL2417,14401,franca,SP,2417
-SEL2418,4851,sao paulo,SP,2418
-SEL2419,85875,santa terezinha de itaipu,PR,2419
-SEL2420,20761,rio de janeiro,RJ,2420
-SEL2421,17370,santa maria da serra,SP,2421
-SEL2422,15350,auriflama,SP,2422
-SEL2423,9710,sao bernardo do campo,SP,2423
-SEL2424,31525,belo horizonte,MG,2424
-SEL2425,16200,birigui,SP,2425
-SEL2426,25720,petropolis,RJ,2426
-SEL2427,88704,tubarao,SC,2427
-SEL2428,79112,campo grande,MS,2428
-SEL2429,17300,dois corregos,SP,2429
-SEL2430,97110,santa maria,RS,2430
-SEL2431,3168,sao paulo,SP,2431
-SEL2432,98290,condor,RS,2432
-SEL2433,13414,piracicaba,SP,2433
-SEL2434,13251,itatiba,SP,2434
-SEL2435,14940,ibitinga,SP,2435
-SEL2436,6539,santana de parnaiba,SP,2436
-SEL2437,80010,curitiba,PR,2437
-SEL2438,38401,uberlandia,MG,2438
-SEL2439,74590,goiania,GO,2439
-SEL2440,85875,santa terezinha de itaipu,PR,2440
-SEL2441,72210,brasilia,DF,2441
-SEL2442,38700,patos de minas,MG,2442
-SEL2443,15056,sao jose do rio preto,SP,2443
-SEL2444,20950,rio de janeiro,RJ,2444
-SEL2445,38950,ibia,MG,2445
-SEL2446,16208,birigui,SP,2446
-SEL2447,80250,curitiba,PR,2447
-SEL2448,7192,guarulhos,SP,2448
-SEL2449,85801,cascavel,PR,2449
-SEL2450,13272,valinhos,SP,2450
-SEL2451,14021,ribeirao preto,SP,2451
-SEL2452,4679,sao paulo,SP,2452
-SEL2453,1421,sao paulo,SP,2453
-SEL2454,46430,guanambi,BA,2454
-SEL2455,61658,caucaia,CE,2455
-SEL2456,89052,blumenau,SP,2456
-SEL2457,87013,maringa,PR,2457
-SEL2458,89650,treze tilias,SC,2458
-SEL2459,89819,cordilheira alta,SC,2459
-SEL2460,35547,carmo da mata,MG,2460
-SEL2461,88370,navegantes,SC,2461
-SEL2462,92030,canoas,RS,2462
-SEL2463,35400,ouro preto,MG,2463
-SEL2464,14940,ibitinga,SP,2464
-SEL2465,33600,pedro leopoldo,MG,2465
-SEL2466,87070,maringa,PR,2466
-SEL2467,5571,sao paulo,SP,2467
-SEL2468,8270,sao paulo,SP,2468
-SEL2469,3111,sao paulo,SP,2469
-SEL2470,14270,santa rosa de viterbo,SP,2470
-SEL2471,89036,blumenau,SC,2471
-SEL2472,4708,sao paulo,SP,2472
-SEL2473,89820,xanxere,SC,2473
-SEL2474,90620,porto alegre,RS,2474
-SEL2475,35500,divinopolis,MG,2475
-SEL2476,7411,sao paulo,SP,2476
-SEL2477,7023,guarulhos,SP,2477
-SEL2478,80310,curitiba,PR,2478
-SEL2479,19160,alvares machado,SP,2479
-SEL2480,21840,rio de janeiro,RJ,2480
-SEL2481,30390,belo horizonte,MG,2481
-SEL2482,18060,sorocaba,SP,2482
-SEL2483,88132,palhoca,SC,2483
-SEL2484,83408,colombo,PR,2484
-SEL2485,13720,scao jose do rio pardo,SP,2485
-SEL2486,87015,maringa,PR,2486
-SEL2487,9180,santo andre,SP,2487
-SEL2488,9785,sao bernardo do campo,SP,2488
-SEL2489,19806,assis,SP,2489
-SEL2490,11709,praia grande,SP,2490
-SEL2491,21510,rio de janeiro,RJ,2491
-SEL2492,14850,pradopolis,SP,2492
-SEL2493,4547,sao paulo,SP,2493
-SEL2494,14070,ribeirao preto,SP,2494
-SEL2495,31110,belo horizonte,MG,2495
-SEL2496,81460,curitiba,PR,2496
-SEL2497,13206,jundiai,SP,2497
-SEL2498,4104,sao paulo,SP,2498
-SEL2499,3106,sao paulo,SP,2499
-SEL2500,1123,sao paulo,SP,2500
-SEL2501,30130,belo horizonte,MG,2501
-SEL2502,98780,santa rosa,RS,2502
-SEL2503,89520,curitibanos,SC,2503
-SEL2504,18500,laranjal paulista,SP,2504
-SEL2505,14093,ribeirao preto,SP,2505
-SEL2506,14096,ribeirao preto,SP,2506
-SEL2507,14940,ibitinga,SP,2507
-SEL2508,3124,sao paulo,SP,2508
-SEL2509,18015,sorocaba,SP,2509
-SEL2510,36010,juiz de fora,MG,2510
-SEL2511,81020,curitiba,SP,2511
-SEL2512,3182,sao paulo,SP,2512
-SEL2513,7124,guarulhos,SP,2513
-SEL2514,7024,guarulhos,SP,2514
-SEL2515,13140,paulinia,SP,2515
-SEL2516,15061,sao jose do rio preto,SP,2516
-SEL2517,21740,rio de janeiro,RJ,2517
-SEL2518,14090,ribeirao preto,SP,2518
-SEL2519,22640,rio de janeiro,RJ,2519
-SEL2520,7013,guarulhos,SP,2520
-SEL2521,38442,araguari,MG,2521
-SEL2522,33940,ribeirao das neves,MG,2522
-SEL2523,9551,sao caetano do sul,SP,2523
-SEL2524,93348,novo hamburgo,RS,2524
-SEL2525,14015,sao paulo,SP,2525
-SEL2526,18017,sorocaba,SP,2526
-SEL2527,37704,pocos de caldas,MG,2527
-SEL2528,18076,sorocaba,SP,2528
-SEL2529,81560,curitiba,PR,2529
-SEL2530,3334,sao paulo,SP,2530
-SEL2531,15155,jaci,SP,2531
-SEL2532,38400,uberlandia,MG,2532
-SEL2533,32310,contagem,MG,2533
-SEL2534,90240,porto alegre,RS,2534
-SEL2535,20040,rio de janeiro,RJ,2535
-SEL2536,3063,sao paulo,SP,2536
-SEL2537,5141,sp,SP,2537
-SEL2538,1452,sao paulo,SP,2538
-SEL2539,29315,cachoeiro de itapemirim,ES,2539
-SEL2540,17017,bauru,SP,2540
-SEL2541,85884,medianeira,PR,2541
-SEL2542,88490,paulo lopes,SC,2542
-SEL2543,5756,sao paulo,SP,2543
-SEL2544,5302,sao paulo,SP,2544
-SEL2545,95270,flores da cunha,RS,2545
-SEL2546,25530,sao joao de meriti,RJ,2546
-SEL2547,89108,massaranduba,SC,2547
-SEL2548,11430,guaruja,SP,2548
-SEL2549,2614,sao paulo,SP,2549
-SEL2550,4270,sao paulo,SP,2550
-SEL2551,60348,fortaleza,CE,2551
-SEL2552,2415,sao paulo,SP,2552
-SEL2553,13360,capivari,SP,2553
-SEL2554,86300,cornelio procopio,PR,2554
-SEL2555,12243,sao jose dos campos,SP,2555
-SEL2556,95013,caxias do sul,RS,2556
-SEL2557,2422,sao paulo,SP,2557
-SEL2558,32315,contagem,MG,2558
-SEL2559,95098,caxias do sul,RS,2559
-SEL2560,2028,sao paulo,SP,2560
-SEL2561,87050,maringa,PR,2561
-SEL2562,3971,sao paulo,SP,2562
-SEL2563,13060,campinas,SP,2563
-SEL2564,13487,limeira,SP,2564
-SEL2565,8430,sao paulo,SP,2565
-SEL2566,12331,jacarei,SP,2566
-SEL2567,8500,ferraz de vasconcelos,SP,2567
-SEL2568,13090,campinas,SP,2568
-SEL2569,14020,ribeirao preto,SP,2569
-SEL2570,4516,sao paulo,SP,2570
-SEL2571,89065,blumenau,SC,2571
-SEL2572,3318,sao paulo,SP,2572
-SEL2573,30668,belo horizonte,MG,2573
-SEL2574,5141,pirituba,SP,2574
-SEL2575,4209,sao paulo,SP,2575
-SEL2576,2242,sao paulo,SP,2576
-SEL2577,12913,braganca paulista,SP,2577
-SEL2578,5616,sao paulo,SP,2578
-SEL2579,14940,ibitinga,SP,2579
-SEL2580,3461,sao paulo,SP,2580
-SEL2581,12270,jambeiro,SP,2581
-SEL2582,1140,sao paulo,SP,2582
-SEL2583,13328,salto,SP,2583
-SEL2584,35590,lagoa da prata,MG,2584
-SEL2585,82560,curitiba,PR,2585
-SEL2586,93040,sao leopoldo,RS,2586
-SEL2587,4537,sao paulo,SP,2587
-SEL2588,27345,barra mansa,RJ,2588
-SEL2589,15025,sao jose do rio preto,SP,2589
-SEL2590,71900,aguas claras df,SP,2590
-SEL2591,3009,sao paulo,SP,2591
-SEL2592,9572,sao caetano do sul,SP,2592
-SEL2593,14027,ribeirao pretp,SP,2593
-SEL2594,2916,sao paulo,SP,2594
-SEL2595,87210,cianorte,PR,2595
-SEL2596,2443,sao paulo,SP,2596
-SEL2597,14940,ibitinga,SP,2597
-SEL2598,3508,sao paulo,SP,2598
-SEL2599,21320,rio de janeiro,SP,2599
-SEL2600,3287,sao paulo,SP,2600
-SEL2601,1208,sao paulo,SP,2601
-SEL2602,44002,feira de santana,BA,2602
-SEL2603,86073,londrina,PR,2603
-SEL2604,38445,araguari,MG,2604
-SEL2605,5186,sao paulo,SP,2605
-SEL2606,88037,florianopolis,SC,2606
-SEL2607,13040,campinas,SP,2607
-SEL2608,89164,rio do sul,SC,2608
-SEL2609,80010,curitiba,PR,2609
-SEL2610,91150,porto alegre,RS,2610
-SEL2611,6018,osasco,SP,2611
-SEL2612,13660,porto ferreira,SP,2612
-SEL2613,13920,pedreira,SP,2613
-SEL2614,23587,rio de janeiro,RJ,2614
-SEL2615,6465,barueri,SP,2615
-SEL2616,91920,porto alegre,RS,2616
-SEL2617,96503,cachoeira do sul,RS,2617
-SEL2618,14840,guariba,SP,2618
-SEL2619,4101,sao paulo,SP,2619
-SEL2620,11030,santos,SP,2620
-SEL2621,13790,sao sebastiao da grama/sp,SP,2621
-SEL2622,17900,dracena,SP,2622
-SEL2623,18500,laranjal paulista,SP,2623
-SEL2624,6501,santana de parnaiba,SP,2624
-SEL2625,17047,bauru,SP,2625
-SEL2626,6473,barueri,SP,2626
-SEL2627,5676,sao paulo,SP,2627
-SEL2628,2839,sao paulo,SP,2628
-SEL2629,14010,ribeirao preto,SP,2629
-SEL2630,9725,sao bernardo do campo,SP,2630
-SEL2631,4141,sao paulo,SP,2631
-SEL2632,22775,rio de janeiro,RJ,2632
-SEL2633,17400,garca,SP,2633
-SEL2634,12604,lorena,SP,2634
-SEL2635,86030,londrina,PR,2635
-SEL2636,31140,belo horizonte,MG,2636
-SEL2637,13465,americana,SP,2637
-SEL2638,7221,guarulhos,SP,2638
-SEL2639,19906,ourinhos,SP,2639
-SEL2640,14940,ibitinga,SP,2640
-SEL2641,80220,curitiba,PR,2641
-SEL2642,87900,loanda,PR,2642
-SEL2643,17250,bariri,SP,2643
-SEL2644,8832,mogi das cruzes,SP,2644
-SEL2645,3018,sao paulo,SP,2645
-SEL2646,20040,rio de janeiro,RJ,2646
-SEL2647,28810,rio bonito,SP,2647
-SEL2648,11720,praia grande,SP,2648
-SEL2649,17209,jau,SP,2649
-SEL2650,14078,robeirao preto,SP,2650
-SEL2651,88704,tubarao,SC,2651
-SEL2652,3237,sao paulo,SP,2652
-SEL2653,89228,joinville,SC,2653
-SEL2654,7170,guarulhos,SP,2654
-SEL2655,3880,sao paulo,SP,2655
-SEL2656,14020,ribeirao preto,SP,2656
-SEL2657,89504,cacador,SC,2657
-SEL2658,5008,sao paulo,SP,2658
-SEL2659,89288,sao bento do sul,SC,2659
-SEL2660,21510,rio de janeiro,RJ,2660
-SEL2661,1041,sao paulo,SP,2661
-SEL2662,14802,araraquara,SP,2662
-SEL2663,72460,gama,DF,2663
-SEL2664,17504,marilia,SP,2664
-SEL2665,4208,sao paulo,SP,2665
-SEL2666,80040,curitiba,PR,2666
-SEL2667,19020,presidente prudente,SP,2667
-SEL2668,83005,sao jose dos pinhais,PR,2668
-SEL2669,13520,sao pedro,SP,2669
-SEL2670,26379,queimados,RJ,2670
-SEL2671,2929,sao paulo,SP,2671
-SEL2672,39400,montes claros,MG,2672
-SEL2673,9560,sao caetano do sul,SP,2673
-SEL2674,16304,penapolis,SP,2674
-SEL2675,8593,itaquaquecetuba,SP,2675
-SEL2676,18110,votorantim,SP,2676
-SEL2677,3586,sao paulo,SP,2677
-SEL2678,9830,sao bernardo do campo,SP,2678
-SEL2679,17017,bauru,SP,2679
-SEL2680,80420,curitiba,PR,2680
-SEL2681,6871,itapecerica da serra,SP,2681
-SEL2682,13214,jundiai,SP,2682
-SEL2683,11990,cananeia,SP,2683
-SEL2684,14055,ribeirao preto,SP,2684
-SEL2685,7070,guarulhos,SP,2685
-SEL2686,41820,salvador,BA,2686
-SEL2687,17032,bauru,SP,2687
-SEL2688,35160,ipatinga,MG,2688
-SEL2689,27321,barra mansa,RJ,2689
-SEL2690,95705,bento goncalves,RS,2690
-SEL2691,3553,sao paulo,SP,2691
-SEL2692,13214,jundiai,SP,2692
-SEL2693,13380,nova odessa,SP,2693
-SEL2694,88372,navegantes,SC,2694
-SEL2695,3028,sao paulo,SP,2695
-SEL2696,14095,ribeirao preto,SP,2696
-SEL2697,87065,maringa,PR,2697
-SEL2698,2124,sao paulo,SP,2698
-SEL2699,9710,sao bernardo do campo,SP,2699
-SEL2700,13845,mogi guacu,SP,2700
-SEL2701,3064,sao paulo,SP,2701
-SEL2702,9070,santo andre,SP,2702
-SEL2703,19300,presidente bernardes,SP,2703
-SEL2704,22790,rio de janeiro,RJ,2704
-SEL2705,13481,limeira,SP,2705
-SEL2706,82620,curitiba,PR,2706
-SEL2707,95088,caxias do sul,RS,2707
-SEL2708,2918,sao paulo,SP,2708
-SEL2709,84925,pinhalao,PR,2709
-SEL2710,88960,sombrio,SC,2710
-SEL2711,30220,belo horizonte,MG,2711
-SEL2712,88010,florianopolis,SC,2712
-SEL2713,38022,uberaba,MG,2713
-SEL2714,17505,marilia,SP,2714
-SEL2715,14075,ribeirao preto,SP,2715
-SEL2716,2873,sao paulo,SP,2716
-SEL2717,19802,assis,SP,2717
-SEL2718,13424,piracicaba,SP,2718
-SEL2719,87303,campo mourao,PR,2719
-SEL2720,83323,pinhais,PR,2720
-SEL2721,3204,sao paulo,SP,2721
-SEL2722,55002,caruaru,PE,2722
-SEL2723,9571,sao caetano do sul,SP,2723
-SEL2724,13840,mogi guacu,SP,2724
-SEL2725,3872,sao paulo,SP,2725
-SEL2726,4208,sao paulo,SP,2726
-SEL2727,81200,curitiba,PR,2727
-SEL2728,81650,curitiba,PR,2728
-SEL2729,86801,apucarana,PR,2729
-SEL2730,83408,colombo,PR,2730
-SEL2731,89820,xanxere,SC,2731
-SEL2732,83323,pinhais,PR,2732
-SEL2733,80250,curitiba,PR,2733
-SEL2734,38400,uberlandia,MG,2734
-SEL2735,26285,nova iguacu,RJ,2735
-SEL2736,4735,sao paulo,SP,2736
-SEL2737,4104,sao paulo,SP,2737
-SEL2738,21921,rio de janeiro,RJ,2738
-SEL2739,36213,dores de campos,MG,2739
-SEL2740,9520,sao caetano do sul,SP,2740
-SEL2741,8223,sao paulo,SP,2741
-SEL2742,81880,curitiba,PR,2742
-SEL2743,6322,carapicuiba,SP,2743
-SEL2744,3655,sao paulo,SP,2744
-SEL2745,19023,presidente prudente,SP,2745
-SEL2746,13091,campinas,SP,2746
-SEL2747,37175,ilicinea,MG,2747
-SEL2748,13403,piracicaba,SP,2748
-SEL2749,88301,itajai,SC,2749
-SEL2750,93336,novo hamburgo,RS,2750
-SEL2751,3480,sao paulo,SP,2751
-SEL2752,4282,sao paulo,SP,2752
-SEL2753,88113,sao jose,SC,2753
-SEL2754,4176,sao paulo,SP,2754
-SEL2755,14940,ibitinga,SP,2755
-SEL2756,9561,sao caetano do sul,SP,2756
-SEL2757,86181,cambe,PR,2757
-SEL2758,18090,sorocaba,SP,2758
-SEL2759,35900,itabira,MG,2759
-SEL2760,3504,sao paulo,SP,2760
-SEL2761,3068,sao paulo,SP,2761
-SEL2762,85960,marechal candido rondon,PR,2762
-SEL2763,8246,sao paulo,SP,2763
-SEL2764,14860,barrinha,SP,2764
-SEL2765,81070,curitiba,PR,2765
-SEL2766,8180,sao paulo,SP,2766
-SEL2767,89022,blumenau,SC,2767
-SEL2768,89031,blumenau,SC,2768
-SEL2769,90250,porto alegre,RS,2769
-SEL2770,74110,goiania,GO,2770
-SEL2771,86800,apucarana,PR,2771
-SEL2772,3813,sao paulo,SP,2772
-SEL2773,89280,sao bento do sul,SC,2773
-SEL2774,3320,sao paulo,SP,2774
-SEL2775,12942,atibaia,SP,2775
-SEL2776,71215,brasilia,DF,2776
-SEL2777,87230,jussara,PR,2777
-SEL2778,14090,ribeirao preto,SP,2778
-SEL2779,87050,maringa,PR,2779
-SEL2780,85815,cascavel,PR,2780
-SEL2781,85960,marechal candido rondon,PA,2781
-SEL2782,13471,americana,SP,2782
-SEL2783,14405,franca,SP,2783
-SEL2784,5004,sao paulo,SP,2784
-SEL2785,6711,cotia,SP,2785
-SEL2786,83321,pinhais,SP,2786
-SEL2787,87015,maringa,PR,2787
-SEL2788,86060,londrina,PR,2788
-SEL2789,5856,sao paulo,SP,2789
-SEL2790,84600,uniao da vitoria,PR,2790
-SEL2791,7180,guarulhos,SP,2791
-SEL2792,13030,campinas,SP,2792
-SEL2793,13920,pedreira,SP,2793
-SEL2794,13205,jundiai,SP,2794
-SEL2795,9891,sao bernardo do campo,SP,2795
-SEL2796,11010,santos,SP,2796
-SEL2797,19830,echapora,SP,2797
-SEL2798,38183,araxa,MG,2798
-SEL2799,15505,votuporanga,SP,2799
-SEL2800,11015,santos,SP,2800
-SEL2801,89460,canoinhas,SC,2801
-SEL2802,21040,rio de janeiro,RJ,2802
-SEL2803,14110,ribeirao preto,SP,2803
-SEL2804,95840,triunfo,RS,2804
-SEL2805,18681,lencois paulista,SP,2805
-SEL2806,29166,serra,ES,2806
-SEL2807,96816,santa cruz do sul,RS,2807
-SEL2808,4461,sao paulo,SP,2808
-SEL2809,14940,ibitinga,SP,2809
-SEL2810,2265,sao paulo,SP,2810
-SEL2811,3431,sao paulo,SP,2811
-SEL2812,6080,osasco,SP,2812
-SEL2813,6286,osasco,SP,2813
-SEL2814,80240,curitiba,PR,2814
-SEL2815,82300,curitiba,PR,2815
-SEL2816,5849,sao paulo,SP,2816
-SEL2817,23092,rio de janeiro,RJ,2817
-SEL2818,15802,catanduva,SP,2818
-SEL2819,3702,sao paulo,SP,2819
-SEL2820,8577,itaquaquecetuba,SP,2820
-SEL2821,86690,colorado,PR,2821
-SEL2822,88220,itapema,SC,2822
-SEL2823,88352,brusque,SC,2823
-SEL2824,4208,sao paulo,SP,2824
-SEL2825,28950,armacao dos buzios,RJ,2825
-SEL2826,89208,joinville,SC,2826
-SEL2827,3319,sao paulo,SP,2827
-SEL2828,5624,sao paulo,SP,2828
-SEL2829,87045,maringa,PR,2829
-SEL2830,59020,natal,RN,2830
-SEL2831,6192,osasco,SP,2831
-SEL2832,87043,maringa,PR,2832
-SEL2833,2350,sao paulo,SP,2833
-SEL2834,19029,presidente prudente,SP,2834
-SEL2835,17209,jau,SP,2835
-SEL2836,85880,itaipulandia,PR,2836
-SEL2837,18030,sorocaba,SP,2837
-SEL2838,37540,santa rita do sapucai,MG,2838
-SEL2839,95012,caxias do sul,RS,2839
-SEL2840,2040,sao paulo,SP,2840
-SEL2841,80620,curitiba,PR,2841
-SEL2842,70719,brasilia,DF,2842
-SEL2843,20766,rio de janeiro,RJ,2843
-SEL2844,3168,sao paulo,SP,2844
-SEL2845,3476,sao paulo,SP,2845
-SEL2846,12940,atibaia,SP,2846
-SEL2847,93800,sapiranga,RS,2847
-SEL2848,83020,sao jose dos pinhais,PR,2848
-SEL2849,83833,fazenda rio grande,PR,2849
-SEL2850,74333,goiania,GO,2850
-SEL2851,13324,salto,SP,2851
-SEL2852,3138,sao paulo,SP,2852
-SEL2853,1201,sao paulo,SP,2853
-SEL2854,30882,belo horizonte,MG,2854
-SEL2855,5468,sao paulo,SP,2855
-SEL2856,9961,diadema,SP,2856
-SEL2857,1026,sao paulo,SP,2857
-SEL2858,4243,sao paulo,SP,2858
-SEL2859,92120,canoas,RS,2859
-SEL2860,87702,paranavai,PR,2860
-SEL2861,38400,uberlandia,MG,2861
-SEL2862,4193,sao paulo,SP,2862
-SEL2863,14055,ribeirao preto,SP,2863
-SEL2864,6506,santana de parnaiba,SP,2864
-SEL2865,71931,brasilia,DF,2865
-SEL2866,31365,belo horizonte,MG,2866
-SEL2867,18052,sorocaba,SP,2867
-SEL2868,94810,alvorada,RS,2868
-SEL2869,20091,rio de janeiro,RJ,2869
-SEL2870,8596,itaquaquecetuba,SP,2870
-SEL2871,4131,sao paulo,SP,2871
-SEL2872,80410,curitiba,PR,2872
-SEL2873,1212,sao paulo,SP,2873
-SEL2874,18270,tatui,SP,2874
-SEL2875,11900,registro,SP,2875
-SEL2876,13474,americana,SP,2876
-SEL2877,4733,sao paulo,SP,2877
-SEL2878,3165,sao paulo,SP,2878
-SEL2879,18950,ipaussu,SP,2879
-SEL2880,3679,sao paulo,SP,2880
-SEL2881,86010,londrina,PR,2881
-SEL2882,1208,sao paulo,SP,2882
-SEL2883,36325,tiradentes,MG,2883
-SEL2884,75901,rio verde,GO,2884
-SEL2885,71936,brasilia,DF,2885
-SEL2886,25900,mage,RJ,2886
-SEL2887,75124,anapolis,GO,2887
-SEL2888,3565,sao paulo,SP,2888
-SEL2889,4696,sao paulo,SP,2889
-SEL2890,1309,sao paulo,SP,2890
-SEL2891,6764,tabao da serra,SP,2891
-SEL2892,3908,sao paulo,SP,2892
-SEL2893,70856,brasilia,DF,2893
-SEL2894,3641,sao paulo,SP,2894
-SEL2895,31980,belo horizonte,MG,2895
-SEL2896,1310,sao paulo,SP,2896
-SEL2897,3445,sao paulo,SP,2897
-SEL2898,13478,americana,SP,2898
-SEL2899,5417,sao paulo,SP,2899
-SEL2900,9951,diadema,SP,2900
-SEL2901,84172,castro,PR,2901
-SEL2902,90520,porto alegre,RS,2902
-SEL2903,2281,sao paulo,SP,2903
-SEL2904,3279,sao paulo,SP,2904
-SEL2905,16306,penapolis,SP,2905
-SEL2906,5104,sao paulo,SP,2906
-SEL2907,87114,sarandi,PR,2907
-SEL2908,6760,sao paulo,SP,2908
-SEL2909,12327,jacarei,SP,2909
-SEL2910,12230,sao jose dos campos,SP,2910
-SEL2911,88308,itajai,SC,2911
-SEL2912,8072,sao paulo,SP,2912
-SEL2913,18590,bofete,SP,2913
-SEL2914,9080,santo andre,SP,2914
-SEL2915,2336,sao paulo,SP,2915
-SEL2916,21825,rio de janeiro,RJ,2916
-SEL2917,86026,londrina,PR,2917
-SEL2918,14096,ribeirao preto,SP,2918
-SEL2919,88380,picarras,SC,2919
-SEL2920,8070,sao paulo,SP,2920
-SEL2921,28035,rio de janeiro,RJ,2921
-SEL2922,9171,santo andre,SP,2922
-SEL2923,17510,marilia,SP,2923
-SEL2924,20551,rio de janeiro,RJ,2924
-SEL2925,15013,sao jose do rio preto,SP,2925
-SEL2926,4607,sao paulo,SP,2926
-SEL2927,7097,guarulhos,SP,2927
-SEL2928,7791,cajamar,SP,2928
-SEL2929,18111,votorantim,SP,2929
-SEL2930,95180,farroupilha,RS,2930
-SEL2931,6716,cotia,SP,2931
-SEL2932,13901,amparo,SP,2932
-SEL2933,37443,baependi,MG,2933
-SEL2934,29056,vitoria,ES,2934
-SEL2935,75650,morrinhos,GO,2935
-SEL2936,6766,taboao da serra,SP,2936
-SEL2937,8541,ferraz de vasconcelos,SP,2937
-SEL2938,9010,santo andre,SP,2938
-SEL2939,9780,sao bernardo do campo,SP,2939
-SEL2940,5051,sao paulo,SP,2940
-SEL2941,2522,sao paulo,SP,2941
-SEL2942,5879,sao paulo,SP,2942
-SEL2943,86702,arapongas,PR,2943
-SEL2944,13320,salto,SP,2944
-SEL2945,28615,nova friburgo,RJ,2945
-SEL2946,18136,sao roque,SP,2946
-SEL2947,4007,sao paulo - sp,SP,2947
-SEL2948,74150,goiania,GO,2948
-SEL2949,8215,sao paulo,SP,2949
-SEL2950,15131,mirassol,SP,2950
-SEL2951,88960,sombrio,SC,2951
-SEL2952,80620,curitiba,PR,2952
-SEL2953,29100,vila velha,ES,2953
-SEL2954,8275,sao paulo,SP,2954
-SEL2955,24900,marica,RJ,2955
-SEL2956,22240,rio de janeiro,RJ,2956
-SEL2957,24310,niteroi,RJ,2957
-SEL2958,14402,franca,SP,2958
-SEL2959,19063,presidente prudente,SP,2959
-SEL2960,1026,sao paulo,SP,2960
-SEL2961,36407,conselheiro lafaiete,MG,2961
-SEL2962,85812,cascavel,PR,2962
-SEL2963,87015,maringa,PR,2963
-SEL2964,86010,londrina,PR,2964
-SEL2965,85816,cascavel,PR,2965
-SEL2966,76330,jaragua,GO,2966
-SEL2967,13250,itatiba,SP,2967
-SEL2968,4795,sao paulo,SP,2968
-SEL2969,81530,curitiba,PR,2969
-SEL2970,2337,sao paulo,SP,2970
-SEL2971,16200,birigui,SP,2971
-SEL2972,81630,curitiba,PR,2972
-SEL2973,89228,joinville,SC,2973
-SEL2974,1026,sao paulo,SP,2974
-SEL2975,13905,amparo,SP,2975
-SEL2976,13211,jundiai,SP,2976
-SEL2977,14940,ibitinga,SP,2977
-SEL2978,9560,sao caetano do sul,SP,2978
-SEL2979,30840,belo horizonte,MG,2979
-SEL2980,2320,sao paulo,SP,2980
-SEL2981,35044,governador valadares,MG,2981
-SEL2982,15170,tanabi,SP,2982
-SEL2983,33936,ribeirao das neves,MG,2983
-SEL2984,5522,sao paulo,SP,2984
-SEL2985,9321,maua,SP,2985
-SEL2986,13845,mogi guacu,SP,2986
-SEL2987,71551,brasilia,DF,2987
-SEL2988,2969,sao paulo,SP,2988
-SEL2989,22793,"rio de janeiro, rio de janeiro, brasil",RJ,2989
-SEL2990,31842,belo horizonte,MG,2990
-SEL2991,4705,sao paulo,SP,2991
-SEL2992,31910,belo horizonte,MG,2992
-SEL2993,20710,rio de janeiro,RJ,2993
-SEL2994,89041,blumenau,SC,2994
-SEL2995,37550,pouso alegre,MG,2995
-SEL2996,8820,mogi das cruzes,SP,2996
-SEL2997,14940,ibitinga,SP,2997
-SEL2998,9895,sao bernardo do campo,SP,2998
-SEL2999,3211,sao paulo,SP,2999
-SEL3000,4360,sao paulo,SP,3000
-SEL3001,3064,sao paulo,SP,3001
-SEL3002,17512,marilia,SP,3002
-SEL3003,6453,barueri,SP,3003
-SEL3004,88316,itajai,SC,3004
-SEL3005,13920,pedreira,SP,3005
-SEL3006,35180,timoteo,MG,3006
-SEL3007,8810,mogi das cruzes,SP,3007
-SEL3008,3937,sao paulo,SP,3008
-SEL3009,3340,sao paulo,SP,3009
-SEL3010,3437,sao paulo,SP,3010
-SEL3011,29480,muqui,ES,3011
-SEL3012,89255,jaragua do sul,SC,3012
-SEL3013,36010,juiz de fora,MG,3013
-SEL3014,3679,sao paulo,SP,3014
-SEL3015,14610,ipua,SP,3015
-SEL3016,12306,jacarei / sao paulo,SP,3016
-SEL3017,63540,varzea alegre,CE,3017
-SEL3018,8615,suzano,SP,3018
-SEL3019,12512,guaratingueta,SP,3019
-SEL3020,4281,sao paulo,SP,3020
-SEL3021,13710,tambau,SP,3021
-SEL3022,13601,araras,SP,3022
-SEL3023,13720,sao jose do rio pardo,SP,3023
-SEL3024,38022,uberaba,MG,3024
-SEL3025,20521,rio de janeiro,RJ,3025
-SEL3026,84500,irati,PR,3026
-SEL3027,14085,riberao preto,SP,3027
-SEL3028,86600,rolandia,PR,3028
-SEL3029,37708,pocos de caldas,MG,3029
-SEL3030,52011,recife,PE,3030
-SEL3031,88063,florianopolis,SC,3031
-SEL3032,13253,itatiba,SP,3032
-SEL3033,90630,porto alegre,RS,3033
-SEL3034,4041,sao paulo,SP,3034
-SEL3035,89136,rodeio,SC,3035
-SEL3036,19020,presidente prudente,SP,3036
-SEL3037,31160,belo horizonte,SP,3037
-SEL3038,26510,nilopolis,RJ,3038
-SEL3039,20020,rio de janeiro,RJ,3039
-SEL3040,39400,montes claros,MG,3040
-SEL3041,93032,sao leopoldo,RS,3041
-SEL3042,12327,jacarei,SP,3042
-SEL3043,9981,diadema,SP,3043
-SEL3044,89812,chapeco,SC,3044
-SEL3045,13600,sao paulo,SP,3045
-SEL3046,71065,brasilia,DF,3046
-SEL3047,41342,salvador,BA,3047
-SEL3048,22793,rio de janeiro,RJ,3048
-SEL3049,87045,maringa,PR,3049
-SEL3050,3121,sao paulo,SP,3050
-SEL3051,73813,formosa,GO,3051
-SEL3052,25561,sao joao de meriti,RJ,3052
-SEL3053,74930,aparecida de goiania,GO,3053
-SEL3054,3029,sao paulo,SP,3054
-SEL3055,3572,sao paulo,SP,3055
-SEL3056,37590,jacutinga,MG,3056
-SEL3057,89036,blumenau,SC,3057
-SEL3058,24020,niteroi,RJ,3058
-SEL3059,4771,sao paulo,SP,3059
-SEL3060,14025,ribeirao preto,SP,3060
-SEL3061,38405,uberlandia,MG,3061
-SEL3062,2122,sao paulo,SP,3062
-SEL3063,13273,valinhos,SP,3063
-SEL3064,31310,belo horizonte,MG,3064
-SEL3065,86360,bandeirantes,PR,3065
-SEL3066,82900,curitiba,PR,3066
-SEL3067,5734,sao paulo,SP,3067
-SEL3068,20770,rio de janeiro,RJ,3068
-SEL3069,15054,sao jose do rio preto,SP,3069
-SEL3070,14940,ibitinga,SP,3070
-SEL3071,2968,sao paulo,SP,3071
-SEL3072,89082,indaial,SC,3072
-SEL3073,86020,londrina,PR,3073
-SEL3074,82200,curitiba,PR,3074
-SEL3075,74835,goiania,GO,3075
-SEL3076,13186,hortolandia,SP,3076
-SEL3077,9550,sao caetano do sul,SP,3077
-SEL3078,55602,vitoria de santo antao,PE,3078
-SEL3079,13212,jundiai,SP,3079
-SEL3080,31565,belo horizonte,MG,3080
-SEL3081,14808,araraquara,SP,3081
-SEL3082,85950,palotina,PR,3082
-SEL3083,25755,petropolis,RJ,3083
-SEL3084,6852,itapecerica da serra,SP,3084
-SEL3085,36401,conselheiro lafaiete,MG,3085
-SEL3086,13613,leme,SP,3086
-SEL3087,35530,claudio,MG,3087
-SEL3088,1238,sao paulo,SP,3088
-SEL3089,5713,sao paulo,SP,3089
-SEL3090,5314,sao paulo,SP,3090
-SEL3091,87111,sarandi,PR,3091
-SEL3092,88137,palhoca,SC,3092
-SEL3093,4650,sao paulo,SP,3093
-SEL3094,96080,pelotas,RS,3094
-SEL3095,12051,taubate,SP,3095
+seller_simple_id,zip_code_prefix,seller_city,seller_state
+SEL001,13023,campinas,SP
+SEL002,13844,mogi guacu,SP
+SEL003,20031,rio de janeiro,RJ
+SEL004,4195,sao paulo,SP
+SEL005,12914,braganca paulista,SP
+SEL006,20920,rio de janeiro,RJ
+SEL007,55325,brejao,PE
+SEL008,16304,penapolis,SP
+SEL009,1529,sao paulo,SP
+SEL010,80310,curitiba,PR
+SEL011,75110,anapolis,GO
+SEL012,13530,itirapina,SP
+SEL013,1222,sao paulo,SP
+SEL014,5372,sao paulo,SP
+SEL015,88705,tubarao,SC
+SEL016,42738,lauro de freitas,BA
+SEL017,88780,imbituba,SC
+SEL018,70740,brasilia,DF
+SEL019,45810,porto seguro,BA
+SEL020,5138,sao paulo,SP
+SEL021,11440,guaruja,SP
+SEL022,14910,tabatinga,SP
+SEL023,4156,sao paulo,SP
+SEL024,13320,salto,SP
+SEL025,98910,tres de maio,RS
+SEL026,30494,belo horizonte,MG
+SEL027,86707,arapongas,PR
+SEL028,9850,sao bernardo do campo,SP
+SEL029,4857,sao paulo,SP
+SEL030,18500,tatui,SP
+SEL031,80210,curitiba,PR
+SEL032,2261,sao paulo,SP
+SEL033,88495,garopaba,SC
+SEL034,3562,sao paulo,SP
+SEL035,37650,camanducaia,MG
+SEL036,17602,tupa,SP
+SEL037,7241,guarulhos,SP
+SEL038,83050,sao jose dos pinhais,PR
+SEL039,3445,sao paulo,SP
+SEL040,4133,sao paulo,SP
+SEL041,72233,brasilia,DF
+SEL042,70645,brasilia,DF
+SEL043,88730,sao ludgero,SC
+SEL044,88075,sao jose,SC
+SEL045,13416,piracicaba,SP
+SEL046,90850,porto alegre,RS
+SEL047,37584,congonhal,MG
+SEL048,31950,belo horizonte,MG
+SEL049,31555,belo horizonte,MG
+SEL050,9251,santo andre,SP
+SEL051,4705,sao paulo,SP
+SEL052,6144,osasco,SP
+SEL053,13270,valinhos,SP
+SEL054,89214,joinville,SC
+SEL055,11446,guaruja,SP
+SEL056,28990,saquarema,RJ
+SEL057,88390,barra velha,SC
+SEL058,25730,petropolis,RJ
+SEL059,95500,santo antonio da patrulha,RS
+SEL060,84010,ponta grossa,PR
+SEL061,6544,santana de parnaiba,SP
+SEL062,9121,santo andre,SP
+SEL063,13568,sao carlos,SP
+SEL064,6056,osasco,SP
+SEL065,14940,ibitinga,SP
+SEL066,5741,sao paulo,SP
+SEL067,83010,sao jose dos pinhais,PR
+SEL068,3702,sao paulo,SP
+SEL069,6429,barueri,SP
+SEL070,6192,osasco,SP
+SEL071,95076,caxias do sul,SP
+SEL072,3569,sao paulo,SP
+SEL073,89207,joinville,SC
+SEL074,38440,araguari,MG
+SEL075,32180,contagem,MG
+SEL076,89258,jaragua do sul,SC
+SEL077,14940,ibitinga,SP
+SEL078,9715,sao bernardo do campo,SP
+SEL079,88501,lages - sc,SC
+SEL080,95711,bento goncalves,RS
+SEL081,15805,catanduva,SP
+SEL082,9400,ribeirao pires,SP
+SEL083,4726,sao paulo,SP
+SEL084,14882,jaboticabal,SP
+SEL085,19830,echapora,SP
+SEL086,6713,cotia,SP
+SEL087,89160,rio do sul,SC
+SEL088,4275,sao paulo,SP
+SEL089,18040,sorocaba,SP
+SEL090,21235,rio de janeiro,RJ
+SEL091,14850,pradopolis,SP
+SEL092,22420,rio de janeiro,RJ
+SEL093,1125,sao paulo,SP
+SEL094,24813,itaborai,RJ
+SEL095,5786,sao paulo,SP
+SEL096,15137,mirassol,SP
+SEL097,9190,santo andre,SP
+SEL098,16200,birigui,SP
+SEL099,3569,sao paulo,SP
+SEL100,31730,belo horizonte,MG
+SEL101,20785,rio de janeiro,RJ
+SEL102,20060,rio de janeiro,RJ
+SEL103,14940,ibitinga,SP
+SEL104,12401,sao paulo,SP
+SEL105,1425,sao paulo,SP
+SEL106,19803,assis,SP
+SEL107,13820,jaguariuna,SP
+SEL108,14801,araraquara,SP
+SEL109,27963,macae,RJ
+SEL110,13320,salto,SP
+SEL111,13504,rio claro,SP
+SEL112,86039,londrina,PR
+SEL113,5101,sao paulo,SP
+SEL114,14010,ribeirao preto,SP
+SEL115,21210,rio de janeiro,RN
+SEL116,37410,tres coracoes,MG
+SEL117,4248,sao paulo,SP
+SEL118,15190,nhandeara,SP
+SEL119,14940,ibitinga,SP
+SEL120,3514,sao paulo,SP
+SEL121,71070,brasilia,DF
+SEL122,6465,barueri,SP
+SEL123,1044,sao paulo,SP
+SEL124,88870,orleans,SC
+SEL125,70384,brasilia,DF
+SEL126,2310,sao paulo,SP
+SEL127,2016,sao paulo,SP
+SEL128,78095,cuiaba,MT
+SEL129,13575,sao carlos,SP
+SEL130,1040,sao paulo,SP
+SEL131,3322,sao paulo,SP
+SEL132,20261,rio de janeiro,RJ
+SEL133,85830,formosa do oeste,PR
+SEL134,23550,rio de janeiro,RJ
+SEL135,11085,santos,SP
+SEL136,3417,sao paulo,SP
+SEL137,76500,santa terezinha de goias,GO
+SEL138,81210,curitiba,PR
+SEL139,8260,sao paulo,SP
+SEL140,95995,arvorezinha,RS
+SEL141,4674,sao paulo,SP
+SEL142,14020,ribeirao preto,SP
+SEL143,36525,guiricema,MG
+SEL144,95072,caxias do sul,RS
+SEL145,55004,caruaru,PE
+SEL146,80045,curitiba,PR
+SEL147,14401,franca,SP
+SEL148,81030,curitiba,PR
+SEL149,40243,salvador,BA
+SEL150,9951,diadema,SP
+SEL151,8573,itaquaquecetuba,SP
+SEL152,18682,lencois paulista,SP
+SEL153,7091,guarulhos,SP
+SEL154,6341,carapicuiba,SP
+SEL155,76400,uruacu,GO
+SEL156,88301,itajai,SC
+SEL157,3280,sao paulo,SP
+SEL158,1545,sao paulo,SP
+SEL159,1026,sao paulo,SP
+SEL160,80620,curitiba,PR
+SEL161,87900,loanda,PR
+SEL162,3186,sao paulo,SP
+SEL163,19400,sao paulo,SP
+SEL164,2839,sao paulo,SP
+SEL165,87014,maringa,PR
+SEL166,1207,sao paulo,SP
+SEL167,1411,sao paulo,SP
+SEL168,30190,belo horizonte,MG
+SEL169,8502,ferraz de vasconcelos,SP
+SEL170,1541,sao paulo,SP
+SEL171,13481,limeira,SP
+SEL172,11040,santos,SP
+SEL173,6436,barueri,SP
+SEL174,2310,sao paulo,SP
+SEL175,35530,claudio,MG
+SEL176,14080,ribeirao preto,SP
+SEL177,24355,niteroi,RJ
+SEL178,17700,osvaldo cruz,SP
+SEL179,6380,carapicuiba,SP
+SEL180,6016,osasco,SP
+SEL181,24451,sao goncalo,RJ
+SEL182,78820,jaciara,MT
+SEL183,88330,balenario camboriu,SC
+SEL184,4009,sao paulo,SP
+SEL185,89120,timbo,SC
+SEL186,14075,ribeirao preto,SP
+SEL187,5424,sao paulo,SP
+SEL188,99730,jacutinga,RS
+SEL189,60440,fortaleza,CE
+SEL190,7242,guarulhos,SP
+SEL191,7051,guarulhos,SP
+SEL192,8517,ferraz de  vasconcelos,SP
+SEL193,16800,mirandopolis,SP
+SEL194,89228,joinville,SC
+SEL195,30421,belo horizonte,MG
+SEL196,17056,bauru,SP
+SEL197,12308,jacarei,SP
+SEL198,13304,itu,SP
+SEL199,85301,laranjeiras do sul,SP
+SEL200,3554,sao paulo,SP
+SEL201,89560,videira,SC
+SEL202,88058,florianopolis,SC
+SEL203,6853,itapecerica da serra,SP
+SEL204,58280,mamanguape,PB
+SEL205,8490,sao paulo,SP
+SEL206,35430,ponte nova,MG
+SEL207,87360,goioere,SP
+SEL208,17280,pederneiras,SP
+SEL209,6653,itapevi,SP
+SEL210,74563,goiania,GO
+SEL211,4821,sao paulo,SP
+SEL212,21820,rio de janeiro,RJ
+SEL213,1026,sao paulo,SP
+SEL214,3308,sao paulo,SP
+SEL215,95070,caxias do sul,RS
+SEL216,9640,sao bernardo do campo,SP
+SEL217,58400,campina grande,PB
+SEL218,93608,estancia velha,RS
+SEL219,27525,resende,RJ
+SEL220,89251,jaragua do sul,SC
+SEL221,2215,sao paulo,SP
+SEL222,5524,sao paulo,SP
+SEL223,22790,rio de janeiro,RJ
+SEL224,8041,sao paulo,SP
+SEL225,5715,sao paulo,SP
+SEL226,88032,florianopolis,SC
+SEL227,18055,sorocaba,SP
+SEL228,2112,sao paulo,SP
+SEL229,14075,ribeirao preto,SP
+SEL230,18048,sorocaba,SP
+SEL231,9336,maua,SP
+SEL232,17030,bauru,SP
+SEL233,17052,bauru,SP
+SEL234,30620,belo horizonte,MG
+SEL235,13327,salto,SP
+SEL236,74343,goiania,GO
+SEL237,35300,caratinga,MG
+SEL238,15350,auriflama/sp,SP
+SEL239,21240,rio de janeiro,RJ
+SEL240,14407,franca,SP
+SEL241,16500,cafelandia,SP
+SEL242,2518,sao paulo,SP
+SEL243,14050,ribeirao preto,SP
+SEL244,88730,sao ludgero,SC
+SEL245,36502,uba,MG
+SEL246,9751,sao bernardo do campo,SP
+SEL247,3407,sao paulo / sao paulo,SP
+SEL248,14940,ibitinga,SP
+SEL249,87035,maringa,PR
+SEL250,15062,sao jose do rio preto,SP
+SEL251,13064,campinas,SP
+SEL252,21020,rio de janeiro,RJ
+SEL253,13660,porto ferreira,SP
+SEL254,95660,tres coroas,RS
+SEL255,9080,santo andre,SP
+SEL256,89031,blumenau,SC
+SEL257,9110,santo andre,SP
+SEL258,9230,santo andre,SP
+SEL259,3951,sao paulo,SP
+SEL260,3172,sao paulo,SP
+SEL261,3334,sao paulo,SP
+SEL262,89070,blumenau,SC
+SEL263,8773,mogi das cruzes,SP
+SEL264,11013,santos,SP
+SEL265,6286,osasco,SP
+SEL266,15155,jaci,SP
+SEL267,35530,claudio,MG
+SEL268,74045,goiania,GO
+SEL269,18500,laranjal paulista,SP
+SEL270,18048,sorocaba,SP
+SEL271,1126,sao paulo,SP
+SEL272,13478,americana,SP
+SEL273,1303,sao paulo,SP
+SEL274,2739,sao paulo,SP
+SEL275,20921,rio de janeiro,RJ
+SEL276,86170,sertanopolis,SP
+SEL277,14940,ibitinga,SP
+SEL278,86808,apucarana,PR
+SEL279,15046,sao jose do rio preto,SP
+SEL280,22230,rio de janeiro,RJ
+SEL281,87035,maringa,PR
+SEL282,4102,sao paulo,SP
+SEL283,7052,guarulhos,SP
+SEL284,16301,penapolis,SP
+SEL285,24020,niteroi,RJ
+SEL286,89204,joinville,SC
+SEL287,83408,colombo,PR
+SEL288,11450,vicente de carvalho,SP
+SEL289,26562,mesquita,RJ
+SEL290,86010,londrina,PR
+SEL291,2051,sao pauo,SP
+SEL292,88056,florianopolis,SC
+SEL293,30550,belo horizonte,MG
+SEL294,2820,sao paulo,SP
+SEL295,85802,cascavel,PR
+SEL296,83830,fazenda rio grande,PR
+SEL297,4508,sao paulo,SP
+SEL298,6775,taboao da serra,SP
+SEL299,1550,sao paulo,SP
+SEL300,22783,rio de janeiro,RJ
+SEL301,81070,curitiba,PR
+SEL302,4716,sao paulo,SP
+SEL303,12233,sao jose dos campos,SP
+SEL304,7084,guarulhos,SP
+SEL305,3384,sao paulo,SP
+SEL306,85903,toledo,PR
+SEL307,82510,curitiba,PR
+SEL308,15081,sao jose do rio preto,SP
+SEL309,8411,sao paulo,SP
+SEL310,17047,bauru,SP
+SEL311,11045,santos,SP
+SEL312,85960,marechal candido rondon,SP
+SEL313,80010,curitiba,PR
+SEL314,8710,mogi das cruzes,SP
+SEL315,91130,porto alegre,RS
+SEL316,12238,sao jose dos campos,SP
+SEL317,6236,osasco,SP
+SEL318,13203,jundiai,SP
+SEL319,83800,mandirituba,PR
+SEL320,3551,sao paulo,SP
+SEL321,8655,suzano,SP
+SEL322,33200,vespasiano,MG
+SEL323,80040,curitiba,PR
+SEL324,20735,rio de janeiro,RJ
+SEL325,89031,blumenau,SC
+SEL326,1417,sao paulo,SP
+SEL327,98780,santa rosa,RS
+SEL328,15015,sao jose do rio preto,SP
+SEL329,14600,sao joaquim da barra,SP
+SEL330,5125,sao paulo,SP
+SEL331,81050,curitiba,PR
+SEL332,13830,santo antonio de posse,SP
+SEL333,1212,sao paulo,SP
+SEL334,97502,uruguaiana,RS
+SEL335,80215,curitiba,PR
+SEL336,6703,cotia,SP
+SEL337,13480,limeira,SP
+SEL338,37400,campanha,MG
+SEL339,14940,ibitinga,SP
+SEL340,4811,sao paulo,SP
+SEL341,75640,piracanjuba,GO
+SEL342,3306,sao paulo,SP
+SEL343,95034,caxias do sul,RS
+SEL344,30640,belo horizonte,MG
+SEL345,89701,concordia,SC
+SEL346,2880,sao paulo,SP
+SEL347,3688,sao paulo,SP
+SEL348,74043,goiania,GO
+SEL349,37540,santa rita do sapucai,MG
+SEL350,81925,curitiba,PR
+SEL351,6246,osasco,SP
+SEL352,80510,curitiba,PR
+SEL353,80240,curitiba,PR
+SEL354,14780,barretos,SP
+SEL355,13330,indaiatuba,SP
+SEL356,26525,nilopolis,RJ
+SEL357,9380,maua,SP
+SEL358,17580,pompeia,SP
+SEL359,44895,barro alto,BA
+SEL360,13840,mogi guacu,SP
+SEL361,4557,são paulo,SP
+SEL362,4311,sao paulo,SP
+SEL363,11702,praia grande,SP
+SEL364,14406,franca,SP
+SEL365,22783,rio de janeiro,SP
+SEL366,89128,luiz alves,SC
+SEL367,2036,sao paulo,SP
+SEL368,6038,osasco,SP
+SEL369,88351,brusque,SC
+SEL370,88804,criciuma,SC
+SEL371,5729,sao paulo,SP
+SEL372,6519,santana de parnaiba,SP
+SEL373,6016,osasco,SP
+SEL374,89222,joinville,SC
+SEL375,2252,sao paulo,SP
+SEL376,7179,guarulhos,SP
+SEL377,31050,belo horizonte,MG
+SEL378,13480,limeira,SP
+SEL379,15805,catanduva,SP
+SEL380,89052,blumenau,SC
+SEL381,31255,belo horizonte,MG
+SEL382,15704,jales,SP
+SEL383,20270,rio de janeiro,RJ
+SEL384,86060,londrina,PR
+SEL385,12944,atibaia,SP
+SEL386,69900,rio branco,AC
+SEL387,86046,londrina,PR
+SEL388,27321,barra mansa,RJ
+SEL389,5632,sao paulo,SP
+SEL390,3161,sao paulo,SP
+SEL391,4782,sao paulo,SP
+SEL392,14403,franca,SP
+SEL393,87013,maringa,PR
+SEL394,9405,ribeirao pires,SP
+SEL395,2310,sao paulo,SP
+SEL396,4363,sao paulo,SP
+SEL397,1539,sao paulo,SP
+SEL398,13560,sao carlos,SP
+SEL399,2238,sao paulo,SP
+SEL400,15055,sao jose do rio preto,SP
+SEL401,82220,curitiba,PR
+SEL402,17520,marilia,SP
+SEL403,3060,sao paulo,SP
+SEL404,9443,ribeirao pires,SP
+SEL405,14096,ribeirao preto,SP
+SEL406,48602,bahia,BA
+SEL407,91740,porto alegre,RS
+SEL408,86047,londrina,PR
+SEL409,85807,cascavel,PR
+SEL410,12020,taubate,SP
+SEL411,85802,cascavael,PR
+SEL412,1320,sao paulo,SP
+SEL413,12250,monteiro lobato,SP
+SEL414,81250,curitiba,PR
+SEL415,29138,viana,ES
+SEL416,7145,guarulhos,SP
+SEL417,88107,sao jose,SC
+SEL418,25850,paraiba do sul,RJ
+SEL419,13730,mococa,SP
+SEL420,18130,sao roque,SP
+SEL421,37900,passos,MG
+SEL422,14940,ibitinga,SP
+SEL423,85603,francisco beltrao,PR
+SEL424,3821,sao paulo,SP
+SEL425,36512,tocantins,SP
+SEL426,76400,uruacu,GO
+SEL427,87083,maringa,PR
+SEL428,74473,goiania,GO
+SEL429,21931,rio de janeiro,RJ
+SEL430,14055,ribeirao preto,SP
+SEL431,88210,porto belo,SC
+SEL432,13105,campinas,SP
+SEL433,26255,nova iguacu,RJ
+SEL434,3343,sao paulo,SP
+SEL435,17512,marilia,SP
+SEL436,88820,icara,SC
+SEL437,3543,sao paulo,SP
+SEL438,95910,lajeado,RS
+SEL439,3694,sao paulo,SP
+SEL440,3029,sao paulo,SP
+SEL441,37540,santa rita do sapucai,MG
+SEL442,13042,campinas,SP
+SEL443,1201,sao paulo,SP
+SEL444,9230,santo andre,SP
+SEL445,88359,brusque,SC
+SEL446,98920,horizontina,RS
+SEL447,4364,sao paulo,SP
+SEL448,3416,sao paulo,SP
+SEL449,9350,maua,SP
+SEL450,1214,sao paulo,SP
+SEL451,2880,sao paulo,SP
+SEL452,9220,santo andre,SP
+SEL453,18110,votorantim,SP
+SEL454,35530,claudio,MG
+SEL455,93700,campo bom,RS
+SEL456,3659,sao paulo,SP
+SEL457,1123,sao paulo,SP
+SEL458,15910,monte alto,SP
+SEL459,3103,sao paulo,SP
+SEL460,14078,ribeirao preto,SP
+SEL461,15601,fernandopolis,SP
+SEL462,89041,blumenau,SC
+SEL463,17500,marilia,SP
+SEL464,84010,ponta grossa,PR
+SEL465,7093,guarulhos,SP
+SEL466,31560,belo horizonte,MG
+SEL467,13920,pedreira,SP
+SEL468,86800,apucarana,PR
+SEL469,7062,guarulhos,SP
+SEL470,88351,brusque,SC
+SEL471,8550,poa,SP
+SEL472,3471,sao paulo,SP
+SEL473,87047,maringa,PR
+SEL474,82040,curitiba,PR
+SEL475,15025,sao jose do rio preto,SP
+SEL476,35500,divinopolis,MG
+SEL477,13450,santa barbara d´oeste,SP
+SEL478,92025,canoas,RS
+SEL479,13310,itu,SP
+SEL480,89217,joinville,SC
+SEL481,13375,mombuca,SP
+SEL482,9628,sao bernardo do campo,SP
+SEL483,6539,santana de parnaiba,SP
+SEL484,81350,curitiba,PR
+SEL485,86040,londrina,PR
+SEL486,14405,franca,SP
+SEL487,35700,sete lagoas,MG
+SEL488,37165,campo do meio,MG
+SEL489,85904,toledo,PR
+SEL490,8780,mogi das cruzes,SP
+SEL491,13219,jundiai,SP
+SEL492,17509,marilia,SP
+SEL493,60741,fortaleza,CE
+SEL494,3311,sao paulo,SP
+SEL495,13490,cordeiropolis,SP
+SEL496,38410,uberlandia,MG
+SEL497,75123,anapolis,GO
+SEL498,14092,ribeirao preto,SP
+SEL499,15085,sao jose do rio preto,SP
+SEL500,4578,sao paulo,SP
+SEL501,91310,porto alegre,RS
+SEL502,20756,rio de janeiro,RJ
+SEL503,1233,sao paulo,SP
+SEL504,8223,sao paulo,SP
+SEL505,4782,sao paulo,SP
+SEL506,83402,colombo,PR
+SEL507,9920,diadema,SP
+SEL508,13419,piracicaba,SP
+SEL509,20021,rio de janeiro,RJ
+SEL510,18072,sorocaba,SP
+SEL511,13456,santa barbara d oeste,SP
+SEL512,13920,pedreira,SP
+SEL513,86702,arapongas,PR
+SEL514,27277,volta redonda,SP
+SEL515,13660,porto ferreira,SP
+SEL516,89030,blumenau,SC
+SEL517,6787,taboao da serra,SP
+SEL518,22790,04482255,RJ
+SEL519,16072,aracatuba,SP
+SEL520,81830,curitiba,PR
+SEL521,74210,goiania,GO
+SEL522,16200,birigui,SP
+SEL523,18070,sorocaba,SP
+SEL524,37580,monte siao,MG
+SEL525,13073,campinas,SP
+SEL526,89248,garuva,SC
+SEL527,38650,bonfinopolis de minas,MG
+SEL528,13150,cosmopolis,SP
+SEL529,14092,ribeirao preto,SP
+SEL530,15800,catanduva,SP
+SEL531,1215,sao paulo,SP
+SEL532,24451,sao goncalo,RJ
+SEL533,4386,sao paulo,SP
+SEL534,5547,sao paulo,SP
+SEL535,21070,rio de janeiro,RJ
+SEL536,37706,pocos de caldas,MG
+SEL537,24725,sao goncalo,RJ
+SEL538,13160,artur nogueira,SP
+SEL539,11015,santos,SP
+SEL540,4209,sao paulo,SP
+SEL541,30575,belo horizonte,MG
+SEL542,6513,santana de parnaiba,SP
+SEL543,20520,rio de janeiro,RJ
+SEL544,58030,joao pessoa,PB
+SEL545,17300,dois corregos,SP
+SEL546,89245,araquari,SC
+SEL547,1220,sao paulo,SP
+SEL548,90230,porto alegre,RS
+SEL549,83075,sao jose dos pinhais,PR
+SEL550,31570,belo horizonte,SP
+SEL551,36500,uba,MG
+SEL552,93310,"novo hamburgo, rio grande do sul, brasil",RS
+SEL553,84035,ponta grossa,PR
+SEL554,80330,curitiba,PR
+SEL555,89218,joinville,SC
+SEL556,88056,floranopolis,SC
+SEL557,15155,jaci,SP
+SEL558,13170,sumare,SP
+SEL559,83070,sao jose dos pinhais,PR
+SEL560,9350,maua,SP
+SEL561,85980,guaira,PR
+SEL562,2118,sao paulo,SP
+SEL563,12242,sao jose dos campos,SP
+SEL564,29313,cachoeiro de itapemirim,ES
+SEL565,14150,serrana,SP
+SEL566,5108,sao paulo,SP
+SEL567,86604,rolandia,PR
+SEL568,4360,sao paulo,SP
+SEL569,23062,rio de janeiro,RJ
+SEL570,3029,sao paulo,SP
+SEL571,4054,sao paulo,SP
+SEL572,36415,congonhas,MG
+SEL573,15046,sao jose do rio preto,SP
+SEL574,5537,sao paulo,SP
+SEL575,12943,atibaia,SP
+SEL576,6852,itapecerica da serra,SP
+SEL577,83091,sao  jose dos pinhais,PR
+SEL578,18035,sorocaba,SP
+SEL579,18550,boituva,SP
+SEL580,13405,piracicaba,SP
+SEL581,3275,sao paulo,SP
+SEL582,14400,franca,SP
+SEL583,88495,garopaba,SC
+SEL584,90010,porto alegre,RS
+SEL585,17604,tupa,SP
+SEL586,3612,sao paulo,SP
+SEL587,5268,sao paulo,SP
+SEL588,13660,porto ferreira,SP
+SEL589,3059,sao paulo,SP
+SEL590,7600,mairipora,SP
+SEL591,1547,sao paulo,SP
+SEL592,13041,campinas,SP
+SEL593,16480,guaimbe,SP
+SEL594,95360,parai,RS
+SEL595,17700,osvaldo cruz,SP
+SEL596,9862,sao bernardo do campo,SP
+SEL597,37706,pocos de caldas,MG
+SEL598,28495,aperibe,RJ
+SEL599,35500,divinopolis,MG
+SEL600,1021,sao paulo,SP
+SEL601,17605,tupa,SP
+SEL602,80610,curitiba,PR
+SEL603,18053,sorocaba,SP
+SEL604,88715,jaguaruna,SC
+SEL605,86707,arapongas,PR
+SEL606,26210,nova iguacu,RJ
+SEL607,8250,sao paulo,SP
+SEL608,29101,vila velha,SP
+SEL609,14801,araraquara,SP
+SEL610,9182,santo andre,SP
+SEL611,89210,joinville,SC
+SEL612,13085,campinas,SP
+SEL613,21070,rio de janeiro,RJ
+SEL614,7194,guarulhos,SP
+SEL615,36052,juiz de fora,MG
+SEL616,23080,rio de janeiro,RJ
+SEL617,38230,fronteira,MG
+SEL618,14960,novo horizonte,SP
+SEL619,18185,pilar do sul,SP
+SEL620,15840,itajobi,SP
+SEL621,87050,maringa,PR
+SEL622,4815,sao paulo,SP
+SEL623,29142,cariacica / es,ES
+SEL624,36320,prados,MG
+SEL625,88020,florianopolis,SC
+SEL626,13560,sao carlos,SP
+SEL627,11065,santos,SP
+SEL628,8598,itaquaquecetuba,SP
+SEL629,62170,mucambo,CE
+SEL630,83409,colombo,PR
+SEL631,13504,rio claro,SP
+SEL632,14940,ibitinga,SP
+SEL633,95705,bento goncalves,RS
+SEL634,4041,sao paulo,SP
+SEL635,12080,taubate,SP
+SEL636,81210,curitiba,PR
+SEL637,87050,maringa,PR
+SEL638,86026,londrina,PR
+SEL639,1244,sao paulo,SP
+SEL640,39400,montes claros,MG
+SEL641,82810,curitiba,PR
+SEL642,4613,sao paulo,SP
+SEL643,9694,sao bernardo do campo,SP
+SEL644,11701,praia grande,SP
+SEL645,7152,guarulhos,SP
+SEL646,92310,canoas,RS
+SEL647,82510,curitiba,PR
+SEL648,36570,vicosa,MG
+SEL649,13090,campinas,SP
+SEL650,5201,sao paulo,SP
+SEL651,3126,sao paulo,SP
+SEL652,21041,rio de janeiro,RJ
+SEL653,82130,curitiba,PR
+SEL654,76804,porto velho,RO
+SEL655,40130,salvador,BA
+SEL656,13720,sao jose do rio pardo,SP
+SEL657,32260,contagem,MG
+SEL658,85501,pato branco,PR
+SEL659,36301,sao joao del rei,MG
+SEL660,14091,ribeirao preto,SP
+SEL661,19042,presidente prudente,SP
+SEL662,8743,mogi das cruzes,SP
+SEL663,26600,paracambi,RJ
+SEL664,13312,itu,SP
+SEL665,13930,serra negra,SP
+SEL666,15052,sao jose do rio preto,SP
+SEL667,9541,sao caetano do sul,SP
+SEL668,1420,sao paulo,SP
+SEL669,1239,sao paulo,SP
+SEL670,13418,piracicaba,SP
+SEL671,13820,jaguariuna,SP
+SEL672,4001,sao paulo,SP
+SEL673,17051,bauru,SP
+SEL674,15081,sao jose do rio preto,SP
+SEL675,9550,sao caetano do sul,SP
+SEL676,89256,jaragua do sul,SC
+SEL677,2523,sao paulo,SP
+SEL678,5462,sao paulo,SP
+SEL679,83411,colombo,PR
+SEL680,89069,blumenau,SC
+SEL681,36010,juiz de fora,SP
+SEL682,4154,sao paulo,SP
+SEL683,28660,bom jardim,RJ
+SEL684,58385,serra redonda,PB
+SEL685,14940,ibitinga,SP
+SEL686,82800,curitiba,PR
+SEL687,4133,sao paulo,SP
+SEL688,2851,sao paulo,SP
+SEL689,89240,sao francisco do sul,SC
+SEL690,7052,guarulhos,SP
+SEL691,29104,vila velha,ES
+SEL692,19010,presidente prudente,SP
+SEL693,32672,betim,MG
+SEL694,1303,sao paulo,SP
+SEL695,4676,sao paulo,SP
+SEL696,3910,sao paulo,SP
+SEL697,81200,curitiba,PR
+SEL698,9411,ribeirao pires,SP
+SEL699,81070,curitiba,PR
+SEL700,84430,imbituva,PR
+SEL701,83280,guaratuba,PR
+SEL702,91520,porto alegre,SP
+SEL703,5615,sao paulo,SP
+SEL704,64033,teresina,PI
+SEL705,4164,sao paulo,SP
+SEL706,91360,porto alegre,RS
+SEL707,14406,franca,SP
+SEL708,89900,sao miguel d'oeste,SC
+SEL709,18550,boituva,SP
+SEL710,12941,atibaia,SP
+SEL711,12230,sao jose dos campos,SP
+SEL712,18132,sao roque,SP
+SEL713,86820,california,PR
+SEL714,8020,sao paulo,SP
+SEL715,14802,araraquara,SP
+SEL716,7135,guarulhos,SP
+SEL717,17600,tupa,SP
+SEL718,2562,sao paulo,SP
+SEL719,84920,japira,PR
+SEL720,20751,rio de janeiro,RJ
+SEL721,70610,brasilia,DF
+SEL722,9190,santo andre,SP
+SEL723,85851,foz do iguacu,PR
+SEL724,12080,taubate,SP
+SEL725,9780,sao bernardo do campo,SP
+SEL726,13483,limeira,SP
+SEL727,13180,sumare,SP
+SEL728,2215,sao paulo,SP
+SEL729,8583,itaquaquecetuba,SP
+SEL730,28633,nova friburgo,RJ
+SEL731,21862,rio de janeiro,RJ
+SEL732,4438,sao paulo,SP
+SEL733,3521,sao paulo,SP
+SEL734,30120,belo horizonte,MG
+SEL735,37975,itau de minas,MG
+SEL736,3654,sao paulo,SP
+SEL737,36050,juiz de fora,MG
+SEL738,88085,florianopolis,SC
+SEL739,5171,sao paulo,SP
+SEL740,16200,birigui,SP
+SEL741,35540,oliveira,MG
+SEL742,34710,sabara,MG
+SEL743,19865,pedrinhas paulista,SP
+SEL744,9810,sao bernardo do campo,SP
+SEL745,31510,belo horizonte,MG
+SEL746,2515,sao paulo,SP
+SEL747,15500,votuporanga,SP
+SEL748,19025,presidente prudente,SP
+SEL749,13825,holambra,SP
+SEL750,8752,mogi das cruzes,SP
+SEL751,88901,ararangua,SC
+SEL752,83324,pinhais,PR
+SEL753,2117,sao paulo,SP
+SEL754,9540,sao caetano do sul,SP
+SEL755,4361,sao paulo,SP
+SEL756,3306,sao paulo,SP
+SEL757,86047,londrina,PR
+SEL758,4213,sao paulo,SP
+SEL759,14092,ribeirao preto,SP
+SEL760,14026,ribeirao preto,SP
+SEL761,16200,birigui,SP
+SEL762,1254,sao paulo,SP
+SEL763,74435,goiania,GO
+SEL764,1026,sao paulo,SP
+SEL765,26020,nova iguacu,RJ
+SEL766,7140,guarulhos,SP
+SEL767,90560,porto alegre,RS
+SEL768,3307,sao paulo,SP
+SEL769,2804,sao paulo,SP
+SEL770,13480,limeira,SP
+SEL771,22790,rio de janeiro,RJ
+SEL772,85948,pato bragado,PR
+SEL773,99500,carazinho,RS
+SEL774,38680,arinos,MG
+SEL775,13520,sao pedro,SP
+SEL776,88504,lages,SC
+SEL777,4122,sao paulo,SP
+SEL778,9320,maua,SP
+SEL779,1223,sao paulo,SP
+SEL780,13660,porto ferreira,SP
+SEL781,6365,carapicuiba,SP
+SEL782,85640,ampere,PR
+SEL783,35500,divinopolis,MG
+SEL784,30180,belo horizonte,MG
+SEL785,83010,sao jose dos pinhais,PR
+SEL786,1026,sao paulo,SP
+SEL787,35680,itauna,MG
+SEL788,11443,guaruja,SP
+SEL789,3065,sao paulo,SP
+SEL790,88063,florianopolis,SC
+SEL791,3533,sao paulo,SP
+SEL792,91901,porto alegre,RS
+SEL793,13800,mogi mirim,SP
+SEL794,89224,joinville,SC
+SEL795,89520,curitibanos,SC
+SEL796,71906,brasilia df,DF
+SEL797,37410,tres coracoes,MG
+SEL798,5849,sao paulo,SP
+SEL799,60346,fortaleza,CE
+SEL800,1403,sao paulo,SP
+SEL801,2727,sao paulo,SP
+SEL802,12215,sao jose dos campos,SP
+SEL803,8710,mogi das cruses,SP
+SEL804,2565,sao paulo,SP
+SEL805,4256,sao paulo,SP
+SEL806,13088,campinas,SP
+SEL807,13185,hortolandia,SP
+SEL808,4160,sao paulo,SP
+SEL809,30310,belo horizonte,MG
+SEL810,87025,maringa,PR
+SEL811,20771,rio de janeiro,RJ
+SEL812,12940,atibaia,SP
+SEL813,88210,porto belo,SC
+SEL814,85900,toledo,PR
+SEL815,17511,marilia,SP
+SEL816,82940,curitiba,PR
+SEL817,35162,ipatinga,MG
+SEL818,95059,caxias do sul,RS
+SEL819,88790,laguna,SP
+SEL820,13920,pedreira,SP
+SEL821,2407,sao paulo,SP
+SEL822,13041,campinas,SP
+SEL823,12942,atibaia,SP
+SEL824,36071,juiz de fora,MG
+SEL825,1310,sao paulo,SP
+SEL826,36213,dores de campos,MG
+SEL827,5353,sao paulo - sp,SP
+SEL828,2532,sao paulo,SP
+SEL829,9560,sao caetano do sul,SP
+SEL830,13603,araras,SP
+SEL831,37142,divisa nova,MG
+SEL832,5138,sao paulo,SP
+SEL833,7071,guarulhos,SP
+SEL834,9111,santo andre,SP
+SEL835,18040,sorocaba,SP
+SEL836,13085,campinas,SP
+SEL837,17350,igaracu do tiete,SP
+SEL838,13473,americana,SP
+SEL839,88353,brusque,SC
+SEL840,88350,brusque,SC
+SEL841,9510,sao caetano do sul,SP
+SEL842,38412,uberlandia,MG
+SEL843,14750,pitangueiras,SP
+SEL844,30120,belo horizonte,MG
+SEL845,14400,franca,SP
+SEL846,4131,sao paulo,SP
+SEL847,22451,rio de janeiro,RJ
+SEL848,4317,sao paulo,SP
+SEL849,1001,sao paulo,SP
+SEL850,5705,sao paulo,SP
+SEL851,81650,curitiba,PR
+SEL852,7160,guarulhos,SP
+SEL853,18085,sorocaba,SP
+SEL854,81020,curitiba,PR
+SEL855,79090,campo grande,MS
+SEL856,1226,sao paulo,SP
+SEL857,3303,sao paulo,SP
+SEL858,3567,sao paulo,SP
+SEL859,9270,santo andre,SP
+SEL860,17400,garca,SP
+SEL861,19470,presidente epitacio,SP
+SEL862,91510,porto alegre,RS
+SEL863,14940,ibitinga,SP
+SEL864,3613,sao paulo,SP
+SEL865,31255,belo horizonte,MG
+SEL866,14940,ibitinga,SP
+SEL867,74340,goiania,GO
+SEL868,2124,sao paulo,SP
+SEL869,14910,tabatinga,SP
+SEL870,9726,sbc/sp,SP
+SEL871,85904,toledo,PR
+SEL872,81730,curitiba,PR
+SEL873,89211,joinville,SC
+SEL874,5174,sao paulo,SP
+SEL875,45816,arraial d'ajuda (porto seguro),BA
+SEL876,13481,limeira,SP
+SEL877,61800,pacatuba,CE
+SEL878,13930,serra negra,SP
+SEL879,4087,sao paulo,SP
+SEL880,23095,rio de janeiro,RJ
+SEL881,73801,formosa,GO
+SEL882,7023,guarulhos,SP
+SEL883,3167,sao paulo,SP
+SEL884,4833,sao paulo,SP
+SEL885,24346,niteroi,RJ
+SEL886,37564,borda da mata,MG
+SEL887,81825,curitiba,PR
+SEL888,11680,ubatuba,SP
+SEL889,85988,entre rios do oeste,PR
+SEL890,13566,sao carlos,SP
+SEL891,37540,sao paulo,SP
+SEL892,15813,catanduva,SP
+SEL893,11013,santos,SP
+SEL894,20751,rio de janeiro,RJ
+SEL895,6768,taboao da serra,SP
+SEL896,3550,sao paulo,SP
+SEL897,35570,formiga,MG
+SEL898,1139,sao paulo,SP
+SEL899,11075,santos,SP
+SEL900,95012,caxias do sul,RS
+SEL901,27930,macae,RJ
+SEL902,42738,lauro de freitas,BA
+SEL903,31230,belo horizonte,MG
+SEL904,13506,rio claro,SP
+SEL905,95900,lajeado,RS
+SEL906,85804,cascavel,PR
+SEL907,14020,ribeirao preto,SP
+SEL908,95800,venancio aires,RS
+SEL909,79107,campo grande,MS
+SEL910,15041,sao jose do rio preto,SP
+SEL911,88370,navegantes,SC
+SEL912,30130,belo horizonte,MG
+SEL913,9633,sao bernardo do campo,SP
+SEL914,6717,cotia,SP
+SEL915,2220,sao paulo,SP
+SEL916,4456,sao paulo,SP
+SEL917,11070,santos,SP
+SEL918,13481,limeira,SP
+SEL919,6513,santana de parnaiba,SP
+SEL920,81050,curitiba,PR
+SEL921,12701,cruzeiro,SP
+SEL922,2372,sao paulo,SP
+SEL923,14940,ibitinga,SP
+SEL924,9920,diadema,SP
+SEL925,5041,sao paulo,SP
+SEL926,87050,maringa,PR
+SEL927,97050,santa maria,RS
+SEL928,71200,brasilia,DF
+SEL929,18047,sorocaba,SP
+SEL930,15085,sao jose do rio preto,SP
+SEL931,15130,mirassol,SP
+SEL932,6033,osasco,SP
+SEL933,36886,muriae,MG
+SEL934,1311,sao paulo,SP
+SEL935,2510,sao paulo,SP
+SEL936,92420,canoas,RS
+SEL937,22745,rio de janeiro,RJ
+SEL938,9810,sao bernardo do campo,SP
+SEL939,15076,sao jose do rio preto,SP
+SEL940,27274,volta redonda,RJ
+SEL941,7170,guarulhos,SP
+SEL942,4144,sao paulo,SP
+SEL943,5319,sao paulo,SP
+SEL944,5315,sao paulo,SP
+SEL945,4827,sao paulo,SP
+SEL946,9230,santo andre/sao paulo,SP
+SEL947,95240,ipe,RS
+SEL948,1230,sao paulo,SP
+SEL949,59775,messias targino,RN
+SEL950,25750,petropolis,RJ
+SEL951,1224,sao paulo,SP
+SEL952,13082,campinas,SP
+SEL953,2751,sao paulo,SP
+SEL954,81540,curitiba,PR
+SEL955,13660,porto ferreira,SP
+SEL956,37004,varginha,MG
+SEL957,31130,belo horizonte,MG
+SEL958,91150,porto alegre,RS
+SEL959,72125,brasilia,DF
+SEL960,14050,ribeirao preto,SP
+SEL961,18608,botucatu,SP
+SEL962,81320,curitiba,PR
+SEL963,8220,sao paulo,SP
+SEL964,29260,domingos martins,ES
+SEL965,13030,campinas,SP
+SEL966,3644,sao paulo,SP
+SEL967,38010,uberaba,MG
+SEL968,19027,presidente prudente,SP
+SEL969,1031,sao paulo,SP
+SEL970,3282,sao paulo,SP
+SEL971,35170,coronel fabriciano,MG
+SEL972,3390,sao paulo,SP
+SEL973,94930,cachoeirinha,RS
+SEL974,5311,sao paulo,SP
+SEL975,14940,ibitinga,SP
+SEL976,3333,sao paulo,SP
+SEL977,9320,maua,SP
+SEL978,24754,sao goncalo,RJ
+SEL979,9820,sao bernardo do campo,SP
+SEL980,15014,s jose do rio preto,SP
+SEL981,14092,ribeirao preto,SP
+SEL982,19820,taruma,SP
+SEL983,4088,sao paulo,SP
+SEL984,17400,garca,SP
+SEL985,7043,guarulhos,SP
+SEL986,38414,uberlandia,MG
+SEL987,13481,limeira,SP
+SEL988,4160,sao paulo,SP
+SEL989,4693,sao paulo,SP
+SEL990,3060,sao paulo,SP
+SEL991,13632,pirassununga,SP
+SEL992,2116,sao paulo,SP
+SEL993,8280,sao paulo,SP
+SEL994,18015,sorocaba,SP
+SEL995,18015,sorocaba,SP
+SEL996,4567,sao paulo,SP
+SEL997,31844,belo horizonte,MG
+SEL998,14020,ribeirao preto,SP
+SEL999,13030,campinas,SP
+SEL1000,7402,aruja,SP
+SEL1001,2035,sao paulo,SP
+SEL1002,74223,goiania,GO
+SEL1003,13575,sao carlos,SP
+SEL1004,1156,sao paulo,SP
+SEL1005,3363,sp / sp,SP
+SEL1006,85802,cascavel,PR
+SEL1007,2258,sao paulo,SP
+SEL1008,30310,belo horizonte,MG
+SEL1009,23954,angra dos reis,RJ
+SEL1010,23050,rio de janeiro,RJ
+SEL1011,87015,maringa,PR
+SEL1012,8673,suzano,SP
+SEL1013,9850,sao bernardo do campo,SP
+SEL1014,63020,juzeiro do norte,CE
+SEL1015,3370,sao paulo,SP
+SEL1016,35501,divinopolis,MG
+SEL1017,89170,laurentino,SC
+SEL1018,6717,cotia,SP
+SEL1019,3372,sao paulo,SP
+SEL1020,1319,sao paulo,SP
+SEL1021,95270,flores da cunha,RS
+SEL1022,88780,imbituba,SC
+SEL1023,89256,jaragua do sul,SC
+SEL1024,86035,londrina,PR
+SEL1025,95780,montenegro,RS
+SEL1026,20051,rio de janeiro,RJ
+SEL1027,3382,sao paulo,SP
+SEL1028,81200,curitiba,PR
+SEL1029,3673,sao paulo,SP
+SEL1030,86802,apucarana,PR
+SEL1031,2189,sao paulo,SP
+SEL1032,3077,sao paulo,SP
+SEL1033,6036,osasco,SP
+SEL1034,5030,sao paulo,SP
+SEL1035,5634,sao paulo,SP
+SEL1036,41820,salvador,BA
+SEL1037,6753,taboao da serra,SP
+SEL1038,3059,sao paulo,SP
+SEL1039,13660,porto ferreira,SP
+SEL1040,14470,pedregulho,SP
+SEL1041,9210,santo andre,SP
+SEL1042,93542,novo hamburgo,RS
+SEL1043,30111,belo horizonte,MG
+SEL1044,13930,serra negra,SP
+SEL1045,83015,sao jose dos pinhais,PR
+SEL1046,8730,mogi das cruzes,SP
+SEL1047,95560,torres,RS
+SEL1048,49055,aracaju,SE
+SEL1049,13484,limeira,SP
+SEL1050,88316,itajai,SC
+SEL1051,88135,santa catarina,SC
+SEL1052,81930,curitiba,PR
+SEL1053,95076,caxias do sul,RS
+SEL1054,8111,sao paulo,SP
+SEL1055,89254,jaragua do sul,SC
+SEL1056,3331,sao paulo,SP
+SEL1057,80060,curitiba,PR
+SEL1058,38770,joao pinheiro,MG
+SEL1059,9271,santo andre,SP
+SEL1060,86706,arapongas,PR
+SEL1061,15115,bady bassitt,SP
+SEL1062,89053,blumenau,SC
+SEL1063,3632,sao paulo,SP
+SEL1064,78552,sinop,MT
+SEL1065,3804,sao paulo,SP
+SEL1066,13330,indaiatuba,SP
+SEL1067,17510,marilia,SP
+SEL1068,85065,guarapuava,PR
+SEL1069,83707,araucaria,PR
+SEL1070,92030,canoas,RS
+SEL1071,18683,lencois paulista,SP
+SEL1072,95110,caxias do sul,RS
+SEL1073,36015,juiz de fora,MG
+SEL1074,12020,taubate,SP
+SEL1075,2992,sao paulo,SP
+SEL1076,88115,sao jose,SC
+SEL1077,29090,vitoria,ES
+SEL1078,3225,sao paulo,SP
+SEL1079,7013,guarulhos,SP
+SEL1080,14300,batatais,SP
+SEL1081,95082,caxias do sul,RS
+SEL1082,33400,lagoa santa,MG
+SEL1083,9911,sao paulo,SP
+SEL1084,4711,sao paulo,SP
+SEL1085,89801,chapeco,SC
+SEL1086,85801,cascavel,PR
+SEL1087,40285,salvador,BA
+SEL1088,20520,rio de janeiro,RJ
+SEL1089,11701,praia grande,SP
+SEL1090,80710,curitiba,PR
+SEL1091,5051,sao paulo,SP
+SEL1092,8840,mogi das cruzes,SP
+SEL1093,87502,umuarama,PR
+SEL1094,83709,araucaria,PR
+SEL1095,9690,sao bernardo do campo,SP
+SEL1096,8225,sao paulo,SP
+SEL1097,31110,belo horizonte,MG
+SEL1098,6460,barueri,SP
+SEL1099,9220,santo andre,SP
+SEL1100,4602,sao paulo,SP
+SEL1101,88359,brusque,SC
+SEL1102,4781,sao paulo,SP
+SEL1103,95055,caxias do sul,SP
+SEL1104,87083,maringa,PR
+SEL1105,18040,sorocaba,SP
+SEL1106,3244,sao paulo,SP
+SEL1107,16200,birigui,SP
+SEL1108,5782,sao paulo,SP
+SEL1109,26112,belford roxo,RJ
+SEL1110,29156,cariacica,ES
+SEL1111,13272,valinhos,SP
+SEL1112,13101,campinas,SP
+SEL1113,13043,campinas,SP
+SEL1114,4111,sao paulo,SP
+SEL1115,13820,monte alegre do sul,SP
+SEL1116,3087,sao paulo,SP
+SEL1117,9370,maua,SP
+SEL1118,12903,sp,SP
+SEL1119,35590,lagoa da prata,MG
+SEL1120,95690,rolante,RS
+SEL1121,4216,sao paulo,SP
+SEL1122,4119,sao paulo,SP
+SEL1123,2755,sao paulo,SP
+SEL1124,3057,sao paulo,SP
+SEL1125,9570,sao caetano do sul,SP
+SEL1126,9070,santo andre,SP
+SEL1127,25963,teresopolis,RJ
+SEL1128,13604,araras,SP
+SEL1129,18480,itaporanga,SP
+SEL1130,13330,indaiatuba,SP
+SEL1131,9810,sao bernardo do campo,SP
+SEL1132,9010,santo andre,SP
+SEL1133,37564,borda da mata,MG
+SEL1134,13015,campinas,SP
+SEL1135,3513,sao paulo,SP
+SEL1136,7113,guarulhos,SP
+SEL1137,14406,franca,SP
+SEL1138,18680,lencois paulista,SP
+SEL1139,4308,sao paulo,SP
+SEL1140,14940,ibitinga,SP
+SEL1141,89218,joinville,SC
+SEL1142,81350,curitiba,PR
+SEL1143,1209,sao paulo,SP
+SEL1144,6290,osasco,SP
+SEL1145,11704,praia grande,SP
+SEL1146,7122,guarulhos,SP
+SEL1147,22785,rio de janeiro,RJ
+SEL1148,7094,guarulhos,SP
+SEL1149,9895,sao bernardo do campo,SP
+SEL1150,8215,sao paulo,SP
+SEL1151,13561,sao carlos,SP
+SEL1152,5319,sao paulo,SP
+SEL1153,30710,belo horizonte,MG
+SEL1154,86707,arapongas,PR
+SEL1155,83605,campo largo,PR
+SEL1156,18131,sao roque,SP
+SEL1157,14804,araraquara,SP
+SEL1158,2274,sao paulo,SP
+SEL1159,25550,sao joao de meriti,RJ
+SEL1160,9380,maua/sao paulo,SP
+SEL1161,6501,santana de parnaiba,SP
+SEL1162,4880,sao paulo,SP
+SEL1163,12955,bom jesus dos perdoes,SP
+SEL1164,3449,sao paulo,SP
+SEL1165,4296,sao paulo,SP
+SEL1166,4564,sao paulo,SP
+SEL1167,5639,sao paulo,SP
+SEL1168,2047,sao paulo,SP
+SEL1169,83820,fazenda rio grande,PR
+SEL1170,4186,sao paulo,SP
+SEL1171,5059,sao paulo,SP
+SEL1172,5588,sao paulo,SP
+SEL1173,9291,santo andre,SP
+SEL1174,17380,brotas,SP
+SEL1175,3236,sao paulo,SP
+SEL1176,2376,sao paulo,SP
+SEL1177,9111,santo andre,SP
+SEL1178,8411,sao paulo,SP
+SEL1179,2034,sao paulo,SP
+SEL1180,14940,ibitinga,SP
+SEL1181,44900,irece,BA
+SEL1182,79400,coxim,MS
+SEL1183,8577,itaquaquecetuba,SP
+SEL1184,14940,ibitinga,SP
+SEL1185,3184,sao paulo,SP
+SEL1186,17210,jau,SP
+SEL1187,29102,vila velha,ES
+SEL1188,36408,conselheiro lafaiete,MG
+SEL1189,83322,pinhais,PR
+SEL1190,88704,tubarao,SC
+SEL1191,8320,sao paulo,SP
+SEL1192,38442,araguari,MG
+SEL1193,3548,sao paulo,SP
+SEL1194,86050,londrina,PR
+SEL1195,5528,sao paulo,SP
+SEL1196,20931,rio de janeiro,RJ
+SEL1197,6341,carapicuiba,SP
+SEL1198,6714,cotia,SP
+SEL1199,86804,apucarana,PR
+SEL1200,5727,sao paulo,SP
+SEL1201,13900,amparo,SP
+SEL1202,92120,canoas,RS
+SEL1203,89900,sao miguel do oeste,SC
+SEL1204,28630,nova friburgo,RJ
+SEL1205,36500,uba,MG
+SEL1206,89114,gaspar,SC
+SEL1207,28800,rio bonito,RJ
+SEL1208,7174,guarulhos,SP
+SEL1209,90640,porto alegre,RS
+SEL1210,88501,lages,SC
+SEL1211,80420,curitiba,PR
+SEL1212,16300,penapolis,SP
+SEL1213,1023,sao paulo,SP
+SEL1214,6341,carapicuiba,SP
+SEL1215,4447,sao paulo,SP
+SEL1216,19814,assis,SP
+SEL1217,89170,laurentino,SC
+SEL1218,13275,valinhos,SP
+SEL1219,5503,sao paulo,SP
+SEL1220,37540,santa rita do sapucai,MG
+SEL1221,13202,jundiai,SP
+SEL1222,81110,curitiba,PR
+SEL1223,29304,cachoeiro de itapemirim,ES
+SEL1224,8150,sao paulo,SP
+SEL1225,86706,arapongas,PR
+SEL1226,31030,belo horizonte,MG
+SEL1227,20031,rio de janeiro,RJ
+SEL1228,5048,sao paulo,SP
+SEL1229,86975,mandaguari,PR
+SEL1230,81070,curitiba,PR
+SEL1231,37074,varginha,MG
+SEL1232,6795,taboao da serra,SP
+SEL1233,36500,uba,MG
+SEL1234,81560,curitiba,SP
+SEL1235,89219,joinville,SC
+SEL1236,9370,maua,SP
+SEL1237,6717,cotia,SP
+SEL1238,13211,jundiai,SP
+SEL1239,5373,sao paulo,SP
+SEL1240,12226,sao jose dos campos,SP
+SEL1241,15015,sao jose do rio preto,SP
+SEL1242,88020,florianopolis,SC
+SEL1243,12328,jacarei,SP
+SEL1244,13501,rio claro,SP
+SEL1245,14405,franca,SP
+SEL1246,14085,ribeirao preto,SP
+SEL1247,4776,sp,SP
+SEL1248,6730,vargem grande paulista,SP
+SEL1249,87050,maringa,PR
+SEL1250,30775,belo horizonte,MG
+SEL1251,37590,jacutinga,MG
+SEL1252,32372,contagem,MG
+SEL1253,6280,sao paulo,SP
+SEL1254,14403,franca,SP
+SEL1255,74323,goiania,GO
+SEL1256,13835,conchal,SP
+SEL1257,30140,belo horizonte,MG
+SEL1258,14940,ibitinga,SP
+SEL1259,3178,sao paulo,SP
+SEL1260,86192,cambe,PR
+SEL1261,29107,vila velha,ES
+SEL1262,20061,rio de janeiro,RJ
+SEL1263,90020,porto alegre,RS
+SEL1264,35680,itauna,MG
+SEL1265,94965,cachoeirinha,RS
+SEL1266,14940,ibitinga,SP
+SEL1267,17201,jau,SP
+SEL1268,2066,sao paulo,SP
+SEL1269,4283,sao paulo,SP
+SEL1270,81280,curitiba,PR
+SEL1271,73020,brasilia,DF
+SEL1272,86990,marialva,PR
+SEL1273,9230,santo andre,SP
+SEL1274,20930,rio de janeiro,RJ
+SEL1275,3827,sao paulo,SP
+SEL1276,18131,sao roque,SP
+SEL1277,4615,sao paulo,SP
+SEL1278,37135,alfenas,MG
+SEL1279,88330,balneario camboriu,SC
+SEL1280,5269,sao paulo,SP
+SEL1281,13503,rio claro,SP
+SEL1282,9541,sao caetano do sul,SP
+SEL1283,12209,sao jose dos campos,SP
+SEL1284,35570,formiga,MG
+SEL1285,21635,rio de janeiro,RJ
+SEL1286,81130,curitiba,PR
+SEL1287,1123,sao paulo,SP
+SEL1288,88035,florianopolis,SC
+SEL1289,88138,palhoca,SC
+SEL1290,9721,sao bernardo do capo,SP
+SEL1291,13480,limeira,SP
+SEL1292,18052,sorocaba,SP
+SEL1293,7031,guarulhos,SP
+SEL1294,22640,rio de janeiro,RJ
+SEL1295,4809,sao paulo,SP
+SEL1296,36576,vicosa,MG
+SEL1297,80420,curitiba,PR
+SEL1298,6018,osasco,SP
+SEL1299,89220,joinville,SC
+SEL1300,37540,santa rita do sapucai,MG
+SEL1301,1541,sao paulo,SP
+SEL1302,22713,rio de janeiro,RJ
+SEL1303,14580,guara,SP
+SEL1304,88301,itajai,SP
+SEL1305,86061,londrina,PR
+SEL1306,9560,sao paulo,SP
+SEL1307,86185,cambe,PR
+SEL1308,60710,fortaleza,CE
+SEL1309,8260,sao paulo,SP
+SEL1310,13505,rio claro,SP
+SEL1311,9020,santo andre,SP
+SEL1312,12940,atibaia,SP
+SEL1313,4794,sao paulo,SP
+SEL1314,4761,sao paulo,SP
+SEL1315,9416,ribeirao pires,SP
+SEL1316,29704,colatina,ES
+SEL1317,9750,sao bernardo do campo,SP
+SEL1318,85501,pato branco,PR
+SEL1319,7866,franco da rocha,SP
+SEL1320,13178,sumare,SP
+SEL1321,26562,mesquita,RJ
+SEL1322,3270,sao paulo,SP
+SEL1323,4801,sao paulo,SP
+SEL1324,12246,sao jose dos campos,SP
+SEL1325,4307,sao paulo,SP
+SEL1326,37480,lambari,MG
+SEL1327,85853,foz do iguacu,PR
+SEL1328,4186,sao paulo,SP
+SEL1329,32677,betim,MG
+SEL1330,80215,curitiba,PR
+SEL1331,83830,fazenda rio grande,PR
+SEL1332,32110,contagem,MG
+SEL1333,9182,santo andre,SP
+SEL1334,18604,botucatu,SP
+SEL1335,3564,sao paulo,SP
+SEL1336,8021,sao paulo,SP
+SEL1337,3526,sao paulo,SP
+SEL1338,8717,mogi das cruzes / sp,SP
+SEL1339,14090,ribeirao preto,SP
+SEL1340,85900,toledo,PR
+SEL1341,88032,florianopolis,SC
+SEL1342,84020,ponta grossa,PR
+SEL1343,29300,cachoeiro de itapemirim,ES
+SEL1344,89650,treze tilias,SC
+SEL1345,18681,lencois paulista,SP
+SEL1346,13015,campinas,SP
+SEL1347,22050,rio de janeiro \rio de janeiro,RJ
+SEL1348,15015,sao jose do rio preto,SP
+SEL1349,88490,paulo lopes,SC
+SEL1350,3122,sao paulo,SP
+SEL1351,22793,rio de janeiro,RJ
+SEL1352,70235,brasilia,DF
+SEL1353,88350,brusque,SC
+SEL1354,88036,florianopolis,SC
+SEL1355,89540,santa cecilia,SC
+SEL1356,17026,bauru,SP
+SEL1357,15603,fernandopolis,SP
+SEL1358,13033,campinas,SP
+SEL1359,88750,braco do norte,SC
+SEL1360,4281,sao paulo,SP
+SEL1361,5571,sao paulo,SP
+SEL1362,87120,floresta,PR
+SEL1363,8080,sao paulo,SP
+SEL1364,35701,sete lagoas,MG
+SEL1365,95170,farroupilha,RS
+SEL1366,84178,castro,PR
+SEL1367,3275,sao paulo,SP
+SEL1368,72801,luziania,GO
+SEL1369,35930,joao monlevade,MG
+SEL1370,96020,pelotas,RS
+SEL1371,8790,mogi das cruzes,SP
+SEL1372,88050,florianopolis,SC
+SEL1373,58865,sao bento,PB
+SEL1374,12916,braganca paulista,SP
+SEL1375,91350,porto alegre,RS
+SEL1376,5685,sao paulo,SP
+SEL1377,89259,jaragua do sul,SC
+SEL1378,28035,campos dos goytacazes,RJ
+SEL1379,95013,caxias do sul,RS
+SEL1380,37570,ouro fino,MG
+SEL1381,83040,sao jose dos pinhas,PR
+SEL1382,27972,macae,RJ
+SEL1383,8710,mogi das cruzes,SP
+SEL1384,18530,tiete,SP
+SEL1385,4087,sao paulo,SP
+SEL1386,94410,viamao,RS
+SEL1387,22745,rio de janeiro,RJ
+SEL1388,39442,janauba,MG
+SEL1389,13360,capivari,SP
+SEL1390,5734,sao paulo,SP
+SEL1391,85875,santa terezinha de itaipu,PR
+SEL1392,4180,sao paulo,SP
+SEL1393,38400,uberlandia,MG
+SEL1394,3031,sao paulo,SP
+SEL1395,85863,foz do iguacu,PR
+SEL1396,9831,sao bernardo do campo,SP
+SEL1397,4378,sao paulo,SP
+SEL1398,16022,aracatuba,SP
+SEL1399,95650,igrejinha,RS
+SEL1400,3031,sao paulo,SP
+SEL1401,89287,sao bento do sul,SC
+SEL1402,3194,sao paulo,SP
+SEL1403,13481,limeira,SP
+SEL1404,32315,contagem,MG
+SEL1405,31535,belo horizonte,MG
+SEL1406,25251,duque de caxias,RJ
+SEL1407,38182,araxa,MG
+SEL1408,14784,barretos,SP
+SEL1409,13311,itu,SP
+SEL1410,9271,santo andre,SP
+SEL1411,86065,londrina,PR
+SEL1412,35501,divinopolis,MG
+SEL1413,37048,varginha,MG
+SEL1414,9015,santo andre,SP
+SEL1415,32604,betim,MG
+SEL1416,89460,canoinhas,SC
+SEL1417,88801,criciuma,SC
+SEL1418,80060,curitiba,PR
+SEL1419,83321,pinhais,PR
+SEL1420,14940,ibitinga,SP
+SEL1421,13570,sao carlos,SP
+SEL1422,84010,ponta grossa,PR
+SEL1423,13912,jaguariuna,SP
+SEL1424,3035,sao paulo,SP
+SEL1425,29010,vitoria,ES
+SEL1426,35501,divinopolis,MG
+SEL1427,22775,rio de janeiro,RJ
+SEL1428,14910,tabatinga,SP
+SEL1429,30421,belo horizonte,MG
+SEL1430,15025,sao jose do rio preto,SP
+SEL1431,3550,sao paulo,SP
+SEL1432,2022,sao paulo,SP
+SEL1433,89251,jaragua do sul,SC
+SEL1434,14940,ibitinga,SP
+SEL1435,7183,guarulhos,SP
+SEL1436,36504,uba,MG
+SEL1437,95900,lajeado,RS
+SEL1438,14940,ibitinga,SP
+SEL1439,51250,recife,PE
+SEL1440,31210,belo horizonte,MG
+SEL1441,93608,estancia velha,RS
+SEL1442,15085,sao jose do rio preto,SP
+SEL1443,87043,maringa,PR
+SEL1444,13056,campinas,SP
+SEL1445,18130,sao roque,SP
+SEL1446,37540,santa rita do sapucai,MG
+SEL1447,94910,cachoeirinha,RS
+SEL1448,36200,barbacena/ minas gerais,MG
+SEL1449,82320,curitiba,PR
+SEL1450,88301,itajai,SP
+SEL1451,3477,sao paulo,SP
+SEL1452,9434,ribeirao pires,SP
+SEL1453,17560,vera cruz,SP
+SEL1454,12914,braganca paulista,SP
+SEL1455,32140,contagem,MG
+SEL1456,11015,santos,SP
+SEL1457,88037,florianopolis,SC
+SEL1458,14020,ribeirao preto,SP
+SEL1459,99500,carazinho,RS
+SEL1460,59152,parnamirim,RN
+SEL1461,9560,sao caetano do sul,SP
+SEL1462,9810,sao bernardo do campo,SP
+SEL1463,1530,sao paulo,SP
+SEL1464,13086,campinas,SP
+SEL1465,80020,curitiba,PR
+SEL1466,85851,foz do iguacu,PR
+SEL1467,18074,sorocaba,SP
+SEL1468,6080,osasco,SP
+SEL1469,6162,osasco,SP
+SEL1470,30285,belo horizonte,MG
+SEL1471,1210,sao paulo,SP
+SEL1472,8710,mogi das cruzes,SP
+SEL1473,13322,salto,SP
+SEL1474,3568,sao paulo,SP
+SEL1475,98803,santo angelo,RS
+SEL1476,21941,rio de janeiro,RJ
+SEL1477,9060,santo andre,SP
+SEL1478,80240,curitiba,PR
+SEL1479,14870,jaboticabal,SP
+SEL1480,14940,ibitinga,SP
+SEL1481,30315,belo horizonte,MG
+SEL1482,14315,batatais,SP
+SEL1483,87030,maringa,PR
+SEL1484,13272,valinhos,SP
+SEL1485,3448,sao paulo,SP
+SEL1486,1212,sao paulo,SP
+SEL1487,12240,sao jose dos campos,SP
+SEL1488,4615,sao paulo,SP
+SEL1489,15804,catanduva,SP
+SEL1490,9360,maua,SP
+SEL1491,7241,guarulhos,SP
+SEL1492,82515,curitiba,PR
+SEL1493,87140,paincandu,PR
+SEL1494,13087,campinas,SP
+SEL1495,88136,palhoca,SP
+SEL1496,13503,rio claro,SP
+SEL1497,8752,mogi das cruzes,SP
+SEL1498,9163,santo andre,SP
+SEL1499,2750,sao paulo,SP
+SEL1500,20910,rio de janeiro,RJ
+SEL1501,28605,nova friburgo,RJ
+SEL1502,13322,salto,SP
+SEL1503,5713,sao paulo,SP
+SEL1504,2925,sao paulo,SP
+SEL1505,25803,tres rios,RJ
+SEL1506,15130,mirassol,SP
+SEL1507,5083,sao paulo,SP
+SEL1508,13043,campinas,SP
+SEL1509,30620,belo horizonte,MG
+SEL1510,1042,sao paulo,SP
+SEL1511,12228,sao jose dos campos,SP
+SEL1512,9111,santo andre,SP
+SEL1513,15170,tanabi,SP
+SEL1514,3470,sao paulo,SP
+SEL1515,74645,goiania,GO
+SEL1516,36500,uba,MG
+SEL1517,13660,portoferreira,SP
+SEL1518,26125,belford roxo,RJ
+SEL1519,3643,sao paulo,SP
+SEL1520,18080,sorocaba,SP
+SEL1521,4810,sao paulo,SP
+SEL1522,7032,guarulhos,SP
+SEL1523,14312,batatais,SP
+SEL1524,2737,sao paulo,SP
+SEL1525,6449,barueri,SP
+SEL1526,4255,sao paulo,SP
+SEL1527,8410,sao paulo,SP
+SEL1528,7074,guarulhos,SP
+SEL1529,18087,sorocaba,SP
+SEL1530,4403,sao paulo,SP
+SEL1531,14940,ibitinga,SP
+SEL1532,13360,capivari,SP
+SEL1533,14806,araraquara,SP
+SEL1534,71691,brasilia,DF
+SEL1535,14802,araraquara,SP
+SEL1536,13257,itatiba,SP
+SEL1537,70767,brasilia,DF
+SEL1538,4534,sao paulo,SP
+SEL1539,21041,rio de janeiro,RJ
+SEL1540,87114,sarandi,PR
+SEL1541,8223,sao paulo,SP
+SEL1542,5767,sao paulo,SP
+SEL1543,18110,votorantim,SP
+SEL1544,22790,rio de janeiro,RJ
+SEL1545,6700,cotia,SP
+SEL1546,3520,sao paulo,SP
+SEL1547,13920,pedreira,SP
+SEL1548,14140,cravinhos,SP
+SEL1549,80310,curitiba,PR
+SEL1550,80710,curitiba,PR
+SEL1551,73020,brasilia,DF
+SEL1552,8140,sao paulo,SP
+SEL1553,89803,chapeco,SP
+SEL1554,75650,morrinhos,GO
+SEL1555,1545,sao paulo,SP
+SEL1556,14709,bebedouro,SP
+SEL1557,29032,vitoria,ES
+SEL1558,74560,goiania,GO
+SEL1559,89201,joinville,SC
+SEL1560,6268,osasco,SP
+SEL1561,95913,lajeado,RS
+SEL1562,83507,almirante tamandare,PR
+SEL1563,19025,presidente prudente,SP
+SEL1564,4719,sao paulo,SP
+SEL1565,14781,barretos,SP
+SEL1566,11250,bertioga,SP
+SEL1567,2941,sao paulo,SP
+SEL1568,1022,sao paulo,SP
+SEL1569,94451,viamao,RS
+SEL1570,2537,sao paulo,SP
+SEL1571,60110,fortaleza,CE
+SEL1572,59077,natal,RN
+SEL1573,2972,sao paulo,SP
+SEL1574,13210,jundiai,SP
+SEL1575,15155,jaci,SP
+SEL1576,37704,pocos de caldas,MG
+SEL1577,86702,arapongas,PR
+SEL1578,95800,venancio aires,RS
+SEL1579,20930,rio de janeiro,RJ
+SEL1580,30150,belo horizonte,MG
+SEL1581,4130,sao paulo - sp,SP
+SEL1582,81530,curitiba,PR
+SEL1583,14940,ibitinga,SP
+SEL1584,82540,curitiba,PR
+SEL1585,86800,apucarana,PR
+SEL1586,31255,belo horizont,MG
+SEL1587,13481,limeira,SP
+SEL1588,81350,curitiba,PR
+SEL1589,21340,rio de janeiro,RJ
+SEL1590,90240,porto alegre,RS
+SEL1591,5138,sao paulo,SP
+SEL1592,21210,rio de janeiro,RJ
+SEL1593,7025,guarulhos,SP
+SEL1594,1035,sao paulo,SP
+SEL1595,3655,sao paulo,SP
+SEL1596,13848,mogi guacu,SP
+SEL1597,13560,sao carlos,SP
+SEL1598,87900,loanda,PR
+SEL1599,4141,sao paulo,SP
+SEL1600,14808,araraquara,SP
+SEL1601,80430,curitiba,PR
+SEL1602,85804,cascavel,PR
+SEL1603,4133,sao paulo,SP
+SEL1604,93900,ivoti,RS
+SEL1605,3635,sao paulo,SP
+SEL1606,4424,sao paulo,SP
+SEL1607,30170,belo horizonte,MG
+SEL1608,80010,curitiba,PR
+SEL1609,8180,sao paulo,SP
+SEL1610,3589,sao paulo,SP
+SEL1611,86385,andira-pr,PR
+SEL1612,9572,sao caetano do sul,SP
+SEL1613,58073,joao pessoa,PB
+SEL1614,89120,timbo,SC
+SEL1615,4361,sao paulo,SP
+SEL1616,81350,curitiba,PR
+SEL1617,15840,itajobi,SP
+SEL1618,6154,osasco,SP
+SEL1619,3933,sao paulo,SP
+SEL1620,90220,porto alegre,RS
+SEL1621,86706,arapongas,PR
+SEL1622,9130,santo andre,SP
+SEL1623,7400,aruja,SP
+SEL1624,13560,sao carlos,SP
+SEL1625,18611,botucatu,SP
+SEL1626,88132,palhoca,SC
+SEL1627,88330,balneario camboriu,SC
+SEL1628,11704,praia grande,SP
+SEL1629,32604,betim,MG
+SEL1630,3820,sao paulo,SP
+SEL1631,35570,formiga,MG
+SEL1632,93700,campo bom,RS
+SEL1633,1131,sao paulo,SP
+SEL1634,6780,taboao da serra,SP
+SEL1635,6132,osasco,SP
+SEL1636,1127,sao paulo,SP
+SEL1637,18760,cerqueira cesar,SP
+SEL1638,12952,atibaia,SP
+SEL1639,15845,marapoama,SP
+SEL1640,95885,imigrante,RS
+SEL1641,80740,curitiba,PR
+SEL1642,18120,mairinque,SP
+SEL1643,83020,sao jose dos pinhais,SP
+SEL1644,13570,sao carlos,SP
+SEL1645,1207,sao paulo sp,SP
+SEL1646,4558,sao paulo,SP
+SEL1647,95020,caxias do sul,RS
+SEL1648,13843,mogi guacu,SP
+SEL1649,1039,sao paulo,SP
+SEL1650,20081,rio de janeiro / rio de janeiro,RJ
+SEL1651,90670,porto alegre,RS
+SEL1652,9070,santo andre,SP
+SEL1653,89219,joinville,SC
+SEL1654,4571,sao paulo,SP
+SEL1655,13170,sumare,SP
+SEL1656,95910,lajeado,RS
+SEL1657,37795,andradas,SP
+SEL1658,87015,maringa,PR
+SEL1659,2611,sao paulo,SP
+SEL1660,35501,divinopolis,MG
+SEL1661,4123,sao paulo,SP
+SEL1662,2316,sao paulo,SP
+SEL1663,22745,rio de janeiro,RJ
+SEL1664,26230,nova iguacu,RJ
+SEL1665,12327,jacarei,SP
+SEL1666,9931,diadema,SP
+SEL1667,9190,sando andre,SP
+SEL1668,80320,curitiba,PR
+SEL1669,85906,toledo,PR
+SEL1670,25070,duque de caxias,RJ
+SEL1671,3178,sao paulo,SP
+SEL1672,14403,franca,SP
+SEL1673,72580,brasilia,DF
+SEL1674,13382,nova odessa,SP
+SEL1675,6420,barueri,SP
+SEL1676,5413,sao paulo,SP
+SEL1677,50751,recife,PE
+SEL1678,13145,paulinia,SP
+SEL1679,15502,votuporanga,SP
+SEL1680,37640,extrema,MG
+SEL1681,15400,olimpia,SP
+SEL1682,13486,limeira,SP
+SEL1683,1311,sao paulo,SP
+SEL1684,4142,sao paulo,SP
+SEL1685,7112,guarulhos,SP
+SEL1686,9015,santo andre,SP
+SEL1687,23943,angra dos reis rj,RJ
+SEL1688,9015,santo andre,SP
+SEL1689,6763,taboao da serra,SP
+SEL1690,1129,sao paulo,SP
+SEL1691,6180,osasco,SP
+SEL1692,88359,brusque,SC
+SEL1693,86020,londrina,PR
+SEL1694,31160,belo horizonte,MG
+SEL1695,85904,toledo,PR
+SEL1696,87505,umuarama,PR
+SEL1697,5008,sao paulo,SP
+SEL1698,16200,birigui,SP
+SEL1699,4142,sao paulo,SP
+SEL1700,60025,fortaleza,CE
+SEL1701,24855,rio de janeiro,RJ
+SEL1702,82400,curitiba,PR
+SEL1703,80050,curitiba,PR
+SEL1704,74230,goiania,GO
+SEL1705,99670,ronda alta,RS
+SEL1706,5303,sao  paulo,SP
+SEL1707,2030,sao paulo,SP
+SEL1708,3185,sao paulo,SP
+SEL1709,2976,sao paulo,SP
+SEL1710,11370,sao vicente,SP
+SEL1711,88704,tubarao,SC
+SEL1712,14940,ibitinga,SP
+SEL1713,83327,pinhais/pr,PR
+SEL1714,93180,portao,RS
+SEL1715,13145,paulinia,SP
+SEL1716,13478,americana,SP
+SEL1717,81810,curitiba,PR
+SEL1718,11900,registro,SP
+SEL1719,35570,formiga,MG
+SEL1720,86065,londrina,PR
+SEL1721,81320,curitiba,PR
+SEL1722,3561,sao paulo,SP
+SEL1723,4445,sao paulo,SP
+SEL1724,80220,curitiba,PR
+SEL1725,89030,blumenau,SC
+SEL1726,81730,curitiba,PR
+SEL1727,21041,rio de janeiro,RJ
+SEL1728,19023,presidente prudente,SP
+SEL1729,9687,ao bernardo do campo,SP
+SEL1730,8452,sao paulo,SP
+SEL1731,6060,osasco,SP
+SEL1732,82510,curitiba,PR
+SEL1733,92010,canoas,RS
+SEL1734,14090,ribeirao preto,SP
+SEL1735,8032,sao paulo,SP
+SEL1736,37564,borda da mata,MG
+SEL1737,1319,sao paulo,SP
+SEL1738,28630,nova friburgo,RJ
+SEL1739,9912,diadema,SP
+SEL1740,35557,carmo do cajuru,MG
+SEL1741,14940,ibitinga,SP
+SEL1742,3951,sao paulo,SP
+SEL1743,7123,guarulhos,SP
+SEL1744,84020,ponta grossa,PR
+SEL1745,8431,sao paulo,SP
+SEL1746,4773,sao paulo,SP
+SEL1747,6268,osasco,SP
+SEL1748,3423,sao paulo,SP
+SEL1749,2611,sao paulo,SP
+SEL1750,22061,rio de janeiro,RJ
+SEL1751,5424,sao paulo,SP
+SEL1752,80030,curitiba,PR
+SEL1753,6807,embu das artes,SP
+SEL1754,80045,curitiba,PR
+SEL1755,15940,fernando prestes,SP
+SEL1756,39801,castro pires,MG
+SEL1757,3520,sao paulo,SP
+SEL1758,13806,mogi mirim,SP
+SEL1759,13880,vargem grande do sul,SP
+SEL1760,3638,sao paulo,SP
+SEL1761,4310,sao paulo,SP
+SEL1762,5181,sao paulo,SP
+SEL1763,80710,curitiba,PR
+SEL1764,88061,florianopolis,SC
+SEL1765,7082,guarulhos,SP
+SEL1766,13060,campinas,SP
+SEL1767,5594,sao paulo,SP
+SEL1768,9721,sao bernardo do campo,SP
+SEL1769,13500,rio claro,SP
+SEL1770,82940,curitiba,PR
+SEL1771,17580,pompeia,SP
+SEL1772,15502,votuporanga,SP
+SEL1773,98975,campina das missoes,RS
+SEL1774,14110,ribeirao preto,SP
+SEL1775,3658,sao paulo,SP
+SEL1776,1206,sao paulo,SP
+SEL1777,80730,curitiba,PR
+SEL1778,18015,sorocaba,SP
+SEL1779,4708,sao paulo,SP
+SEL1780,88802,criciuma,SC
+SEL1781,74565,goiania,GO
+SEL1782,12940,atibaia,SP
+SEL1783,12062,taubate,SP
+SEL1784,2955,sao paulo,SP
+SEL1785,14079,ribeirao preto,SP
+SEL1786,4773,sao paulo,SP
+SEL1787,6340,carapicuiba,SP
+SEL1788,28941,sao pedro da aldeia,RJ
+SEL1789,83323,pinhais,PR
+SEL1790,14940,ibitinga,SP
+SEL1791,13321,salto,SP
+SEL1792,17510,marilia,SP
+SEL1793,6455,barueri,SP
+SEL1794,14530,miguelopolis,SP
+SEL1795,72304,brasilia,DF
+SEL1796,3701,sao paulo,SP
+SEL1797,2470,sao paulo,SP
+SEL1798,52020,recife,PE
+SEL1799,13070,campinas,SP
+SEL1800,6330,carapicuiba,SP
+SEL1801,18053,sorocaba,SP
+SEL1802,3187,sao paulo,SP
+SEL1803,7600,mairipora,SP
+SEL1804,15810,catanduva,SP
+SEL1805,82620,curitiba,PR
+SEL1806,2050,sao paulo,SP
+SEL1807,4367,sao paulo,SP
+SEL1808,17230,itapui,SP
+SEL1809,13033,campinas,SP
+SEL1810,25730,petropolis,RJ
+SEL1811,13023,campinas,SP
+SEL1812,2134,sao paulo,SP
+SEL1813,37135,alfenas,MG
+SEL1814,3006,sao paulo,SP
+SEL1815,9861,sbc,SP
+SEL1816,80330,curitiba,PR
+SEL1817,3265,sao paulo,SP
+SEL1818,80220,curitiba,PR
+SEL1819,24710,sao goncalo,RJ
+SEL1820,86076,londrina,SP
+SEL1821,4905,sao paulo,SP
+SEL1822,13920,pedreira,SP
+SEL1823,15806,catanduva,SP
+SEL1824,21545,rio de janeiro,RJ
+SEL1825,37564,borda da mata,MG
+SEL1826,37795,andradas,MG
+SEL1827,49980,neopolis,SE
+SEL1828,8599,itaquaquecetuba,SP
+SEL1829,17320,mineiros do tiete,SP
+SEL1830,13224,varzea paulista,SP
+SEL1831,3563,sao paulo,SP
+SEL1832,7859,franco da rocha,SP
+SEL1833,13500,rio claro,SP
+SEL1834,6332,carapicuiba,SP
+SEL1835,13212,jundiai,SP
+SEL1836,82400,curitiba,PR
+SEL1837,14092,ribeirao preto,SP
+SEL1838,14075,ribeirao preto,SP
+SEL1839,34006,nova lima,MG
+SEL1840,36201,barbacena,MG
+SEL1841,12238,sao jose dos campos,SP
+SEL1842,9360,maua,SP
+SEL1843,7747,caieiras,SP
+SEL1844,4160,sao paulo,SP
+SEL1845,9725,sao bernardo do campo,SP
+SEL1846,9131,santo andre,SP
+SEL1847,15290,buritama,SP
+SEL1848,14407,franca,SP
+SEL1849,87504,umuarama,PR
+SEL1850,75650,morrinhos,GO
+SEL1851,99700,erechim,RS
+SEL1852,18200,itapetininga,SP
+SEL1853,4710,sao paulo,SP
+SEL1854,3631,sao paulo,SP
+SEL1855,12240,sao jose dos campos,SP
+SEL1856,13835,conchal,SP
+SEL1857,8270,sao paulo,SP
+SEL1858,89870,pinhalzinho,SC
+SEL1859,18015,sorocaba,SP
+SEL1860,90230,porto alegre,RS
+SEL1861,3062,sao paulo,SP
+SEL1862,12224,sao jose dos campos,SP
+SEL1863,13690,descalvado,SP
+SEL1864,11075,santos,SP
+SEL1865,85200,pitanga,PR
+SEL1866,22793,rio de janeiro,RJ
+SEL1867,4870,sao paulo,SP
+SEL1868,80230,curitiba,PR
+SEL1869,9210,santo andre,SP
+SEL1870,13070,campinas,SP
+SEL1871,13880,vargem grande do sul,SP
+SEL1872,1209,sao paulo,SP
+SEL1873,88354,brusque,SC
+SEL1874,13405,piracicaba,SP
+SEL1875,4365,sao paulo,SP
+SEL1876,17515,marilia,SP
+SEL1877,3134,sao paulo,SP
+SEL1878,95020,caxias do sul,RS
+SEL1879,96400,bage,RS
+SEL1880,3667,sao paulo,SP
+SEL1881,5126,sao paulo,SP
+SEL1882,86600,rolandia,PR
+SEL1883,89190,taio,SC
+SEL1884,6803,embu das artes,SP
+SEL1885,3210,sao paulo,SP
+SEL1886,18025,sorocaba,SP
+SEL1887,16200,birigui,SP
+SEL1888,1026,sao paulo,SP
+SEL1889,4058,sao paulo,SP
+SEL1890,16021,sp,SP
+SEL1891,13457,santa barbara d'oeste,SP
+SEL1892,14020,ribeirao preto,SP
+SEL1893,19800,assis,SP
+SEL1894,25645,petropolis,RJ
+SEL1895,4319,sao paulo,SP
+SEL1896,38701,patos de minas,MG
+SEL1897,3916,sao paulo,SP
+SEL1898,7077,garulhos,SP
+SEL1899,30270,belo horizonte,MG
+SEL1900,82640,curitiba,PR
+SEL1901,89117,gaspar,SC
+SEL1902,14940,ibitinga,SP
+SEL1903,85601,francisco beltrao,PR
+SEL1904,87030,maringa,PR
+SEL1905,1511,sao paulo,SP
+SEL1906,80240,curitiba,SP
+SEL1907,17514,marilia,SP
+SEL1908,2013,sao paulo,SP
+SEL1909,18200,itapetininga,SP
+SEL1910,35530,claudio,MG
+SEL1911,13240,jarinu,SP
+SEL1912,13347,indaiatuba,SP
+SEL1913,15025,sao jose do rio preto,SP
+SEL1914,14057,ribeirao preto,SP
+SEL1915,38402,uberlandia,MG
+SEL1916,31920,belo horizonte,MG
+SEL1917,1215,sao paulo,SP
+SEL1918,82510,curitiba,PR
+SEL1919,95150,nova petropolis,RS
+SEL1920,13454,santa barbara d'oeste,SP
+SEL1921,14079,ribeirao preto / sao paulo,SP
+SEL1922,4276,sao paulo,SP
+SEL1923,13506,rio claro,SP
+SEL1924,15807,catanduva,SP
+SEL1925,88340,camboriu,SC
+SEL1926,14076,ribeirao preto,SP
+SEL1927,88270,nova trento,SC
+SEL1928,18103,sorocaba,SP
+SEL1929,96020,pelotas,RS
+SEL1930,82510,curitiba,PR
+SEL1931,65072,sao luis,MA
+SEL1932,2285,sao paulo,SP
+SEL1933,86039,londrina,PR
+SEL1934,81770,curitiba,PR
+SEL1935,19013,presidente prudente,SP
+SEL1936,22775,rio de janeiro,RJ
+SEL1937,3963,sao paulo,SP
+SEL1938,15051,sao jose do rio pret,SP
+SEL1939,13160,artur nogueira,SP
+SEL1940,19806,assis,SP
+SEL1941,8275,sao paulo,SP
+SEL1942,13420,sao paulo,SP
+SEL1943,13330,indaiatuba,SP
+SEL1944,88102,sao jose,SC
+SEL1945,70070,brasilia,DF
+SEL1946,61760,eusebio,CE
+SEL1947,89069,blumenau,SC
+SEL1948,95800,venancio aires,RS
+SEL1949,85880,itaipulandia,PR
+SEL1950,7056,guarulhos,SP
+SEL1951,9111,santo andre,SP
+SEL1952,3378,sao paulo,SP
+SEL1953,13040,campinas,SP
+SEL1954,4850,sao paulo,SP
+SEL1955,87025,maringa,PR
+SEL1956,80540,curitiba,PR
+SEL1957,85601,francisco beltrao,PR
+SEL1958,83402,colombo,PR
+SEL1959,14940,ibitinga,SP
+SEL1960,86010,londrina,PR
+SEL1961,3431,sao paulo,SP
+SEL1962,14096,ribeirao preto,SP
+SEL1963,31210,belo horizonte,MG
+SEL1964,9541,sao caetano do sul,SP
+SEL1965,14090,ribeirao preto,SP
+SEL1966,15076,sao jose do rio preto,SP
+SEL1967,13070,campinas,SP
+SEL1968,5424,sao paulo,SP
+SEL1969,15093,sao jose do rio preto,SP
+SEL1970,93347,novo hamburgo,RS
+SEL1971,44600,ipira,BA
+SEL1972,2119,sao paulo,SP
+SEL1973,88306,itajai,SC
+SEL1974,52010,recife,PE
+SEL1975,83280,guaratuba,PR
+SEL1976,8290,sao paulo,SP
+SEL1977,83535,campo magro,PR
+SEL1978,3052,sao paulo,SP
+SEL1979,36325,tiradentes,MG
+SEL1980,30270,belo horizonte,MG
+SEL1981,13076,campinas,SP
+SEL1982,82515,curitiba,PR
+SEL1983,13456,santa barbara d'oeste,SP
+SEL1984,15075,sao jose do rio preto,SP
+SEL1985,19804,assis,SP
+SEL1986,8050,sao paluo,SP
+SEL1987,87060,maringa,PR
+SEL1988,11442,guaruja,SP
+SEL1989,4367,sao paulo,SP
+SEL1990,26051,rio de janeiro,RJ
+SEL1991,87040,maringa,PR
+SEL1992,5061,sao paulo,SP
+SEL1993,85801,cascavel,PR
+SEL1994,13215,jundiai,SP
+SEL1995,83823,fazenda rio grande,PR
+SEL1996,37443,baependi,MG
+SEL1997,9170,santo andre,SP
+SEL1998,81070,curitiba,PR
+SEL1999,88090,florianopolis,SC
+SEL2000,81260,curitiba,PR
+SEL2001,4756,sao paulo,SP
+SEL2002,31255,belo horizonte,MG
+SEL2003,3809,sao paulo,SP
+SEL2004,14085,ribeirao preto,SP
+SEL2005,9812,sao bernardo do campo,SP
+SEL2006,5734,sao paulo,SP
+SEL2007,6900,embu guacu,SP
+SEL2008,24445,sao goncalo,RJ
+SEL2009,3461,sao paulo,SP
+SEL2010,35530,claudio,MG
+SEL2011,5763,sao paulo,SP
+SEL2012,72318,brasilia,DF
+SEL2013,17011,bauru,SP
+SEL2014,14085,ribeirao preto,SP
+SEL2015,79104,campo grande,MS
+SEL2016,9720,sao bernardo do campo,SP
+SEL2017,2451,sao paulo,SP
+SEL2018,85200,pitanga,PR
+SEL2019,3962,sao paulo,SP
+SEL2020,4282,sao paulo,SP
+SEL2021,6276,osasco,SP
+SEL2022,1021,sao paulo,SP
+SEL2023,86703,arapongas,PR
+SEL2024,14403,franca,SP
+SEL2025,11701,praia grande,SP
+SEL2026,14940,ibitinga,SP
+SEL2027,8226,sao paulo,SP
+SEL2028,9530,sao caetano do sul,SP
+SEL2029,3001,sao paulo,SP
+SEL2030,17056,bauru,SP
+SEL2031,4843,sao paulo,SP
+SEL2032,31520,belo horizonte,MG
+SEL2033,9350,maua,SP
+SEL2034,88075,florianopolis,SP
+SEL2035,14401,franca,SP
+SEL2036,38408,uberlandia,MG
+SEL2037,13456,santa barbara d'oeste,SP
+SEL2038,1550,sao paulo,SP
+SEL2039,74343,goiania,GO
+SEL2040,7133,guarulhos,SP
+SEL2041,81050,curitiba,PR
+SEL2042,89251,jaragua do sul,SC
+SEL2043,96530,paraiso do sul,RS
+SEL2044,12570,aparecida,SP
+SEL2045,18015,sorocaba,SP
+SEL2046,36773,cataguases,MG
+SEL2047,2634,sao paulo,SP
+SEL2048,82520,curitiba,PR
+SEL2049,44600,ipira,SP
+SEL2050,17250,bariri,SP
+SEL2051,36300,sao joao del rei,MG
+SEL2052,12231,sao jose dos campos,SP
+SEL2053,13177,sumare,SP
+SEL2054,13465,americana,SP
+SEL2055,32185,contagem,MG
+SEL2056,3647,sao paulo,SP
+SEL2057,8710,mogi das cruzes,SP
+SEL2058,14940,ibitinga,SP
+SEL2059,4809,sao paulo,SP
+SEL2060,13900,amparo,SP
+SEL2061,27353,barra mansa,RJ
+SEL2062,88306,itajai,SC
+SEL2063,4362,sao paulo,SP
+SEL2064,29150,cariacica,ES
+SEL2065,11707,praia grande,SP
+SEL2066,20910,rio de janeiro,RJ
+SEL2067,3171,sao paulo,SP
+SEL2068,75345,abadia de goias,GO
+SEL2069,89165,rio do sul,SC
+SEL2070,13504,rio claro,SP
+SEL2071,3573,sao paulo,SP
+SEL2072,3929,sao paulo,SP
+SEL2073,85905,toledo,PR
+SEL2074,3191,sao paulo,SP
+SEL2075,7077,guarulhos,SP
+SEL2076,16074,aracatuba,SP
+SEL2077,17512,marilia,SP
+SEL2078,93425,novo hamburgo,RS
+SEL2079,13473,americana,SP
+SEL2080,30170,belo horizonte,MG
+SEL2081,3410,sao paulo,SP
+SEL2082,1552,sao paulo,SP
+SEL2083,91910,porto alegre,RS
+SEL2084,4763,sao paulo,SP
+SEL2085,12230,sao jose dos campos,SP
+SEL2086,6409,barueri,SP
+SEL2087,83005,sao jose dos pinhais,PR
+SEL2088,97110,santa maria,RS
+SEL2089,4276,sao paulo,SP
+SEL2090,13560,sao carlos,SP
+SEL2091,81520,curitiba,PR
+SEL2092,74550,goiania,GO
+SEL2093,85865,foz do iguacu,PR
+SEL2094,4137,sao paulo,SP
+SEL2095,88135,palhoca,SC
+SEL2096,92020,canoas,RS
+SEL2097,37410,tres coracoes,MG
+SEL2098,13660,porto ferreira,SP
+SEL2099,4106,sao paulo,SP
+SEL2100,31340,contagem,MG
+SEL2101,14075,ribeirao preto,SP
+SEL2102,9570,sao caetano do sul,SP
+SEL2103,87060,maringa,PR
+SEL2104,11013,santos,SP
+SEL2105,37006,varginha,MG
+SEL2106,99500,carazinho,RS
+SEL2107,6097,osasco,SP
+SEL2108,14940,ibitinga,SP
+SEL2109,8280,sao paulo,SP
+SEL2110,17580,pompeia,SP
+SEL2111,30431,belo horizonte,MG
+SEL2112,13800,mogi mirim,SP
+SEL2113,12308,jacarei,SP
+SEL2114,8290,sao paulo,SP
+SEL2115,3872,sao paulo,SP
+SEL2116,18220,alambari,SP
+SEL2117,1156,sao paulo,SP
+SEL2118,18683,lencois paulista,SP
+SEL2119,16012,aracatuba,SP
+SEL2120,87005,maringa,PR
+SEL2121,17700,osvaldo cruz,SP
+SEL2122,85807,cascavel,PR
+SEL2123,76900,ji parana,RO
+SEL2124,15030,sao jose do rio preto,SP
+SEL2125,27700,vassouras,RJ
+SEL2126,17350,igaracu do tiete,SP
+SEL2127,13215,jundiai,SP
+SEL2128,12600,lorena,SP
+SEL2129,89136,rodeio,SC
+SEL2130,13290,louveira,SP
+SEL2131,15803,catanduva,SP
+SEL2132,39740,guanhaes,MG
+SEL2133,17506,marilia,SP
+SEL2134,89215,joinville,SC
+SEL2135,28470,santo antonio de padua,RJ
+SEL2136,14940,ibitinga,SP
+SEL2137,87020,maringa,PR
+SEL2138,6040,osasco,SP
+SEL2139,12924,braganca paulista,SP
+SEL2140,89150,presidente getulio,SC
+SEL2141,12995,pinhalzinho,SP
+SEL2142,89620,campos novos,SC
+SEL2143,4273,sao paulo,SP
+SEL2144,2150,sao paulo,SP
+SEL2145,45820,eunapolis,BA
+SEL2146,13482,limeira,SP
+SEL2147,13165,engenheiro coelho,SP
+SEL2148,8011,sao paulo,SP
+SEL2149,13390,rio das pedras,SP
+SEL2150,89220,joinville,SC
+SEL2151,3147,sao paulo,SP
+SEL2152,6663,itapevi,SP
+SEL2153,15601,fernandopolis,SP
+SEL2154,29600,afonso claudio,ES
+SEL2155,18279,tatui,SP
+SEL2156,5170,sao paulo,SP
+SEL2157,15055,sao jose do rio preto,SP
+SEL2158,4476,sao paulo,SP
+SEL2159,2030,sao paulo,SP
+SEL2160,13040,campinas,SP
+SEL2161,3017,sao paulo,SP
+SEL2162,85810,cascavel,PR
+SEL2163,6311,carapicuiba / sao paulo,SP
+SEL2164,13154,cosmopolis,SP
+SEL2165,15050,sao jose do rio preto,SP
+SEL2166,13480,limeira,SP
+SEL2167,13084,campinas,SP
+SEL2168,6186,osasco,SP
+SEL2169,89046,blumenau,SC
+SEL2170,38414,uberlandia,MG
+SEL2171,24020,niteroi,RJ
+SEL2172,4251,sao paulo,SP
+SEL2173,80045,curitiba,PR
+SEL2174,86800,apucarana,PR
+SEL2175,4424,sao paulo,SP
+SEL2176,4293,sao paulo,SP
+SEL2177,6317,carapicuiba,SP
+SEL2178,35170,coronel fabriciano,MG
+SEL2179,30240,belo horizonte,MG
+SEL2180,85813,cascavel,PR
+SEL2181,81900,curitiba,PR
+SEL2182,2963,sao paulo,SP
+SEL2183,7412,aruja,SP
+SEL2184,35660,centro,MG
+SEL2185,19815,assis,SP
+SEL2186,4904,sao paulo,SP
+SEL2187,89225,joinville,SC
+SEL2188,8275,sao paulo,SP
+SEL2189,87083,parana,PR
+SEL2190,89080,indaial,SC
+SEL2191,90630,porto alegre,RS
+SEL2192,88215,bombinhas,SC
+SEL2193,13140,paulinia,SP
+SEL2194,40368,salvador,BA
+SEL2195,3345,sao paulo,SP
+SEL2196,6283,osasco,SP
+SEL2197,13360,capivari,SP
+SEL2198,6696,itapevi,SP
+SEL2199,14401,franca,SP
+SEL2200,24240,niteroi,RJ
+SEL2201,9220,santo andre,SP
+SEL2202,87050,maringa,PR
+SEL2203,9921,diadema,SP
+SEL2204,13880,vargem grande do sul,SP
+SEL2205,22051,rio de janeiro,RJ
+SEL2206,7084,guarulhos,SP
+SEL2207,3029,sao paulo,SP
+SEL2208,3426,sao paulo,SP
+SEL2209,32280,contagem,MG
+SEL2210,15013,sao jose do rio preto,SP
+SEL2211,14940,ibitinga,SP
+SEL2212,4937,sao paulo,SP
+SEL2213,14620,orlandia,SP
+SEL2214,13405,piracicaba,SP
+SEL2215,18401,itapeva,SP
+SEL2216,35700,sete lagoas,MG
+SEL2217,13418,piracicaba,SP
+SEL2218,7140,guarulhos,SP
+SEL2219,12940,atibaia,SP
+SEL2220,9280,santo andre,SP
+SEL2221,11600,sao sebastiao,SP
+SEL2222,3976,sao paulo,SP
+SEL2223,16500,cafelandia,SP
+SEL2224,17290,macatuba,SP
+SEL2225,11707,praia grande,SP
+SEL2226,13908,amparo,SP
+SEL2227,89560,videira,SC
+SEL2228,72251,brasilia,DF
+SEL2229,88137,palhoca,SC
+SEL2230,13870,sao joao da boa vista,SP
+SEL2231,2236,sao paulo,SP
+SEL2232,88813,criciuma,SC
+SEL2233,84530,teixeira soares,PR
+SEL2234,26551,mesquita,RJ
+SEL2235,15600,fernandopolis,SP
+SEL2236,81720,curitiba,PR
+SEL2237,2544,sao paulo,SP
+SEL2238,87160,mandaguacu,PR
+SEL2239,83823,fazenda rio grande,PR
+SEL2240,2710,sao paulo,SP
+SEL2241,86040,londrina,PR
+SEL2242,25957,teresopolis,RJ
+SEL2243,17606,sao paulo,SP
+SEL2244,87015,maringa,PR
+SEL2245,89180,rio do oeste,SC
+SEL2246,3804,sao paulo,SP
+SEL2247,13339,indaiatuba,SP
+SEL2248,88330,balneario camboriu,SC
+SEL2249,13403,piracicaba,SP
+SEL2250,83280,guaratuba,PR
+SEL2251,1403,sao paulo,SP
+SEL2252,14802,araraquara,SP
+SEL2253,88135,palhoca,SC
+SEL2254,7176,guarulhos,SP
+SEL2255,81510,curitiba,PR
+SEL2256,12215,sao jose dos campos,SP
+SEL2257,13573,sao carlos,SP
+SEL2258,11010,santos,SP
+SEL2259,87025,vendas@creditparts.com.br,PR
+SEL2260,28950,armacao dos buzios,RJ
+SEL2261,4714,sao paulo,SP
+SEL2262,5127,sao paulo,SP
+SEL2263,35670,mateus leme,MG
+SEL2264,3581,sao paulop,SP
+SEL2265,87083,maringa,PR
+SEL2266,1408,sao paulo,SP
+SEL2267,6766,taboao da serra,SP
+SEL2268,14940,ibitinga,SP
+SEL2269,11431,guaruja,SP
+SEL2270,36087,juiz de fora,MG
+SEL2271,4438,sao paulo,SP
+SEL2272,74305,goiania,GO
+SEL2273,9041,santo andre,SP
+SEL2274,13232,campo limpo paulista,SP
+SEL2275,13960,socorro,SP
+SEL2276,2475,sao paulo,SP
+SEL2277,85603,francisco beltrao,PR
+SEL2278,13070,campinas,SP
+SEL2279,13271,valinhos,SP
+SEL2280,1512,sao paulo,SP
+SEL2281,29161,serra,ES
+SEL2282,83450,bocaiuva do sul,PR
+SEL2283,3304,sao paulo,SP
+SEL2284,3273,sao paulo,SP
+SEL2285,17051,bauru,SP
+SEL2286,31573,belo horizonte,MG
+SEL2287,13471,americana,SP
+SEL2288,45658,ilheus,BA
+SEL2289,88715,jaguaruna,SC
+SEL2290,13911,jaguariuna,SP
+SEL2291,6440,barueri,SP
+SEL2292,15015,sao jose do rio preto,SP
+SEL2293,95780,montenegro,RS
+SEL2294,14940,ibitinga,SP
+SEL2295,13097,campinas,SP
+SEL2296,2279,sao paulo,SP
+SEL2297,24440,sao goncalo,RJ
+SEL2298,5743,sao paulo,SP
+SEL2299,89203,joinville,SC
+SEL2300,32240,contagem,MG
+SEL2301,5595,sao paulo,SP
+SEL2302,13505,rio claro,SP
+SEL2303,4291,sao paulo,SP
+SEL2304,2110,sao paulo,SP
+SEL2305,8577,itaquaquecetuba,SP
+SEL2306,8420,sao paulo,SP
+SEL2307,17018,bauru,SP
+SEL2308,95625,imbe,RS
+SEL2309,6419,barueri,SP
+SEL2310,4101,sao paulo,SP
+SEL2311,6150,osasco,SP
+SEL2312,2113,sao paulo,SP
+SEL2313,83323,pinhais,PR
+SEL2314,9090,santo andre,SP
+SEL2315,5043,sao paulo,SP
+SEL2316,83602,campo largo,PR
+SEL2317,14021,ribeirao preto,SP
+SEL2318,95020,caxias do sul,RS
+SEL2319,99300,soledade,RS
+SEL2320,31035,belo horizonte,MG
+SEL2321,7790,cajamar,SP
+SEL2322,72015,brasilia,DF
+SEL2323,3725,sao paulo,SP
+SEL2324,88303,itajai,SC
+SEL2325,14801,araraquara,SP
+SEL2326,35700,sete lagoas,MG
+SEL2327,36032,juiz de fora,MG
+SEL2328,89295,rio negrinho,SC
+SEL2329,5530,sao paulo,SP
+SEL2330,6018,osasco,SP
+SEL2331,13840,mogi guacu,SP
+SEL2332,16250,clementina,SP
+SEL2333,1023,sao paulo,SP
+SEL2334,2610,sao paulo,SP
+SEL2335,15070,sao jose do rio preto,SP
+SEL2336,71825,brasilia,DF
+SEL2337,4250,sao paulo,SP
+SEL2338,1220,sao paulo,SP
+SEL2339,9175,santo andre,SP
+SEL2340,18044,sorocaba,SP
+SEL2341,13450,santa barbara d´oeste,SP
+SEL2342,25035,duque de caxias,RJ
+SEL2343,14780,barretos,SP
+SEL2344,86047,londrina,PR
+SEL2345,7901,francisco morato,SP
+SEL2346,13232,campo limpo paulista,SP
+SEL2347,13408,piracicaba,SP
+SEL2348,96203,rio grande,RS
+SEL2349,89041,blumenau,SC
+SEL2350,93510,novo hamburgo,RS
+SEL2351,2752,sao paulo,SP
+SEL2352,87040,maringa,PR
+SEL2353,89825,xaxim,SC
+SEL2354,13043,campinas,SP
+SEL2355,18550,boituva,SP
+SEL2356,20061,rio de janeiro,RJ
+SEL2357,1257,sao paulo,SP
+SEL2358,87025,maringa,PR
+SEL2359,14020,ribeirao preto,SP
+SEL2360,80215,curitiba,PR
+SEL2361,74210,goiania,GO
+SEL2362,89160,rio do sul,SC
+SEL2363,4911,sao paulo,SP
+SEL2364,1031,sao paulo,SP
+SEL2365,80230,curitiba,PR
+SEL2366,9340,maua,SP
+SEL2367,69005,manaus,AM
+SEL2368,3542,sao paulo,SP
+SEL2369,2411,sao paulo,SP
+SEL2370,5455,sao paulo,SP
+SEL2371,15115,bady bassitt,SP
+SEL2372,24120,niteroi,RJ
+SEL2373,1314,sao paulo,SP
+SEL2374,25900,rio de janeiro,RJ
+SEL2375,87240,terra boa,PR
+SEL2376,8011,sao paulo,SP
+SEL2377,13660,porto ferreira,SP
+SEL2378,18608,botucatu,SP
+SEL2379,15070,sao jose do rio preto,SP
+SEL2380,78020,cuiaba,MT
+SEL2381,37165,minas gerais,MG
+SEL2382,4083,sao paulo,SP
+SEL2383,18130,sao roque,SP
+SEL2384,6694,itapevi,SP
+SEL2385,6790,taboao da serra,SP
+SEL2386,89023,blumenau,SC
+SEL2387,9720,sao bernardo do campo,SP
+SEL2388,29160,serra,ES
+SEL2389,2066,sao paulo,SP
+SEL2390,87050,maringa,PR
+SEL2391,13347,indaiatuba,SP
+SEL2392,4265,sao paulo,SP
+SEL2393,87502,umuarama,PR
+SEL2394,13920,pedreira,SP
+SEL2395,3560,sao paulo,SP
+SEL2396,13160,artur nogueira,SP
+SEL2397,18701,avare,SP
+SEL2398,17400,garca,SP
+SEL2399,32419,ibirite,MG
+SEL2400,83607,campo largo,PR
+SEL2401,3731,sao paulo,SP
+SEL2402,14401,franca,SP
+SEL2403,31710,belo horizonte,MG
+SEL2404,83405,colombo,PR
+SEL2405,14790,guaira,SP
+SEL2406,14940,ibitinga,SP
+SEL2407,4660,sao paulo,SP
+SEL2408,13347,indaiatuba,SP
+SEL2409,82315,curitiba,PR
+SEL2410,3658,sao paulo,SP
+SEL2411,6715,cotia,SP
+SEL2412,32604,betim,MG
+SEL2413,89063,blumenau,SC
+SEL2414,8030,sao paulo,SP
+SEL2415,36046,juiz de fora,MG
+SEL2416,2334,sao paulo,SP
+SEL2417,14401,franca,SP
+SEL2418,4851,sao paulo,SP
+SEL2419,85875,santa terezinha de itaipu,PR
+SEL2420,20761,rio de janeiro,RJ
+SEL2421,17370,santa maria da serra,SP
+SEL2422,15350,auriflama,SP
+SEL2423,9710,sao bernardo do campo,SP
+SEL2424,31525,belo horizonte,MG
+SEL2425,16200,birigui,SP
+SEL2426,25720,petropolis,RJ
+SEL2427,88704,tubarao,SC
+SEL2428,79112,campo grande,MS
+SEL2429,17300,dois corregos,SP
+SEL2430,97110,santa maria,RS
+SEL2431,3168,sao paulo,SP
+SEL2432,98290,condor,RS
+SEL2433,13414,piracicaba,SP
+SEL2434,13251,itatiba,SP
+SEL2435,14940,ibitinga,SP
+SEL2436,6539,santana de parnaiba,SP
+SEL2437,80010,curitiba,PR
+SEL2438,38401,uberlandia,MG
+SEL2439,74590,goiania,GO
+SEL2440,85875,santa terezinha de itaipu,PR
+SEL2441,72210,brasilia,DF
+SEL2442,38700,patos de minas,MG
+SEL2443,15056,sao jose do rio preto,SP
+SEL2444,20950,rio de janeiro,RJ
+SEL2445,38950,ibia,MG
+SEL2446,16208,birigui,SP
+SEL2447,80250,curitiba,PR
+SEL2448,7192,guarulhos,SP
+SEL2449,85801,cascavel,PR
+SEL2450,13272,valinhos,SP
+SEL2451,14021,ribeirao preto,SP
+SEL2452,4679,sao paulo,SP
+SEL2453,1421,sao paulo,SP
+SEL2454,46430,guanambi,BA
+SEL2455,61658,caucaia,CE
+SEL2456,89052,blumenau,SP
+SEL2457,87013,maringa,PR
+SEL2458,89650,treze tilias,SC
+SEL2459,89819,cordilheira alta,SC
+SEL2460,35547,carmo da mata,MG
+SEL2461,88370,navegantes,SC
+SEL2462,92030,canoas,RS
+SEL2463,35400,ouro preto,MG
+SEL2464,14940,ibitinga,SP
+SEL2465,33600,pedro leopoldo,MG
+SEL2466,87070,maringa,PR
+SEL2467,5571,sao paulo,SP
+SEL2468,8270,sao paulo,SP
+SEL2469,3111,sao paulo,SP
+SEL2470,14270,santa rosa de viterbo,SP
+SEL2471,89036,blumenau,SC
+SEL2472,4708,sao paulo,SP
+SEL2473,89820,xanxere,SC
+SEL2474,90620,porto alegre,RS
+SEL2475,35500,divinopolis,MG
+SEL2476,7411,sao paulo,SP
+SEL2477,7023,guarulhos,SP
+SEL2478,80310,curitiba,PR
+SEL2479,19160,alvares machado,SP
+SEL2480,21840,rio de janeiro,RJ
+SEL2481,30390,belo horizonte,MG
+SEL2482,18060,sorocaba,SP
+SEL2483,88132,palhoca,SC
+SEL2484,83408,colombo,PR
+SEL2485,13720,scao jose do rio pardo,SP
+SEL2486,87015,maringa,PR
+SEL2487,9180,santo andre,SP
+SEL2488,9785,sao bernardo do campo,SP
+SEL2489,19806,assis,SP
+SEL2490,11709,praia grande,SP
+SEL2491,21510,rio de janeiro,RJ
+SEL2492,14850,pradopolis,SP
+SEL2493,4547,sao paulo,SP
+SEL2494,14070,ribeirao preto,SP
+SEL2495,31110,belo horizonte,MG
+SEL2496,81460,curitiba,PR
+SEL2497,13206,jundiai,SP
+SEL2498,4104,sao paulo,SP
+SEL2499,3106,sao paulo,SP
+SEL2500,1123,sao paulo,SP
+SEL2501,30130,belo horizonte,MG
+SEL2502,98780,santa rosa,RS
+SEL2503,89520,curitibanos,SC
+SEL2504,18500,laranjal paulista,SP
+SEL2505,14093,ribeirao preto,SP
+SEL2506,14096,ribeirao preto,SP
+SEL2507,14940,ibitinga,SP
+SEL2508,3124,sao paulo,SP
+SEL2509,18015,sorocaba,SP
+SEL2510,36010,juiz de fora,MG
+SEL2511,81020,curitiba,SP
+SEL2512,3182,sao paulo,SP
+SEL2513,7124,guarulhos,SP
+SEL2514,7024,guarulhos,SP
+SEL2515,13140,paulinia,SP
+SEL2516,15061,sao jose do rio preto,SP
+SEL2517,21740,rio de janeiro,RJ
+SEL2518,14090,ribeirao preto,SP
+SEL2519,22640,rio de janeiro,RJ
+SEL2520,7013,guarulhos,SP
+SEL2521,38442,araguari,MG
+SEL2522,33940,ribeirao das neves,MG
+SEL2523,9551,sao caetano do sul,SP
+SEL2524,93348,novo hamburgo,RS
+SEL2525,14015,sao paulo,SP
+SEL2526,18017,sorocaba,SP
+SEL2527,37704,pocos de caldas,MG
+SEL2528,18076,sorocaba,SP
+SEL2529,81560,curitiba,PR
+SEL2530,3334,sao paulo,SP
+SEL2531,15155,jaci,SP
+SEL2532,38400,uberlandia,MG
+SEL2533,32310,contagem,MG
+SEL2534,90240,porto alegre,RS
+SEL2535,20040,rio de janeiro,RJ
+SEL2536,3063,sao paulo,SP
+SEL2537,5141,sp,SP
+SEL2538,1452,sao paulo,SP
+SEL2539,29315,cachoeiro de itapemirim,ES
+SEL2540,17017,bauru,SP
+SEL2541,85884,medianeira,PR
+SEL2542,88490,paulo lopes,SC
+SEL2543,5756,sao paulo,SP
+SEL2544,5302,sao paulo,SP
+SEL2545,95270,flores da cunha,RS
+SEL2546,25530,sao joao de meriti,RJ
+SEL2547,89108,massaranduba,SC
+SEL2548,11430,guaruja,SP
+SEL2549,2614,sao paulo,SP
+SEL2550,4270,sao paulo,SP
+SEL2551,60348,fortaleza,CE
+SEL2552,2415,sao paulo,SP
+SEL2553,13360,capivari,SP
+SEL2554,86300,cornelio procopio,PR
+SEL2555,12243,sao jose dos campos,SP
+SEL2556,95013,caxias do sul,RS
+SEL2557,2422,sao paulo,SP
+SEL2558,32315,contagem,MG
+SEL2559,95098,caxias do sul,RS
+SEL2560,2028,sao paulo,SP
+SEL2561,87050,maringa,PR
+SEL2562,3971,sao paulo,SP
+SEL2563,13060,campinas,SP
+SEL2564,13487,limeira,SP
+SEL2565,8430,sao paulo,SP
+SEL2566,12331,jacarei,SP
+SEL2567,8500,ferraz de vasconcelos,SP
+SEL2568,13090,campinas,SP
+SEL2569,14020,ribeirao preto,SP
+SEL2570,4516,sao paulo,SP
+SEL2571,89065,blumenau,SC
+SEL2572,3318,sao paulo,SP
+SEL2573,30668,belo horizonte,MG
+SEL2574,5141,pirituba,SP
+SEL2575,4209,sao paulo,SP
+SEL2576,2242,sao paulo,SP
+SEL2577,12913,braganca paulista,SP
+SEL2578,5616,sao paulo,SP
+SEL2579,14940,ibitinga,SP
+SEL2580,3461,sao paulo,SP
+SEL2581,12270,jambeiro,SP
+SEL2582,1140,sao paulo,SP
+SEL2583,13328,salto,SP
+SEL2584,35590,lagoa da prata,MG
+SEL2585,82560,curitiba,PR
+SEL2586,93040,sao leopoldo,RS
+SEL2587,4537,sao paulo,SP
+SEL2588,27345,barra mansa,RJ
+SEL2589,15025,sao jose do rio preto,SP
+SEL2590,71900,aguas claras df,SP
+SEL2591,3009,sao paulo,SP
+SEL2592,9572,sao caetano do sul,SP
+SEL2593,14027,ribeirao pretp,SP
+SEL2594,2916,sao paulo,SP
+SEL2595,87210,cianorte,PR
+SEL2596,2443,sao paulo,SP
+SEL2597,14940,ibitinga,SP
+SEL2598,3508,sao paulo,SP
+SEL2599,21320,rio de janeiro,SP
+SEL2600,3287,sao paulo,SP
+SEL2601,1208,sao paulo,SP
+SEL2602,44002,feira de santana,BA
+SEL2603,86073,londrina,PR
+SEL2604,38445,araguari,MG
+SEL2605,5186,sao paulo,SP
+SEL2606,88037,florianopolis,SC
+SEL2607,13040,campinas,SP
+SEL2608,89164,rio do sul,SC
+SEL2609,80010,curitiba,PR
+SEL2610,91150,porto alegre,RS
+SEL2611,6018,osasco,SP
+SEL2612,13660,porto ferreira,SP
+SEL2613,13920,pedreira,SP
+SEL2614,23587,rio de janeiro,RJ
+SEL2615,6465,barueri,SP
+SEL2616,91920,porto alegre,RS
+SEL2617,96503,cachoeira do sul,RS
+SEL2618,14840,guariba,SP
+SEL2619,4101,sao paulo,SP
+SEL2620,11030,santos,SP
+SEL2621,13790,sao sebastiao da grama/sp,SP
+SEL2622,17900,dracena,SP
+SEL2623,18500,laranjal paulista,SP
+SEL2624,6501,santana de parnaiba,SP
+SEL2625,17047,bauru,SP
+SEL2626,6473,barueri,SP
+SEL2627,5676,sao paulo,SP
+SEL2628,2839,sao paulo,SP
+SEL2629,14010,ribeirao preto,SP
+SEL2630,9725,sao bernardo do campo,SP
+SEL2631,4141,sao paulo,SP
+SEL2632,22775,rio de janeiro,RJ
+SEL2633,17400,garca,SP
+SEL2634,12604,lorena,SP
+SEL2635,86030,londrina,PR
+SEL2636,31140,belo horizonte,MG
+SEL2637,13465,americana,SP
+SEL2638,7221,guarulhos,SP
+SEL2639,19906,ourinhos,SP
+SEL2640,14940,ibitinga,SP
+SEL2641,80220,curitiba,PR
+SEL2642,87900,loanda,PR
+SEL2643,17250,bariri,SP
+SEL2644,8832,mogi das cruzes,SP
+SEL2645,3018,sao paulo,SP
+SEL2646,20040,rio de janeiro,RJ
+SEL2647,28810,rio bonito,SP
+SEL2648,11720,praia grande,SP
+SEL2649,17209,jau,SP
+SEL2650,14078,robeirao preto,SP
+SEL2651,88704,tubarao,SC
+SEL2652,3237,sao paulo,SP
+SEL2653,89228,joinville,SC
+SEL2654,7170,guarulhos,SP
+SEL2655,3880,sao paulo,SP
+SEL2656,14020,ribeirao preto,SP
+SEL2657,89504,cacador,SC
+SEL2658,5008,sao paulo,SP
+SEL2659,89288,sao bento do sul,SC
+SEL2660,21510,rio de janeiro,RJ
+SEL2661,1041,sao paulo,SP
+SEL2662,14802,araraquara,SP
+SEL2663,72460,gama,DF
+SEL2664,17504,marilia,SP
+SEL2665,4208,sao paulo,SP
+SEL2666,80040,curitiba,PR
+SEL2667,19020,presidente prudente,SP
+SEL2668,83005,sao jose dos pinhais,PR
+SEL2669,13520,sao pedro,SP
+SEL2670,26379,queimados,RJ
+SEL2671,2929,sao paulo,SP
+SEL2672,39400,montes claros,MG
+SEL2673,9560,sao caetano do sul,SP
+SEL2674,16304,penapolis,SP
+SEL2675,8593,itaquaquecetuba,SP
+SEL2676,18110,votorantim,SP
+SEL2677,3586,sao paulo,SP
+SEL2678,9830,sao bernardo do campo,SP
+SEL2679,17017,bauru,SP
+SEL2680,80420,curitiba,PR
+SEL2681,6871,itapecerica da serra,SP
+SEL2682,13214,jundiai,SP
+SEL2683,11990,cananeia,SP
+SEL2684,14055,ribeirao preto,SP
+SEL2685,7070,guarulhos,SP
+SEL2686,41820,salvador,BA
+SEL2687,17032,bauru,SP
+SEL2688,35160,ipatinga,MG
+SEL2689,27321,barra mansa,RJ
+SEL2690,95705,bento goncalves,RS
+SEL2691,3553,sao paulo,SP
+SEL2692,13214,jundiai,SP
+SEL2693,13380,nova odessa,SP
+SEL2694,88372,navegantes,SC
+SEL2695,3028,sao paulo,SP
+SEL2696,14095,ribeirao preto,SP
+SEL2697,87065,maringa,PR
+SEL2698,2124,sao paulo,SP
+SEL2699,9710,sao bernardo do campo,SP
+SEL2700,13845,mogi guacu,SP
+SEL2701,3064,sao paulo,SP
+SEL2702,9070,santo andre,SP
+SEL2703,19300,presidente bernardes,SP
+SEL2704,22790,rio de janeiro,RJ
+SEL2705,13481,limeira,SP
+SEL2706,82620,curitiba,PR
+SEL2707,95088,caxias do sul,RS
+SEL2708,2918,sao paulo,SP
+SEL2709,84925,pinhalao,PR
+SEL2710,88960,sombrio,SC
+SEL2711,30220,belo horizonte,MG
+SEL2712,88010,florianopolis,SC
+SEL2713,38022,uberaba,MG
+SEL2714,17505,marilia,SP
+SEL2715,14075,ribeirao preto,SP
+SEL2716,2873,sao paulo,SP
+SEL2717,19802,assis,SP
+SEL2718,13424,piracicaba,SP
+SEL2719,87303,campo mourao,PR
+SEL2720,83323,pinhais,PR
+SEL2721,3204,sao paulo,SP
+SEL2722,55002,caruaru,PE
+SEL2723,9571,sao caetano do sul,SP
+SEL2724,13840,mogi guacu,SP
+SEL2725,3872,sao paulo,SP
+SEL2726,4208,sao paulo,SP
+SEL2727,81200,curitiba,PR
+SEL2728,81650,curitiba,PR
+SEL2729,86801,apucarana,PR
+SEL2730,83408,colombo,PR
+SEL2731,89820,xanxere,SC
+SEL2732,83323,pinhais,PR
+SEL2733,80250,curitiba,PR
+SEL2734,38400,uberlandia,MG
+SEL2735,26285,nova iguacu,RJ
+SEL2736,4735,sao paulo,SP
+SEL2737,4104,sao paulo,SP
+SEL2738,21921,rio de janeiro,RJ
+SEL2739,36213,dores de campos,MG
+SEL2740,9520,sao caetano do sul,SP
+SEL2741,8223,sao paulo,SP
+SEL2742,81880,curitiba,PR
+SEL2743,6322,carapicuiba,SP
+SEL2744,3655,sao paulo,SP
+SEL2745,19023,presidente prudente,SP
+SEL2746,13091,campinas,SP
+SEL2747,37175,ilicinea,MG
+SEL2748,13403,piracicaba,SP
+SEL2749,88301,itajai,SC
+SEL2750,93336,novo hamburgo,RS
+SEL2751,3480,sao paulo,SP
+SEL2752,4282,sao paulo,SP
+SEL2753,88113,sao jose,SC
+SEL2754,4176,sao paulo,SP
+SEL2755,14940,ibitinga,SP
+SEL2756,9561,sao caetano do sul,SP
+SEL2757,86181,cambe,PR
+SEL2758,18090,sorocaba,SP
+SEL2759,35900,itabira,MG
+SEL2760,3504,sao paulo,SP
+SEL2761,3068,sao paulo,SP
+SEL2762,85960,marechal candido rondon,PR
+SEL2763,8246,sao paulo,SP
+SEL2764,14860,barrinha,SP
+SEL2765,81070,curitiba,PR
+SEL2766,8180,sao paulo,SP
+SEL2767,89022,blumenau,SC
+SEL2768,89031,blumenau,SC
+SEL2769,90250,porto alegre,RS
+SEL2770,74110,goiania,GO
+SEL2771,86800,apucarana,PR
+SEL2772,3813,sao paulo,SP
+SEL2773,89280,sao bento do sul,SC
+SEL2774,3320,sao paulo,SP
+SEL2775,12942,atibaia,SP
+SEL2776,71215,brasilia,DF
+SEL2777,87230,jussara,PR
+SEL2778,14090,ribeirao preto,SP
+SEL2779,87050,maringa,PR
+SEL2780,85815,cascavel,PR
+SEL2781,85960,marechal candido rondon,PA
+SEL2782,13471,americana,SP
+SEL2783,14405,franca,SP
+SEL2784,5004,sao paulo,SP
+SEL2785,6711,cotia,SP
+SEL2786,83321,pinhais,SP
+SEL2787,87015,maringa,PR
+SEL2788,86060,londrina,PR
+SEL2789,5856,sao paulo,SP
+SEL2790,84600,uniao da vitoria,PR
+SEL2791,7180,guarulhos,SP
+SEL2792,13030,campinas,SP
+SEL2793,13920,pedreira,SP
+SEL2794,13205,jundiai,SP
+SEL2795,9891,sao bernardo do campo,SP
+SEL2796,11010,santos,SP
+SEL2797,19830,echapora,SP
+SEL2798,38183,araxa,MG
+SEL2799,15505,votuporanga,SP
+SEL2800,11015,santos,SP
+SEL2801,89460,canoinhas,SC
+SEL2802,21040,rio de janeiro,RJ
+SEL2803,14110,ribeirao preto,SP
+SEL2804,95840,triunfo,RS
+SEL2805,18681,lencois paulista,SP
+SEL2806,29166,serra,ES
+SEL2807,96816,santa cruz do sul,RS
+SEL2808,4461,sao paulo,SP
+SEL2809,14940,ibitinga,SP
+SEL2810,2265,sao paulo,SP
+SEL2811,3431,sao paulo,SP
+SEL2812,6080,osasco,SP
+SEL2813,6286,osasco,SP
+SEL2814,80240,curitiba,PR
+SEL2815,82300,curitiba,PR
+SEL2816,5849,sao paulo,SP
+SEL2817,23092,rio de janeiro,RJ
+SEL2818,15802,catanduva,SP
+SEL2819,3702,sao paulo,SP
+SEL2820,8577,itaquaquecetuba,SP
+SEL2821,86690,colorado,PR
+SEL2822,88220,itapema,SC
+SEL2823,88352,brusque,SC
+SEL2824,4208,sao paulo,SP
+SEL2825,28950,armacao dos buzios,RJ
+SEL2826,89208,joinville,SC
+SEL2827,3319,sao paulo,SP
+SEL2828,5624,sao paulo,SP
+SEL2829,87045,maringa,PR
+SEL2830,59020,natal,RN
+SEL2831,6192,osasco,SP
+SEL2832,87043,maringa,PR
+SEL2833,2350,sao paulo,SP
+SEL2834,19029,presidente prudente,SP
+SEL2835,17209,jau,SP
+SEL2836,85880,itaipulandia,PR
+SEL2837,18030,sorocaba,SP
+SEL2838,37540,santa rita do sapucai,MG
+SEL2839,95012,caxias do sul,RS
+SEL2840,2040,sao paulo,SP
+SEL2841,80620,curitiba,PR
+SEL2842,70719,brasilia,DF
+SEL2843,20766,rio de janeiro,RJ
+SEL2844,3168,sao paulo,SP
+SEL2845,3476,sao paulo,SP
+SEL2846,12940,atibaia,SP
+SEL2847,93800,sapiranga,RS
+SEL2848,83020,sao jose dos pinhais,PR
+SEL2849,83833,fazenda rio grande,PR
+SEL2850,74333,goiania,GO
+SEL2851,13324,salto,SP
+SEL2852,3138,sao paulo,SP
+SEL2853,1201,sao paulo,SP
+SEL2854,30882,belo horizonte,MG
+SEL2855,5468,sao paulo,SP
+SEL2856,9961,diadema,SP
+SEL2857,1026,sao paulo,SP
+SEL2858,4243,sao paulo,SP
+SEL2859,92120,canoas,RS
+SEL2860,87702,paranavai,PR
+SEL2861,38400,uberlandia,MG
+SEL2862,4193,sao paulo,SP
+SEL2863,14055,ribeirao preto,SP
+SEL2864,6506,santana de parnaiba,SP
+SEL2865,71931,brasilia,DF
+SEL2866,31365,belo horizonte,MG
+SEL2867,18052,sorocaba,SP
+SEL2868,94810,alvorada,RS
+SEL2869,20091,rio de janeiro,RJ
+SEL2870,8596,itaquaquecetuba,SP
+SEL2871,4131,sao paulo,SP
+SEL2872,80410,curitiba,PR
+SEL2873,1212,sao paulo,SP
+SEL2874,18270,tatui,SP
+SEL2875,11900,registro,SP
+SEL2876,13474,americana,SP
+SEL2877,4733,sao paulo,SP
+SEL2878,3165,sao paulo,SP
+SEL2879,18950,ipaussu,SP
+SEL2880,3679,sao paulo,SP
+SEL2881,86010,londrina,PR
+SEL2882,1208,sao paulo,SP
+SEL2883,36325,tiradentes,MG
+SEL2884,75901,rio verde,GO
+SEL2885,71936,brasilia,DF
+SEL2886,25900,mage,RJ
+SEL2887,75124,anapolis,GO
+SEL2888,3565,sao paulo,SP
+SEL2889,4696,sao paulo,SP
+SEL2890,1309,sao paulo,SP
+SEL2891,6764,tabao da serra,SP
+SEL2892,3908,sao paulo,SP
+SEL2893,70856,brasilia,DF
+SEL2894,3641,sao paulo,SP
+SEL2895,31980,belo horizonte,MG
+SEL2896,1310,sao paulo,SP
+SEL2897,3445,sao paulo,SP
+SEL2898,13478,americana,SP
+SEL2899,5417,sao paulo,SP
+SEL2900,9951,diadema,SP
+SEL2901,84172,castro,PR
+SEL2902,90520,porto alegre,RS
+SEL2903,2281,sao paulo,SP
+SEL2904,3279,sao paulo,SP
+SEL2905,16306,penapolis,SP
+SEL2906,5104,sao paulo,SP
+SEL2907,87114,sarandi,PR
+SEL2908,6760,sao paulo,SP
+SEL2909,12327,jacarei,SP
+SEL2910,12230,sao jose dos campos,SP
+SEL2911,88308,itajai,SC
+SEL2912,8072,sao paulo,SP
+SEL2913,18590,bofete,SP
+SEL2914,9080,santo andre,SP
+SEL2915,2336,sao paulo,SP
+SEL2916,21825,rio de janeiro,RJ
+SEL2917,86026,londrina,PR
+SEL2918,14096,ribeirao preto,SP
+SEL2919,88380,picarras,SC
+SEL2920,8070,sao paulo,SP
+SEL2921,28035,rio de janeiro,RJ
+SEL2922,9171,santo andre,SP
+SEL2923,17510,marilia,SP
+SEL2924,20551,rio de janeiro,RJ
+SEL2925,15013,sao jose do rio preto,SP
+SEL2926,4607,sao paulo,SP
+SEL2927,7097,guarulhos,SP
+SEL2928,7791,cajamar,SP
+SEL2929,18111,votorantim,SP
+SEL2930,95180,farroupilha,RS
+SEL2931,6716,cotia,SP
+SEL2932,13901,amparo,SP
+SEL2933,37443,baependi,MG
+SEL2934,29056,vitoria,ES
+SEL2935,75650,morrinhos,GO
+SEL2936,6766,taboao da serra,SP
+SEL2937,8541,ferraz de vasconcelos,SP
+SEL2938,9010,santo andre,SP
+SEL2939,9780,sao bernardo do campo,SP
+SEL2940,5051,sao paulo,SP
+SEL2941,2522,sao paulo,SP
+SEL2942,5879,sao paulo,SP
+SEL2943,86702,arapongas,PR
+SEL2944,13320,salto,SP
+SEL2945,28615,nova friburgo,RJ
+SEL2946,18136,sao roque,SP
+SEL2947,4007,sao paulo - sp,SP
+SEL2948,74150,goiania,GO
+SEL2949,8215,sao paulo,SP
+SEL2950,15131,mirassol,SP
+SEL2951,88960,sombrio,SC
+SEL2952,80620,curitiba,PR
+SEL2953,29100,vila velha,ES
+SEL2954,8275,sao paulo,SP
+SEL2955,24900,marica,RJ
+SEL2956,22240,rio de janeiro,RJ
+SEL2957,24310,niteroi,RJ
+SEL2958,14402,franca,SP
+SEL2959,19063,presidente prudente,SP
+SEL2960,1026,sao paulo,SP
+SEL2961,36407,conselheiro lafaiete,MG
+SEL2962,85812,cascavel,PR
+SEL2963,87015,maringa,PR
+SEL2964,86010,londrina,PR
+SEL2965,85816,cascavel,PR
+SEL2966,76330,jaragua,GO
+SEL2967,13250,itatiba,SP
+SEL2968,4795,sao paulo,SP
+SEL2969,81530,curitiba,PR
+SEL2970,2337,sao paulo,SP
+SEL2971,16200,birigui,SP
+SEL2972,81630,curitiba,PR
+SEL2973,89228,joinville,SC
+SEL2974,1026,sao paulo,SP
+SEL2975,13905,amparo,SP
+SEL2976,13211,jundiai,SP
+SEL2977,14940,ibitinga,SP
+SEL2978,9560,sao caetano do sul,SP
+SEL2979,30840,belo horizonte,MG
+SEL2980,2320,sao paulo,SP
+SEL2981,35044,governador valadares,MG
+SEL2982,15170,tanabi,SP
+SEL2983,33936,ribeirao das neves,MG
+SEL2984,5522,sao paulo,SP
+SEL2985,9321,maua,SP
+SEL2986,13845,mogi guacu,SP
+SEL2987,71551,brasilia,DF
+SEL2988,2969,sao paulo,SP
+SEL2989,22793,"rio de janeiro, rio de janeiro, brasil",RJ
+SEL2990,31842,belo horizonte,MG
+SEL2991,4705,sao paulo,SP
+SEL2992,31910,belo horizonte,MG
+SEL2993,20710,rio de janeiro,RJ
+SEL2994,89041,blumenau,SC
+SEL2995,37550,pouso alegre,MG
+SEL2996,8820,mogi das cruzes,SP
+SEL2997,14940,ibitinga,SP
+SEL2998,9895,sao bernardo do campo,SP
+SEL2999,3211,sao paulo,SP
+SEL3000,4360,sao paulo,SP
+SEL3001,3064,sao paulo,SP
+SEL3002,17512,marilia,SP
+SEL3003,6453,barueri,SP
+SEL3004,88316,itajai,SC
+SEL3005,13920,pedreira,SP
+SEL3006,35180,timoteo,MG
+SEL3007,8810,mogi das cruzes,SP
+SEL3008,3937,sao paulo,SP
+SEL3009,3340,sao paulo,SP
+SEL3010,3437,sao paulo,SP
+SEL3011,29480,muqui,ES
+SEL3012,89255,jaragua do sul,SC
+SEL3013,36010,juiz de fora,MG
+SEL3014,3679,sao paulo,SP
+SEL3015,14610,ipua,SP
+SEL3016,12306,jacarei / sao paulo,SP
+SEL3017,63540,varzea alegre,CE
+SEL3018,8615,suzano,SP
+SEL3019,12512,guaratingueta,SP
+SEL3020,4281,sao paulo,SP
+SEL3021,13710,tambau,SP
+SEL3022,13601,araras,SP
+SEL3023,13720,sao jose do rio pardo,SP
+SEL3024,38022,uberaba,MG
+SEL3025,20521,rio de janeiro,RJ
+SEL3026,84500,irati,PR
+SEL3027,14085,riberao preto,SP
+SEL3028,86600,rolandia,PR
+SEL3029,37708,pocos de caldas,MG
+SEL3030,52011,recife,PE
+SEL3031,88063,florianopolis,SC
+SEL3032,13253,itatiba,SP
+SEL3033,90630,porto alegre,RS
+SEL3034,4041,sao paulo,SP
+SEL3035,89136,rodeio,SC
+SEL3036,19020,presidente prudente,SP
+SEL3037,31160,belo horizonte,SP
+SEL3038,26510,nilopolis,RJ
+SEL3039,20020,rio de janeiro,RJ
+SEL3040,39400,montes claros,MG
+SEL3041,93032,sao leopoldo,RS
+SEL3042,12327,jacarei,SP
+SEL3043,9981,diadema,SP
+SEL3044,89812,chapeco,SC
+SEL3045,13600,sao paulo,SP
+SEL3046,71065,brasilia,DF
+SEL3047,41342,salvador,BA
+SEL3048,22793,rio de janeiro,RJ
+SEL3049,87045,maringa,PR
+SEL3050,3121,sao paulo,SP
+SEL3051,73813,formosa,GO
+SEL3052,25561,sao joao de meriti,RJ
+SEL3053,74930,aparecida de goiania,GO
+SEL3054,3029,sao paulo,SP
+SEL3055,3572,sao paulo,SP
+SEL3056,37590,jacutinga,MG
+SEL3057,89036,blumenau,SC
+SEL3058,24020,niteroi,RJ
+SEL3059,4771,sao paulo,SP
+SEL3060,14025,ribeirao preto,SP
+SEL3061,38405,uberlandia,MG
+SEL3062,2122,sao paulo,SP
+SEL3063,13273,valinhos,SP
+SEL3064,31310,belo horizonte,MG
+SEL3065,86360,bandeirantes,PR
+SEL3066,82900,curitiba,PR
+SEL3067,5734,sao paulo,SP
+SEL3068,20770,rio de janeiro,RJ
+SEL3069,15054,sao jose do rio preto,SP
+SEL3070,14940,ibitinga,SP
+SEL3071,2968,sao paulo,SP
+SEL3072,89082,indaial,SC
+SEL3073,86020,londrina,PR
+SEL3074,82200,curitiba,PR
+SEL3075,74835,goiania,GO
+SEL3076,13186,hortolandia,SP
+SEL3077,9550,sao caetano do sul,SP
+SEL3078,55602,vitoria de santo antao,PE
+SEL3079,13212,jundiai,SP
+SEL3080,31565,belo horizonte,MG
+SEL3081,14808,araraquara,SP
+SEL3082,85950,palotina,PR
+SEL3083,25755,petropolis,RJ
+SEL3084,6852,itapecerica da serra,SP
+SEL3085,36401,conselheiro lafaiete,MG
+SEL3086,13613,leme,SP
+SEL3087,35530,claudio,MG
+SEL3088,1238,sao paulo,SP
+SEL3089,5713,sao paulo,SP
+SEL3090,5314,sao paulo,SP
+SEL3091,87111,sarandi,PR
+SEL3092,88137,palhoca,SC
+SEL3093,4650,sao paulo,SP
+SEL3094,96080,pelotas,RS
+SEL3095,12051,taubate,SP
