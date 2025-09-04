@@ -11,18 +11,13 @@ from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 ################################################
 # Helper Functions
 ################################################
 
 # Data Preprocessing & Feature Engineering
-#################################################
-
-# Missing Value
-###################
 
 def table_missing_values(dataframe, na_name=False):
     na_columns = [col for col in dataframe.columns if dataframe[col].isnull().sum() > 0]
@@ -111,10 +106,6 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
     # print(f'num_but_cat: {len(num_but_cat)}')
     return cat_cols, num_cols, cat_but_car
 
-    
-# Outlier value
-##########################
-
 def outlier_thresholds(dataframe, col_name, q1=0.25, q3=0.75):
     quartile1 = dataframe[col_name].quantile(q1)
     quartile3 = dataframe[col_name].quantile(q3)
@@ -128,35 +119,17 @@ def replace_with_thresholds(dataframe, variable):
     dataframe.loc[(dataframe[variable] < low_limit), variable] = low_limit
     dataframe.loc[(dataframe[variable] > up_limit), variable] = up_limit
 
-
 def check_outlier(dataframe, col_name, q1=0.25, q3=0.75):
-    """
-    Tek bir kolon için aykırı değer var mı kontrol eder
-    True/False döner
-    """
     low_limit, up_limit = outlier_thresholds(dataframe, col_name, q1, q3)
-    # sadece sayısal kolonlarda kontrol et
-    if dataframe[col_name].dtype.kind in 'bifc':  # boolean, integer, float, complex
-        if dataframe[(dataframe[col_name] > up_limit) | (dataframe[col_name] < low_limit)].any(axis=None):
-            return True
-        else:
-            return False
+    
+    if dataframe[(dataframe[col_name] > up_limit) | (dataframe[col_name] < low_limit)].any(axis=None):
+        return True
     else:
-        return False  # sayısal değilse False döndür
-
-        
-
-def check_outliers_for_columns(dataframe, cols_list, q1=0.25, q3=0.75):
-    """
-    Belirli kolonları tek tek kontrol eder ve aykırı değer var mı diye True/False döner
-    """
-    result = {}
-    for col in cols_list:
-        result[col] = check_outlier(dataframe, col, q1, q3)
-    return result
+        return False
 
 
-
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def check_outlier_cleaning(original_df, clean_df, cols):
     """
@@ -205,10 +178,6 @@ def check_outlier_cleaning(original_df, clean_df, cols):
         plt.show()
 
 
-
-#  Encoding
-#######################
-
 def encode_label(dataframe, binary_col):
     labelencoder = LabelEncoder()
     dataframe[binary_col] = labelencoder.fit_transform(dataframe[binary_col])
@@ -219,6 +188,45 @@ def encode_label(dataframe, binary_col):
 def one_hot_encoder(dataframe, categorical_cols, drop_first=False):
     dataframe = pd.get_dummies(dataframe, columns=categorical_cols, drop_first=drop_first)
     return dataframe
+
+def diabetes_data_prep(dataframe):
+    dataframe.columns = [col.upper() for col in dataframe.columns]
+
+    # Glucose
+    dataframe['NEW_GLUCOSE_CAT'] = pd.cut(x=dataframe['GLUCOSE'], bins=[-1, 139, 200], labels=["normal", "prediabetes"])
+
+    # Age
+    dataframe.loc[(dataframe['AGE'] < 35), "NEW_AGE_CAT"] = 'young'
+    dataframe.loc[(dataframe['AGE'] >= 35) & (dataframe['AGE'] <= 55), "NEW_AGE_CAT"] = 'middleage'
+    dataframe.loc[(dataframe['AGE'] > 55), "NEW_AGE_CAT"] = 'old'
+
+    # BMI
+    dataframe['NEW_BMI_RANGE'] = pd.cut(x=dataframe['BMI'], bins=[-1, 18.5, 24.9, 29.9, 100],
+                                        labels=["underweight", "healty", "overweight", "obese"])
+
+    # BloodPressure
+    dataframe['NEW_BLOODPRESSURE'] = pd.cut(x=dataframe['BLOODPRESSURE'], bins=[-1, 79, 89, 123],
+                                            labels=["normal", "hs1", "hs2"])
+
+    cat_cols, num_cols, cat_but_car = grab_col_names(dataframe, cat_th=5, car_th=20)
+
+    cat_cols = [col for col in cat_cols if "OUTCOME" not in col]
+
+    df = one_hot_encoder(dataframe, cat_cols, drop_first=True)
+
+    cat_cols, num_cols, cat_but_car = grab_col_names(df, cat_th=5, car_th=20)
+
+    replace_with_thresholds(df, "INSULIN")
+
+    X_scaled = StandardScaler().fit_transform(df[num_cols])
+    df[num_cols] = pd.DataFrame(X_scaled, columns=df[num_cols].columns)
+
+    y = df["OUTCOME"]
+    X = df.drop(["OUTCOME"], axis=1)
+
+    return X, y
+
+
 
 
 # Base Models
