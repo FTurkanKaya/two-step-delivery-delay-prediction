@@ -9,6 +9,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
+import pandas as pd
+import numpy as np
 
 
 ################################################
@@ -40,6 +42,9 @@ def missing_VS_target(dataframe, target, na_columns):
     for col in na_flags:
         print(pd.DataFrame({"TARGET_MEAN": temp_df.groupby(col)[target].mean(),
                             "Count": temp_df.groupby(col)[target].count()}), end="\n\n\n")
+
+
+
 
 def grab_col_names(dataframe, cat_th=10, car_th=20):
     """
@@ -121,6 +126,64 @@ def check_outlier(dataframe, col_name, q1=0.25, q3=0.75):
         return True
     else:
         return False
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+def check_outlier_cleaning(original_df, clean_df, cols):
+    """
+    Aykırı değer analizi ve esitleme sonrası kontrol fonksiyonu.
+    
+    Parameters
+    ----------
+    original_df : pd.DataFrame
+        Temizleme öncesi orijinal veri
+    clean_df : pd.DataFrame
+        Aykırı değer esitleme sonrası veri
+    cols : list
+        Kontrol etmek istediğiniz sayısal sütunlar
+        
+    Returns
+    -------
+    None
+    """
+    for col in cols:
+        print(f"\n=== {col} ===")
+        
+        # Temel istatistikler
+        print("Original describe:")
+        print(original_df[col].describe())
+        print("Cleaned describe:")
+        print(clean_df[col].describe())
+        
+        # Negatif değer kontrolü
+        neg_count = (clean_df[col] < 0).sum()
+        print(f"Negative values after cleaning: {neg_count}")
+        
+        # Eksik değer kontrolü
+        na_count = clean_df[col].isnull().sum()
+        print(f"Missing values: {na_count}")
+        
+        # Boxplot
+        plt.figure(figsize=(10,3))
+        sns.boxplot(x=clean_df[col])
+        plt.title(f"Boxplot of {col}")
+        plt.show()
+        
+        # Histogram
+        plt.figure(figsize=(10,3))
+        sns.histplot(clean_df[col], bins=50, kde=True)
+        plt.title(f"Histogram of {col}")
+        plt.show()
+
+
+def encode_label(dataframe, binary_col):
+    labelencoder = LabelEncoder()
+    dataframe[binary_col] = labelencoder.fit_transform(dataframe[binary_col])
+    return dataframe
+
+
 
 def one_hot_encoder(dataframe, categorical_cols, drop_first=False):
     dataframe = pd.get_dummies(dataframe, columns=categorical_cols, drop_first=drop_first)
