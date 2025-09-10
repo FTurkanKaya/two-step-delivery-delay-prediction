@@ -48,44 +48,6 @@ def missing_VS_target(dataframe, target, na_columns):
         print(pd.DataFrame({"TARGET_MEAN": temp_df.groupby(col)[target].mean(),
                             "Count": temp_df.groupby(col)[target].count()}), end="\n\n\n")
 
-def check_missing_values(df_original, df_clean, num_cols_flag, few_na_cols=None):
-    """
-    Eksik değerlerin işlenmesini kontrol eder.
-    
-    Parameters
-    ----------
-    df_original : pd.DataFrame
-        Orijinal veri seti
-    df_clean : pd.DataFrame
-        Eksik değerler işlendikten sonraki veri seti
-    num_cols_flag : list
-        Sayısal kolonlar ve NA_FLAG kolonlarının kontrol edileceği liste
-    few_na_cols : list, optional
-        Çok az eksik olan kolonlar, satır silme sonrası kontrol
-    
-    Returns
-    -------
-    None
-    """
-    
-    print("=== Missing Values After Cleaning ===")
-    print(df_clean.isnull().sum().sort_values(ascending=False))
-    
-    print("\n=== NA Flag Check ===")
-    for col in num_cols_flag:
-        flag_col = col + "_NA_FLAG"
-        if flag_col in df_clean.columns:
-            print(f"{flag_col} value counts:\n", df_clean[flag_col].value_counts())
-    
-    print("\n=== Median Check ===")
-    for col in num_cols_flag:
-        print(f"{col} original median: {df_original[col].median()}")
-        print(f"{col} cleaned median: {df_clean[col].median()}\n")
-    
-    if few_na_cols:
-        print("=== Few NA Columns Check ===")
-        for col in few_na_cols:
-            print(f"{col} missing values after cleaning: {df_clean[col].isnull().sum()}")
 
 
 
@@ -260,23 +222,37 @@ def one_hot_encoder(dataframe, categorical_cols, drop_first=False):
 
 
 # Base Models
-def base_models(X, y, scoring="roc_auc"):
-    print("Base Models....")
-    classifiers = [('LR', LogisticRegression()),
-                   ('KNN', KNeighborsClassifier()),
-                   ("SVC", SVC()),
-                   ("CART", DecisionTreeClassifier()),
-                   ("RF", RandomForestClassifier()),
-                   ('Adaboost', AdaBoostClassifier()),
-                   ('GBM', GradientBoostingClassifier()),
-                   ('XGBoost', XGBClassifier(eval_metric='logloss')),           # use_label_encoder=False
-                   ('LightGBM', LGBMClassifier()),
-                   # ('CatBoost', CatBoostClassifier(verbose=False))
-                   ]
-
-    for name, classifier in classifiers:
-        cv_results = cross_validate(classifier, X, y, cv=3, scoring=scoring)
-        print(f"{scoring}: {round(cv_results['test_score'].mean(), 4)} ({name}) ")
+def base_models_pipeline(X, y, preprocessor, scoring="roc_auc", cv=3):
+    """
+    X, y: veri seti
+    preprocessor: ön işleme pipeline (senin pre_step4)
+    scoring: metric, default roc_auc
+    cv: cross-validation fold sayısı
+    """
+    print("Base Models...\n")
+    
+    # Hızlı çalışacak modeller
+    classifiers = [
+        ("LR", LogisticRegression(max_iter=1000, class_weight="balanced")),
+        ("CART", DecisionTreeClassifier()),
+        ("RF", RandomForestClassifier(n_estimators=200)),
+        ("LightGBM", LGBMClassifier()),
+        ("XGBoost", XGBClassifier(eval_metric='logloss'))
+    ]
+    
+    results = {}
+    
+    for name, clf in classifiers:
+        pipe = Pipeline([
+            ("prep", preprocessor),
+            ("model", clf)
+        ])
+        cv_results = cross_validate(pipe, X, y, cv=cv, scoring=scoring)
+        mean_score = cv_results['test_score'].mean()
+        print(f"{name} {scoring}: {mean_score:.4f}")
+        results[name] = mean_score
+    
+    return results
 
 
 
