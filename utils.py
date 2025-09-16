@@ -7,17 +7,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 import re
-from lightgbm import LGBMClassifier
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, VotingClassifier, AdaBoostClassifier
+from lightgbm import LGBMClassifier, LGBMRegressor
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, GradientBoostingClassifier, GradientBoostingRegressor, VotingClassifier, AdaBoostClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import cross_validate, GridSearchCV, StratifiedKFold, train_test_split, validation_curve
+from sklearn.model_selection import cross_validate, cross_val_score, GridSearchCV, StratifiedKFold, train_test_split, validation_curve
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import FunctionTransformer, StandardScaler, RobustScaler, OneHotEncoder
 from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.impute import SimpleImputer
-from sklearn.metrics import roc_auc_score, average_precision_score, f1_score, confusion_matrix, classification_report
-from xgboost import XGBClassifier
+from sklearn.metrics import roc_auc_score, accuracy_score, average_precision_score, f1_score, confusion_matrix, classification_report
+from xgboost import XGBClassifier, XGBRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.base import BaseEstimator, TransformerMixin
@@ -35,6 +35,7 @@ def load(dataset):
     except FileNotFoundError:
         print(f"Dosya bulunamadı: {dataset}")
         return None
+
 
 
 ################################################
@@ -97,7 +98,6 @@ def handle_missing_values_leakfree(df: pd.DataFrame) -> pd.DataFrame:
 ################################################
 # 3. FEATURE CATEGORIZATION
 ################################################
-
 def grab_col_names(dataframe, cat_th=10, car_th=20):
     """
 
@@ -276,7 +276,8 @@ def add_extra_features(df: pd.DataFrame) -> pd.DataFrame:
 def drop_leakage_columns(df: pd.DataFrame) -> pd.DataFrame:
     drop_cols = [
         "order_delivered_carrier_date", "order_delivered_customer_date",
-        "shipping_time", "delay_days", "delay_class", "is_late",
+        "estimated_time","shipping_time", 'prep_time','shipping_time_NA_FLAG', 'estimated_time_NA_FLAG', 
+        'prep_time_NA_FLAG',"delay_days", "delay_class", "is_late",
         "order_purchase_timestamp", "order_approved_at", "order_estimated_delivery_date"
     ]
     return df.drop(columns=[c for c in drop_cols if c in df.columns], errors="ignore")
@@ -561,7 +562,7 @@ def base_models(X, y, scoring="roc_auc"):
 def base_models_pipeline(X, y, preprocessor, scoring="roc_auc", cv=3):
     """
     X, y: veri seti
-    preprocessor: ön işleme pipeline (senin pre_step4)
+    preprocessor: ön işleme pipeline 
     scoring: metric, default roc_auc
     cv: cross-validation fold sayısı
     """
@@ -573,7 +574,7 @@ def base_models_pipeline(X, y, preprocessor, scoring="roc_auc", cv=3):
         ("CART", DecisionTreeClassifier()),
         ("RF", RandomForestClassifier(n_estimators=200)),
         ("LightGBM", LGBMClassifier()),
-        ("XGBoost", XGBClassifier(eval_metric='logloss'))
+        ("XGBoost", XGBClassifier(eval_metric='logloss', verbose = -1))
     ]
     
     results = {}
@@ -595,34 +596,43 @@ def base_models_pipeline(X, y, preprocessor, scoring="roc_auc", cv=3):
 # 12. HYPERPARAMETER OPTIMIZATION
 ################################################
 
+# Model parametreleri
 knn_params = {"n_neighbors": range(2, 50)}
 
-cart_params = { 'max_depth': [5, 10, 15],
-                "min_samples_split": [2, 5, 10]}
+cart_params = { 
+    'max_depth': [5, 10, 15],
+    "min_samples_split": [2, 5, 10]
+}
 
-rf_params = {"max_depth": [8, 15, None],
-             "max_features": [5, 7],
-             "min_samples_split": [15, 20],
-             "n_estimators": [200, 300]}
+rf_params = {
+    "max_depth": [8, 15, None],
+    "max_features": [5, 7],
+    "min_samples_split": [15, 20],
+    "n_estimators": [200, 300]
+}
 
-xgboost_params = {"learning_rate": [0.01, 0.1],
-                  "max_depth": [5, 8],
-                  "n_estimators": [100, 200],
-                  "colsample_bytree": [0.5, 1]}
+xgboost_params = {
+    "learning_rate": [0.01, 0.1],
+    "max_depth": [5, 8],
+    "n_estimators": [100, 200],
+    "colsample_bytree": [0.5, 1]
+}
 
-lightgbm_params = {"learning_rate": [0.01, 0.1],
-                   "n_estimators": [300, 500],
-                   "colsample_bytree": [0.7, 1]}
+lightgbm_params = {
+    "learning_rate": [0.01, 0.1],
+    "n_estimators": [300, 500],
+    "colsample_bytree": [0.7, 1]
+}
 
-
-# Model listesi
+# Güncellenmiş classifier listesi
 classifiers = [
-   # ('KNN', KNeighborsClassifier(), knn_params),
+    # ('KNN', KNeighborsClassifier(), knn_params),  # opsiyonel
     ("CART", DecisionTreeClassifier(), cart_params),
     ("RF", RandomForestClassifier(), rf_params),
     ('XGBoost', XGBClassifier(use_label_encoder=False, eval_metric='logloss'), xgboost_params),
-    ('LightGBM', LGBMClassifier(), lightgbm_params)
+    ('LightGBM', LGBMClassifier(verbosity=-1, force_row_wise=True), lightgbm_params)
 ]
+
 
 
 def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, classifiers, cv=3, scoring="roc_auc"):
@@ -660,10 +670,200 @@ def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, clas
     return best_models
 
 
+def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_test, y_test, classifiers, cv=3, scoring="roc_auc"):
+    
+    print("Hyperparameter Optimization on Processed Data (Pipeline yok) with Optimal Threshold...\n")
+    best_models = {}
+
+    for name, model, params in classifiers:
+        print(f"########## {name} ##########")
+
+        # Başlangıç skoru (default parametreler)
+        cv_results = cross_validate(model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV Before): {round(cv_results['test_score'].mean(), 4)}")
+
+        # GridSearchCV
+        gs = GridSearchCV(model, params, cv=cv, n_jobs=-1, verbose=1, scoring=scoring)
+        gs.fit(X_train, y_train)
+
+        # En iyi model
+        best_model = gs.best_estimator_
+
+        # En iyi CV skoru
+        cv_results = cross_validate(best_model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV After): {round(cv_results['test_score'].mean(), 4)}")
+
+        # Test set olasılık tahminleri
+        y_pred_proba = best_model.predict_proba(X_test)[:, 1]
+
+        # ROC-AUC testi
+        test_roc_auc = roc_auc_score(y_test, y_pred_proba)
+        print(f"{scoring} (Test): {round(test_roc_auc, 4)}")
+
+        # Optimal F1 threshold
+        thresholds = np.linspace(0, 1, 100)
+        f1_scores = [f1_score(y_test, y_pred_proba >= t) for t in thresholds]
+        best_thresh = thresholds[np.argmax(f1_scores)]
+        print(f"Optimal F1 threshold: {best_thresh:.3f}")
+        print(f"F1 at optimal threshold: {f1_score(y_test, y_pred_proba >= best_thresh):.4f}\n")
+
+        best_models[name] = {
+            "model": best_model,
+            "optimal_threshold": best_thresh,
+            "roc_auc": test_roc_auc,
+            "f1_at_threshold": f1_score(y_test, y_pred_proba >= best_thresh)
+        }
+
+    return best_models
+
+# multi_classifiers parameters
+cart_params_multi = {
+    "max_depth": [5, 10, 15, None],
+    "min_samples_split": [2, 5, 10],
+    "min_samples_leaf": [1, 2, 4]
+}
+
+# Random Forest parametreleri
+rf_params_multi = {
+    "n_estimators": [100, 200, 300],
+    "max_depth": [8, 15, None],
+    "min_samples_split": [2, 5, 10],
+    "min_samples_leaf": [1, 2, 4],
+    "max_features": ["auto", "sqrt"]
+}
+
+# XGBoost parametreleri
+xgboost_params_multi = {
+    "n_estimators": [100, 200],
+    "learning_rate": [0.01, 0.1],
+    "max_depth": [5, 8],
+    "colsample_bytree": [0.5, 1]
+}
+
+# LightGBM parametreleri
+lightgbm_params_multi = {
+    "n_estimators": [300, 500],
+    "learning_rate": [0.01, 0.1],
+    "num_leaves": [31, 50, 100],
+    "colsample_bytree": [0.7, 1]
+}
+
+# Model listesi
+multi_classifiers = [
+   # ('KNN', KNeighborsClassifier(), knn_params),
+    ("CART", DecisionTreeClassifier(), cart_params_multi),
+    ("RF", RandomForestClassifier(), rf_params_multi),
+    ('XGBoost', XGBClassifier(use_label_encoder=False, eval_metric='logloss'), xgboost_params_multi),
+    ('LightGBM', LGBMClassifier(verbosity=-1, force_row_wise=True), lightgbm_params_multi)
+]
+
+
+
+def hyperparameter_optimization_multiclass(X_train, y_train, X_test, y_test, multi_classifiers, cv=3, scoring="accuracy"):         
+    print("Hyperparameter Optimization for Multi-class...\n")
+    best_models = {}
+
+    for name, model, params in multi_classifiers:
+        print(f"########## {name} ##########")
+
+        # Başlangıç CV skoru
+        cv_score = cross_val_score(model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV Before): {cv_score.mean():.4f}")
+
+        # GridSearchCV
+        gs = GridSearchCV(model, params, cv=cv, n_jobs=-1, verbose=1, scoring=scoring)
+        gs.fit(X_train, y_train)
+
+        best_model = gs.best_estimator_
+
+        cv_after = cross_val_score(best_model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV After): {cv_after.mean():.4f}")
+
+        # ---- Test set skoru ----
+        y_pred = best_model.predict(X_test)
+        test_score = accuracy_score(y_test, y_pred)
+        print(f"{scoring} (Test): {test_score:.4f}\n")
+
+        best_models[name] = best_model
+
+    return best_models
+
+##--- REGRESSION
+
+# CART (Decision Tree Regressor) parametreleri
+cart_params_reg = {
+    "max_depth": [5, 10, 15, None],
+    "min_samples_split": [2, 5, 10],
+    "min_samples_leaf": [1, 2, 4]
+}
+
+# Random Forest Regressor parametreleri
+rf_params_reg = {
+    "n_estimators": [100, 200, 300],
+    "max_depth": [8, 15, None],
+    "min_samples_split": [2, 5, 10],
+    "min_samples_leaf": [1, 2, 4],
+    "max_features": ["auto", "sqrt"]
+}
+
+# XGBoost Regressor parametreleri
+xgboost_params_reg = {
+    "n_estimators": [100, 200],
+    "learning_rate": [0.01, 0.1],
+    "max_depth": [5, 8],
+    "colsample_bytree": [0.5, 1]
+}
+
+# LightGBM Regressor parametreleri
+lightgbm_params_reg= {
+    "n_estimators": [300, 500],
+    "learning_rate": [0.01, 0.1],
+    "num_leaves": [31, 50, 100],
+    "colsample_bytree": [0.7, 1]
+}
+
+# Regressor listesi
+regressors = [
+    ("CART", DecisionTreeRegressor(), cart_params_reg),
+    ("RF", RandomForestRegressor(), rf_params_reg),
+    ("XGBoost", XGBRegressor(), xgboost_params_reg),
+    ("LightGBM", LGBMRegressor(), lightgbm_params_reg)
+]
+
+
+def hyperparameter_optimization_regression(X_train, y_train, X_test, y_test, regressors, cv=3, scoring="r2"):
+    print("Hyperparameter Optimization for Regression...\n")
+    best_models = {}
+
+    for name, model, params in regressors:
+        print(f"########## {name} ##########")
+        
+        # Başlangıç skoru (default parametreler)
+        cv_score = cross_val_score(model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV Before): {cv_score.mean():.4f}")
+        
+        # GridSearchCV
+        gs = GridSearchCV(model, params, cv=cv, n_jobs=-1, verbose=1, scoring=scoring)
+        gs.fit(X_train, y_train)
+        
+        best_model = gs.best_estimator_
+        
+        cv_score_after = cross_val_score(best_model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV After): {cv_score_after.mean():.4f}")
+        
+        # Test skoru
+        test_score = best_model.score(X_test, y_test)
+        print(f"{scoring} (Test): {test_score:.4f}")
+        
+        print(f"{name} best params: {gs.best_params_}\n")
+        best_models[name] = best_model
+
+    return best_models
+
+    
 ################################################
 # 13. ENSEMBLE LEARNING
 ################################################
-
 # Stacking & Ensemble Learning
 def voting_classifier(best_models, X, y):
     print("Voting Classifier...")
@@ -674,7 +874,9 @@ def voting_classifier(best_models, X, y):
     print(f"Accuracy: {cv_results['test_accuracy'].mean()}")
     print(f"F1Score: {cv_results['test_f1'].mean()}")
     print(f"ROC_AUC: {cv_results['test_roc_auc'].mean()}")
+    
     return voting_clf
+
 
 
 ################################################
@@ -716,20 +918,6 @@ def val_curve_params(model, X, y, param_name, param_range, scoring="roc_auc", cv
 
 
 ################################################
-# 15. MAIN FUNCTION (PIPELINE ENTRY)
+# 15. Sipariş Gecikme Gün Sayısının Tahmini
 ################################################
 
-def main():
-    base_path = os.path.join(os.getcwd())
-    df_path = os.path.join(base_path, "fact_order_clean")
-    df = load(df_path)
-    X, y = diabetes_data_prep(df)
-    base_models(X, y)
-    best_models = hyperparameter_optimization(X, y)
-    voting_clf = voting_classifier(best_models, X, y)
-    joblib.dump(voting_clf, "/Users/mandatalorian/PycharmProjects/euro@tech/voting_clf.pkl")
-    return voting_clf
-    
-if __name__ == "__main__":
-    print("İşlem başladı")
-    main()
