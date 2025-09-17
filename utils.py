@@ -65,7 +65,23 @@ def missing_VS_target(dataframe, target, na_columns):
     for col in na_flags:
         print(pd.DataFrame({"TARGET_MEAN": temp_df.groupby(col)[target].mean(),
                             "Count": temp_df.groupby(col)[target].count()}), end="\n\n\n")
+        
 
+def missing_target_heatmap(df, target, na_columns):
+    temp_df = df.copy()
+    for col in na_columns:
+        temp_df[col + '_NA_FLAG'] = temp_df[col].isnull().astype(int)
+    
+    na_flags = [c for c in temp_df.columns if "_NA_FLAG" in c]
+    mean_target = [temp_df.groupby(col)[target].mean()[1] if 1 in temp_df.groupby(col)[target].mean().index else 0 
+                   for col in na_flags]
+
+    plt.figure(figsize=(10, len(na_flags)*0.5))
+    sns.heatmap(np.array(mean_target).reshape(-1,1), annot=True, cmap="YlOrRd", cbar=True,
+                yticklabels=[c.replace("_NA_FLAG","") for c in na_flags])
+    plt.title(f"NA etkisi vs {target}")
+    plt.xlabel("TARGET_MEAN")
+    plt.show()
 
 # Eksik değerler için NA_FLAG sütunlarını ekleyip, median veya mode ile doldur
 def handle_missing_values(df):
@@ -83,7 +99,7 @@ def handle_missing_values(df):
     return df_clean
 
 
-def handle_missing_values_leakfree(df: pd.DataFrame) -> pd.DataFrame:
+def handle_missing_values_leakfree(df) -> pd.DataFrame:
     df = df.copy()
     for col in ["prep_time", "estimated_time", "distance_km"]:
         if col in df.columns:
@@ -550,7 +566,7 @@ def base_models(X, y, scoring="roc_auc"):
                    #('Adaboost', AdaBoostClassifier()),
                    #('GBM', GradientBoostingClassifier()),
                    ('XGBoost', XGBClassifier(eval_metric='logloss')),           # use_label_encoder=False
-                   ('LightGBM', LGBMClassifier()),
+                   ('LightGBM', LGBMClassifier(verbosity=-1, force_row_wise=True)),
                    # ('CatBoost', CatBoostClassifier(verbose=False))
                    ]
 
@@ -638,13 +654,14 @@ classifiers = [
 def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, classifiers, cv=3, scoring="roc_auc"):
     print("Hyperparameter Optimization on Processed Data (Pipeline yok)...\n")
     best_models = {}
+    model_scores = []
 
     for name, model, params in classifiers:
         print(f"########## {name} ##########")
 
-        # Başlangıç skoru (default parametreler)
-        cv_results = cross_validate(model, X_train, y_train, cv=cv, scoring=scoring)
-        print(f"{scoring} (CV Before): {round(cv_results['test_score'].mean(), 4)}")
+        # Başlangıç CV skoru
+        cv_score = cross_val_score(model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV Before): {cv_score.mean():.4f}")
 
         # GridSearchCV
         gs = GridSearchCV(model, params, cv=cv, n_jobs=-1, verbose=1, scoring=scoring)
@@ -654,8 +671,8 @@ def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, clas
         best_model = gs.best_estimator_
 
         # En iyi CV skoru
-        cv_results = cross_validate(best_model, X_train, y_train, cv=cv, scoring=scoring)
-        print(f"{scoring} (CV After): {round(cv_results['test_score'].mean(), 4)}")
+        cv_after = cross_val_score(best_model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV After): {cv_after.mean():.4f}")
 
         # Test skoru
         y_pred_proba = best_model.predict_proba(X_test)[:, 1]
@@ -665,22 +682,34 @@ def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, clas
         # En iyi parametreler
         print(f"{name} best params: {gs.best_params_}\n")
 
+         # Sözlüğe kaydet
+        model_scores.append({
+            "Model": name,
+            "CV_Before": cv_score.mean(),
+            "CV_After": cv_after.mean(),
+            "Test": test_score
+        })
+
         best_models[name] = best_model
 
-    return best_models
+         # DataFrame oluştur
+    scores_df = pd.DataFrame(model_scores)
+    return best_models, scores_df
+
 
 
 def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_test, y_test, classifiers, cv=3, scoring="roc_auc"):
     
-    print("Hyperparameter Optimization on Processed Data (Pipeline yok) with Optimal Threshold...\n")
+    print("Hyperparameter Optimization on Processed Data with Optimal Threshold...\n")
     best_models = {}
+    model_scores = []
 
     for name, model, params in classifiers:
         print(f"########## {name} ##########")
 
         # Başlangıç skoru (default parametreler)
-        cv_results = cross_validate(model, X_train, y_train, cv=cv, scoring=scoring)
-        print(f"{scoring} (CV Before): {round(cv_results['test_score'].mean(), 4)}")
+        cv_score = cross_validate(model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV Before): {round(cv_score['test_score'].mean(), 4)}")
 
         # GridSearchCV
         gs = GridSearchCV(model, params, cv=cv, n_jobs=-1, verbose=1, scoring=scoring)
@@ -690,8 +719,8 @@ def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_tes
         best_model = gs.best_estimator_
 
         # En iyi CV skoru
-        cv_results = cross_validate(best_model, X_train, y_train, cv=cv, scoring=scoring)
-        print(f"{scoring} (CV After): {round(cv_results['test_score'].mean(), 4)}")
+        cv_after = cross_validate(best_model, X_train, y_train, cv=cv, scoring=scoring)
+        print(f"{scoring} (CV After): {round(cv_after['test_score'].mean(), 4)}")
 
         # Test set olasılık tahminleri
         y_pred_proba = best_model.predict_proba(X_test)[:, 1]
@@ -707,6 +736,14 @@ def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_tes
         print(f"Optimal F1 threshold: {best_thresh:.3f}")
         print(f"F1 at optimal threshold: {f1_score(y_test, y_pred_proba >= best_thresh):.4f}\n")
 
+        # Model ve skorları kaydet
+        model_scores.append({
+            "Model": name,
+            "CV_Before": cv_score["test_score"].mean(),
+            "CV_After": cv_after["test_score"].mean(),
+            "Test": test_roc_auc
+        })
+
         best_models[name] = {
             "model": best_model,
             "optimal_threshold": best_thresh,
@@ -714,7 +751,9 @@ def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_tes
             "f1_at_threshold": f1_score(y_test, y_pred_proba >= best_thresh)
         }
 
-    return best_models
+    scores_df = pd.DataFrame(model_scores)
+    return best_models, scores_df
+
 
 # multi_classifiers parameters
 cart_params_multi = {
@@ -762,6 +801,7 @@ multi_classifiers = [
 def hyperparameter_optimization_multiclass(X_train, y_train, X_test, y_test, multi_classifiers, cv=3, scoring="accuracy"):         
     print("Hyperparameter Optimization for Multi-class...\n")
     best_models = {}
+    model_scores = []
 
     for name, model, params in multi_classifiers:
         print(f"########## {name} ##########")
@@ -784,9 +824,19 @@ def hyperparameter_optimization_multiclass(X_train, y_train, X_test, y_test, mul
         test_score = accuracy_score(y_test, y_pred)
         print(f"{scoring} (Test): {test_score:.4f}\n")
 
+        # Sözlüğe kaydet
+        model_scores.append({
+            "Model": name,
+            "CV_Before": cv_score.mean(),
+            "CV_After": cv_after.mean(),
+            "Test": test_score
+        })
+
         best_models[name] = best_model
 
-    return best_models
+    # DataFrame oluştur
+    scores_df = pd.DataFrame(model_scores)
+    return best_models, scores_df
 
 ##--- REGRESSION
 
@@ -917,7 +967,4 @@ def val_curve_params(model, X, y, param_name, param_range, scoring="roc_auc", cv
     plt.show()
 
 
-################################################
-# 15. Sipariş Gecikme Gün Sayısının Tahmini
-################################################
 
