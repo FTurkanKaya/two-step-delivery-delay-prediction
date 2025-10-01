@@ -7,7 +7,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 import re
-from lightgbm import LGBMClassifier, LGBMRegressor
+from IPython.display import display
+import lightgbm as lgb
+from lightgbm import LGBMClassifier, LGBMRegressor # type: ignore
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, GradientBoostingClassifier, GradientBoostingRegressor, VotingClassifier, AdaBoostClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_validate, cross_val_score, GridSearchCV, StratifiedKFold, train_test_split, validation_curve
@@ -17,25 +19,39 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.metrics import roc_auc_score, accuracy_score, average_precision_score, f1_score, confusion_matrix, classification_report
-from xgboost import XGBClassifier, XGBRegressor
+from xgboost import XGBClassifier, XGBRegressor # type: ignore
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.base import BaseEstimator, TransformerMixin
 from scipy.stats import ks_2samp, wasserstein_distance
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import classification_report, f1_score
+from imblearn.over_sampling import SMOTE
+
 
 
 ################################################
 # 1. DATA LOADING & BASIC HELPERS
 ################################################
 
-def load(dataset):
+
+def load(dataset, sep=None, decimal=None):
+    """
+    CSV dosyasını yükler. 
+    Eğer sep veya decimal verilmezse, dosya otomatik okunmaya çalışılır.
+    """
     try:
-        data = pd.read_csv(dataset)
+        if sep and decimal:
+            data = pd.read_csv(dataset, sep=sep, decimal=decimal)
+        else:
+            data = pd.read_csv(dataset)  # default: sep=",", decimal="."
         return data
     except FileNotFoundError:
         print(f"Dosya bulunamadı: {dataset}")
         return None
-
+    except Exception as e:
+        print(f" Hata oluştu ({dataset}): {e}")
+        return None
 
 
 ################################################
@@ -218,27 +234,43 @@ def check_outliers_for_columns(dataframe, cols_list, q1=0.25, q3=0.75):
         result[col] = check_outlier(dataframe, col, q1, q3)
     return result
 
-
  # Aykırı değer analizi ve esitleme sonrası kontrol fonksiyonu.
+
 def check_outlier_cleaning(original_df, clean_df, cols):
     for col in cols:
         print(f"\n=== {col} ===")
-        print("Original describe:")
-        print(original_df[col].describe())
-        print("Cleaned describe:")
-        print(clean_df[col].describe())
-        neg_count = (clean_df[col] < 0).sum()
-        print(f"Negative values after cleaning: {neg_count}")
-        na_count = clean_df[col].isnull().sum()
-        print(f"Missing values: {na_count}")
-        plt.figure(figsize=(10, 3))
-        sns.boxplot(x=clean_df[col])
-        plt.title(f"Boxplot of {col}")
+        
+        # Describe sonuçlarını tabloya al
+        compare_df = pd.DataFrame({
+            "Original": original_df[col].describe(),
+            "Cleaned": clean_df[col].describe()
+        })
+        display(compare_df)
+        
+        print(f"Negative values after cleaning: {(clean_df[col] < 0).sum()}")
+        print(f"Missing values: {clean_df[col].isnull().sum()}")
+        
+        # Yan yana görselleştirme
+        fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+        
+        sns.boxplot(x=original_df[col], ax=axes[0], color="salmon")
+        axes[0].set_title(f"Original {col}")
+        
+        sns.boxplot(x=clean_df[col], ax=axes[1], color="seagreen")
+        axes[1].set_title(f"Cleaned {col}")
+        
         plt.show()
-        plt.figure(figsize=(10, 3))
-        sns.histplot(clean_df[col], bins=50, kde=True)
-        plt.title(f"Histogram of {col}")
+        
+        fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+        
+        sns.histplot(original_df[col], bins=50, kde=True, ax=axes[0], color="salmon")
+        axes[0].set_title(f"Original {col}")
+        
+        sns.histplot(clean_df[col], bins=50, kde=True, ax=axes[1], color="seagreen")
+        axes[1].set_title(f"Cleaned {col}")
+        
         plt.show()
+                      
 
 
 ################################################
@@ -965,6 +997,82 @@ def val_curve_params(model, X, y, param_name, param_range, scoring="roc_auc", cv
     plt.legend(loc='best')
     plt.tight_layout()
     plt.show()
+########################################################################################################
+# 15. SMOTE KONTROL 
+def compare_sampling_strategies(X_train, y_train, X_test, y_test, random_state=42):
+    """
+    4 stratejiyi karşılaştırır:
+    1. Baseline (hiçbir dengeleme yok)
+    2. SMOTE
+    3. Class Weights
+    4. SMOTE + Class Weights
+
+    Dönen sonuçlar: scores_df (F1-weighted skorları içerir)
+    """
+
+    results = []
+
+    # --- 1. Baseline ---
+    model_base = lgb.LGBMClassifier(
+        objective="multiclass",
+        num_class=len(np.unique(y_train)),
+        random_state=random_state,
+        n_estimators=500,
+        learning_rate=0.05
+    )
+    model_base.fit(X_train, y_train)
+    y_pred_base = model_base.predict(X_test)
+    f1_base = f1_score(y_test, y_pred_base, average="weighted")
+    results.append({"Strategy": "Baseline", "F1_weighted": f1_base})
+
+    # --- 2. SMOTE ---
+    smote = SMOTE(random_state=random_state)
+    X_res, y_res = smote.fit_resample(X_train, y_train)
+
+    model_smote = lgb.LGBMClassifier(
+        objective="multiclass",
+        num_class=len(np.unique(y_train)),
+        random_state=random_state,
+        n_estimators=500,
+        learning_rate=0.05
+    )
+    model_smote.fit(X_res, y_res)
+    y_pred_smote = model_smote.predict(X_test)
+    f1_smote = f1_score(y_test, y_pred_smote, average="weighted")
+    results.append({"Strategy": "SMOTE", "F1_weighted": f1_smote})
+
+    # --- 3. Class Weights ---
+    model_w = lgb.LGBMClassifier(
+        objective="multiclass",
+        num_class=len(np.unique(y_train)),
+        random_state=random_state,
+        n_estimators=500,
+        learning_rate=0.05,
+        class_weight="balanced"
+    )
+    model_w.fit(X_train, y_train)
+    y_pred_w = model_w.predict(X_test)
+    f1_w = f1_score(y_test, y_pred_w, average="weighted")
+    results.append({"Strategy": "Class Weights", "F1_weighted": f1_w})
+
+    # --- 4. SMOTE + Class Weights ---
+    model_sw = lgb.LGBMClassifier(
+        objective="multiclass",
+        num_class=len(np.unique(y_train)),
+        random_state=random_state,
+        n_estimators=500,
+        learning_rate=0.05,
+        class_weight="balanced"
+    )
+    model_sw.fit(X_res, y_res)
+    y_pred_sw = model_sw.predict(X_test)
+    f1_sw = f1_score(y_test, y_pred_sw, average="weighted")
+    results.append({"Strategy": "SMOTE + Class Weights", "F1_weighted": f1_sw})
+
+    # --- DataFrame olarak döndür ---
+    scores_df = pd.DataFrame(results)
+
+    return scores_df
 
 
 
