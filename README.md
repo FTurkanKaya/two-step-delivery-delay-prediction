@@ -102,15 +102,15 @@ Filtering and slicing by city, product, seller, and payment type to uncover acti
 
 Supports business users in monitoring logistics performance and prioritizing at-risk orders
 
-<img width="228" height="90" alt="image" src="https://github.com/user-attachments/assets/93ac566c-bcf8-47bb-a158-059f6cfa503a" /><br>
+<img width="228" height="90" alt="image" src="https://github.com/user-attachments/assets/93ac566c-bcf8-47bb-a158-059f6cfa503a" />
 
-<img width="203" height="98" alt="image" src="https://github.com/user-attachments/assets/b2d30721-a046-4093-aba1-0a3088cb6f64" /><br>
+<img width="203" height="98" alt="image" src="https://github.com/user-attachments/assets/b2d30721-a046-4093-aba1-0a3088cb6f64" />
 
 <img width="203" height="94" alt="image" src="https://github.com/user-attachments/assets/a6cc4bbb-bc9a-4461-80b6-65ce988090bd" /><br>
 
-<img width="209" height="92" alt="image" src="https://github.com/user-attachments/assets/53de320b-0fd6-4f29-a86c-d3771241a0f3" /><br>
+<img width="209" height="92" alt="image" src="https://github.com/user-attachments/assets/53de320b-0fd6-4f29-a86c-d3771241a0f3" />
 
-<img width="179" height="98" alt="image" src="https://github.com/user-attachments/assets/1ad05957-bfc5-426a-88e0-de2d2e88796b" /><br>
+<img width="179" height="98" alt="image" src="https://github.com/user-attachments/assets/1ad05957-bfc5-426a-88e0-de2d2e88796b" />
 
 <img width="226" height="98" alt="image" src="https://github.com/user-attachments/assets/7c44acfd-ed25-440b-8000-f7e4b05239b9" /><br>
 
