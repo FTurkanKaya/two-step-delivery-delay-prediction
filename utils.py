@@ -29,7 +29,6 @@ from sklearn.metrics import classification_report, f1_score
 from imblearn.over_sampling import SMOTE
 
 
-
 ################################################
 # 1. DATA LOADING & BASIC HELPERS
 ################################################
@@ -37,8 +36,8 @@ from imblearn.over_sampling import SMOTE
 
 def load(dataset, sep=None, decimal=None):
     """
-    CSV dosyasını yükler. 
-    Eğer sep veya decimal verilmezse, dosya otomatik okunmaya çalışılır.
+    Loads a CSV file.
+    If sep or decimal are not provided, the file is read automatically.
     """
     try:
         if sep and decimal:
@@ -47,10 +46,10 @@ def load(dataset, sep=None, decimal=None):
             data = pd.read_csv(dataset)  # default: sep=",", decimal="."
         return data
     except FileNotFoundError:
-        print(f"Dosya bulunamadı: {dataset}")
+        print(f"File not found: {dataset}")
         return None
     except Exception as e:
-        print(f" Hata oluştu ({dataset}): {e}")
+        print(f"Error occurred ({dataset}): {e}")
         return None
 
 
@@ -95,21 +94,21 @@ def missing_target_heatmap(df, target, na_columns):
     plt.figure(figsize=(10, len(na_flags)*0.5))
     sns.heatmap(np.array(mean_target).reshape(-1,1), annot=True, cmap="YlOrRd", cbar=True,
                 yticklabels=[c.replace("_NA_FLAG","") for c in na_flags])
-    plt.title(f"NA etkisi vs {target}")
+    plt.title(f"Effect of NA vs {target}")
     plt.xlabel("TARGET_MEAN")
     plt.show()
 
-# Eksik değerler için NA_FLAG sütunlarını ekleyip, median veya mode ile doldur
+# Add NA_FLAG columns for missing values and fill with median or mode
 def handle_missing_values(df):
     df_clean = df.copy()
-    # Sayısal kolonlar (flag + median)
+    # Numeric columns (flag + median)
     num_cols_flag = ['shipping_time', 'prep_time', 'distance_km', 'order_approved_at', 'estimated_time']
     for col in num_cols_flag:
         na_flag_col = col + "_NA_FLAG"
         df_clean[na_flag_col] = df_clean[col].isnull().astype(int)
         median_val = df_clean[col].median()
         df_clean[col] = df_clean[col].fillna(median_val)
-    # Çok az eksik olan kolonlar -> sil
+    # Columns with very few missing values -> drop
     cols_few_na = ['payment_types', 'payment_value_sum', 'payment_installments_max']
     df_clean = df_clean.dropna(subset=cols_few_na)
     return df_clean
@@ -126,33 +125,31 @@ def handle_missing_values_leakfree(df) -> pd.DataFrame:
             df = df.dropna(subset=[col])
     return df
 
-
 ################################################
 # 3. FEATURE CATEGORIZATION
 ################################################
 def grab_col_names(dataframe, cat_th=10, car_th=20):
     """
-
-    Veri setindeki kategorik, numerik ve kategorik fakat kardinal değişkenlerin isimlerini verir.
-    Not: Kategorik değişkenlerin içerisine numerik görünümlü kategorik değişkenler de dahildir.
+    Returns the names of categorical, numerical, and categorical but cardinal variables in the dataset.
+    Note: Numerical-looking categorical variables are also included in categorical variables.
 
     Parameters
     ------
         dataframe: dataframe
-                Değişken isimleri alınmak istenilen dataframe
+            The dataframe to extract column names from
         cat_th: int, optional
-                numerik fakat kategorik olan değişkenler için sınıf eşik değeri
-        car_th: int, optinal
-                kategorik fakat kardinal değişkenler için sınıf eşik değeri
+            Threshold for numerical variables that are actually categorical
+        car_th: int, optional
+            Threshold for categorical but cardinal variables
 
     Returns
     ------
         cat_cols: list
-                Kategorik değişken listesi
+            List of categorical variables
         num_cols: list
-                Numerik değişken listesi
+            List of numerical variables
         cat_but_car: list
-                Kategorik görünümlü kardinal değişken listesi
+            List of categorical-looking cardinal variables
 
     Examples
     ------
@@ -160,16 +157,15 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
         df = sns.load_dataset("iris")
         print(grab_col_names(df))
 
-
     Notes
     ------
-        cat_cols + num_cols + cat_but_car = toplam değişken sayısı
-        num_but_cat cat_cols'un içerisinde.
-        Return olan 3 liste toplamı toplam değişken sayısına eşittir: cat_cols + num_cols + cat_but_car = değişken sayısı
-
+        cat_cols + num_cols + cat_but_car = total number of variables
+        num_but_cat is included in cat_cols.
+        The sum of returned three lists equals the total number of variables: 
+        cat_cols + num_cols + cat_but_car = number of columns
     """
 
-    # cat_cols, cat_but_car
+    # Identify categorical and categorical-but-cardinal columns
     cat_cols = [col for col in dataframe.columns if dataframe[col].dtypes == "O"]
     num_but_cat = [col for col in dataframe.columns if dataframe[col].nunique() < cat_th and
                    dataframe[col].dtypes != "O"]
@@ -178,19 +174,12 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
     cat_cols = cat_cols + num_but_cat
     cat_cols = [col for col in cat_cols if col not in cat_but_car]
 
-    # num_cols
+    # Identify numerical columns
     num_cols = [col for col in dataframe.columns if dataframe[col].dtypes != "O"]
     num_cols = [col for col in num_cols if col not in num_but_cat]
 
-    # print(f"Observations: {dataframe.shape[0]}")
-    # print(f"Variables: {dataframe.shape[1]}")
-    # print(f'cat_cols: {len(cat_cols)}')
-    # print(f'num_cols: {len(num_cols)}')
-    # print(f'cat_but_car: {len(cat_but_car)}')
-    # print(f'num_but_cat: {len(num_but_cat)}')
     return cat_cols, num_cols, cat_but_car
 
-    
 
 
 ################################################
@@ -198,6 +187,9 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
 ################################################
 
 def outlier_thresholds(dataframe, col_name, q1=0.25, q3=0.75):
+    """
+    Returns lower and upper thresholds for outliers in a column based on IQR
+    """
     quartile1 = dataframe[col_name].quantile(q1)
     quartile3 = dataframe[col_name].quantile(q3)
     interquantile_range = quartile3 - quartile1
@@ -207,6 +199,9 @@ def outlier_thresholds(dataframe, col_name, q1=0.25, q3=0.75):
 
 
 def replace_with_thresholds(dataframe, variable):
+    """
+    Replaces outliers in a column with threshold values
+    """
     low_limit, up_limit = outlier_thresholds(dataframe, variable)
     dataframe.loc[(dataframe[variable] < low_limit), variable] = low_limit
     dataframe.loc[(dataframe[variable] > up_limit), variable] = up_limit
@@ -214,11 +209,11 @@ def replace_with_thresholds(dataframe, variable):
 
 def check_outlier(dataframe, col_name, q1=0.25, q3=0.75):
     """
-    Tek bir kolon için aykırı değer var mı kontrol eder
-    True/False döner
+    Checks if a single column has outliers
+    Returns True/False
     """
     low_limit, up_limit = outlier_thresholds(dataframe, col_name, q1, q3)
-    # sadece sayısal kolonlarda kontrol et
+    # Only check numeric columns
     if dataframe[col_name].dtype.kind in 'bifc':  # boolean, integer, float, complex
         if dataframe[(dataframe[col_name] > up_limit) | (dataframe[col_name] < low_limit)].any(axis=None):
             return True
@@ -229,18 +224,23 @@ def check_outlier(dataframe, col_name, q1=0.25, q3=0.75):
 
 
 def check_outliers_for_columns(dataframe, cols_list, q1=0.25, q3=0.75):
+    """
+    Returns a dictionary indicating if each column has outliers
+    """
     result = {}
     for col in cols_list:
         result[col] = check_outlier(dataframe, col, q1, q3)
     return result
 
- # Aykırı değer analizi ve esitleme sonrası kontrol fonksiyonu.
 
 def check_outlier_cleaning(original_df, clean_df, cols):
+    """
+    Visual comparison of original and cleaned columns for outliers
+    """
     for col in cols:
         print(f"\n=== {col} ===")
         
-        # Describe sonuçlarını tabloya al
+        # Display describe() results side by side
         compare_df = pd.DataFrame({
             "Original": original_df[col].describe(),
             "Cleaned": clean_df[col].describe()
@@ -250,27 +250,21 @@ def check_outlier_cleaning(original_df, clean_df, cols):
         print(f"Negative values after cleaning: {(clean_df[col] < 0).sum()}")
         print(f"Missing values: {clean_df[col].isnull().sum()}")
         
-        # Yan yana görselleştirme
+        # Side-by-side visualization: boxplots
         fig, axes = plt.subplots(1, 2, figsize=(12, 4))
-        
         sns.boxplot(x=original_df[col], ax=axes[0], color="salmon")
         axes[0].set_title(f"Original {col}")
-        
         sns.boxplot(x=clean_df[col], ax=axes[1], color="seagreen")
         axes[1].set_title(f"Cleaned {col}")
-        
         plt.show()
         
+        # Side-by-side histograms
         fig, axes = plt.subplots(1, 2, figsize=(12, 4))
-        
         sns.histplot(original_df[col], bins=50, kde=True, ax=axes[0], color="salmon")
         axes[0].set_title(f"Original {col}")
-        
         sns.histplot(clean_df[col], bins=50, kde=True, ax=axes[1], color="seagreen")
         axes[1].set_title(f"Cleaned {col}")
-        
         plt.show()
-                      
 
 
 ################################################
@@ -278,21 +272,29 @@ def check_outlier_cleaning(original_df, clean_df, cols):
 ################################################
 
 def encode_label(dataframe, binary_col):
+    """
+    Label encoding for binary columns
+    """
     labelencoder = LabelEncoder()
     dataframe[binary_col] = labelencoder.fit_transform(dataframe[binary_col])
     return dataframe
 
 
 def one_hot_encoder(dataframe, categorical_cols, drop_first=False):
+    """
+    One-hot encoding for multiple categorical columns
+    """
     dataframe = pd.get_dummies(dataframe, columns=categorical_cols, drop_first=drop_first)
     return dataframe
-
 
 ################################################
 # 6. FEATURE ENGINEERING
 ################################################
 
 def add_time_features_leakfree(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Adds time-based features without introducing leakage.
+    """
     df = df.copy()
     if {"order_purchase_timestamp", "order_approved_at"} <= set(df.columns):
         df["prep_time"] = (df["order_approved_at"] - df["order_purchase_timestamp"]).dt.total_seconds() / 3600
@@ -309,6 +311,9 @@ def add_time_features_leakfree(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_extra_features(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Adds derived features such as normalized distance, weekend flag, time bins, and combined day-hour feature.
+    """
     df = df.copy()
     if "distance_km" in df.columns:
         df["distance_norm"] = np.log1p(df["distance_km"])
@@ -322,6 +327,9 @@ def add_extra_features(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def drop_leakage_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Drops columns that could lead to data leakage.
+    """
     drop_cols = [
         "order_delivered_carrier_date", "order_delivered_customer_date",
         "estimated_time","shipping_time", 'prep_time','shipping_time_NA_FLAG', 'estimated_time_NA_FLAG', 
@@ -331,14 +339,17 @@ def drop_leakage_columns(df: pd.DataFrame) -> pd.DataFrame:
     return df.drop(columns=[c for c in drop_cols if c in df.columns], errors="ignore")
 
 
-
 ################################################
 # 7. ID ENCODING
 ################################################
 
-def _safe_str_id(s): return s.astype("string").fillna("_nan_")
+def _safe_str_id(s): 
+    return s.astype("string").fillna("_nan_")
     
 def fit_id_stats(X_train, y_train, id_col, m=50):
+    """
+    Computes ID-based statistics: frequency and late_rate (smoothed).
+    """
     y_train = y_train.loc[X_train.index]
     ids = _safe_str_id(X_train[id_col])
     g = pd.DataFrame({"id": ids, "y": y_train}).groupby("id")["y"].agg(["sum","count"])
@@ -347,6 +358,9 @@ def fit_id_stats(X_train, y_train, id_col, m=50):
     return {"freq": g["count"], "late_rate": g["late_rate"], "global_mean": global_mean}
     
 def apply_id_stats(X, id_col, stats, prefix):
+    """
+    Applies previously computed ID statistics to a dataset.
+    """
     X = X.copy()
     if id_col not in X.columns:
         return X
@@ -358,6 +372,9 @@ def apply_id_stats(X, id_col, stats, prefix):
 
 id_plan = [("cusUni","cust"), ("seller_id_pref","seller"), ("product_id_pref","product")]
 def add_all_id_encodings(X_train, X_test, y_train, id_plan=id_plan, m=50):
+    """
+    Encodes multiple ID columns with frequency and smoothed late_rate.
+    """
     Xtr, Xte = X_train.copy(), X_test.copy()
     id_plan = [(c,p) for c,p in id_plan if c in Xtr.columns]
     learned = {}
@@ -371,11 +388,15 @@ def add_all_id_encodings(X_train, X_test, y_train, id_plan=id_plan, m=50):
     Xte = Xte.drop(columns=[c for c in drop_candidates if c in Xte.columns], errors="ignore")
     return Xtr, Xte, learned
 
+
 ################################################
 # 8. CUSTOM TRANSFORMERS
 ################################################
 
 class PaymentTypeEncoder(BaseEstimator, TransformerMixin):
+    """
+    Encodes payment_types column into binary features for each type and dominant payment type.
+    """
     def __init__(self, col="payment_types", sep="/", drop_original=True, add_dominant=True,
                  risk_order=("boleto","debit_card","voucher","credit_card"), normalize_map=None):
         self.col = col
@@ -449,6 +470,9 @@ cat_ohe = Pipeline([
 
 
 def build_full_preprocessor_leakfree(X_sample):
+    """
+    Constructs a preprocessing pipeline with numeric, categorical, and payment-type features.
+    """
     num_lr_cols  = [c for c in NUM_LOG_ROBUST_CANDIDATES if c in X_sample.columns]
     num_std_cols = [c for c in NUM_STD_CANDIDATES if c in X_sample.columns]
     ohe_cols = [c for c in OHE_CANDIDATES if c in X_sample.columns] + ["dominant_payment_type"]
@@ -465,24 +489,21 @@ def build_full_preprocessor_leakfree(X_sample):
     ])
     return pipe
 
-
 ################################################
 # 10. LEAKAGE CHECKS & DISTRIBUTIONS
 ################################################
 
 def plot_late_rate_distributions(X_train, X_test, cols=["cust_late_rate", "product_late_rate"]):
     """
-    Train ve test setinde verilen late_rate kolonlarının dağılımını karşılaştırır.
+    Compares distributions of late_rate features between train and test sets.
     """
     ncols = len(cols)
     plt.figure(figsize=(6 * ncols, 5))
     
     for i, col in enumerate(cols, 1):
         plt.subplot(1, ncols, i)
-        
         sns.kdeplot(X_train[col], label="Train", fill=True, alpha=0.5)
         sns.kdeplot(X_test[col], label="Test", fill=True, alpha=0.5)
-        
         plt.title(f"Distribution of {col}")
         plt.xlabel(col)
         plt.ylabel("Density")
@@ -493,10 +514,12 @@ def plot_late_rate_distributions(X_train, X_test, cols=["cust_late_rate", "produ
 
 
 def compare_late_rate_features(X_train, X_test):
-    # sadece late_rate kolonlarını al
+    """
+    Compares train and test distributions of all late_rate columns and shows KS and Wasserstein distances.
+    """
     late_rate_cols = [c for c in X_train.columns if "late_rate" in c]
     if not late_rate_cols:
-        print("Hiç late_rate kolonu bulunamadı.")
+        print("No late_rate columns found.")
         return
     
     n_cols = 2
@@ -507,11 +530,8 @@ def compare_late_rate_features(X_train, X_test):
         plt.subplot(n_rows, n_cols, i)
         sns.kdeplot(X_train[col], label="Train", fill=True, alpha=0.5)
         sns.kdeplot(X_test[col], label="Test", fill=True, alpha=0.5)
-        
-        # İstatistiksel ölçümler
         ks = ks_2samp(X_train[col].dropna(), X_test[col].dropna()).statistic
         w = wasserstein_distance(X_train[col].dropna(), X_test[col].dropna())
-        
         plt.title(f"{col}\nKS={ks:.3f}, W={w:.3f}")
         plt.legend()
     
@@ -520,21 +540,22 @@ def compare_late_rate_features(X_train, X_test):
 
 
 def compare_feature_distributions(X_train, X_test, max_plots=20):
+    """
+    Compares numeric feature distributions between train and test sets.
+    Returns a DataFrame with KS and Wasserstein distances.
+    """
     numeric_cols = X_train.select_dtypes(include=[np.number]).columns
     results = []
 
     for col in numeric_cols:
         train_vals = X_train[col].dropna()
         test_vals = X_test[col].dropna()
-        
         ks = ks_2samp(train_vals, test_vals).statistic
         w = wasserstein_distance(train_vals, test_vals)
-        
         results.append({"feature": col, "KS": ks, "Wasserstein": w})
     
     results_df = pd.DataFrame(results).sort_values("KS", ascending=False)
 
-    # Görselleştirme (ilk max_plots kolon için)
     n_cols = 2
     n_rows = int(np.ceil(min(max_plots, len(results_df)) / n_cols))
     plt.figure(figsize=(6*n_cols, 4*n_rows))
@@ -551,56 +572,46 @@ def compare_feature_distributions(X_train, X_test, max_plots=20):
     plt.show()
 
     return results_df
-    
+
+
 def leakage_check(X: pd.DataFrame, y: pd.Series, top_n=20):
     """
-    Target ile feature'lar arasındaki korelasyonu hesaplar (sayısal + kategorik).
-    En yüksek korelasyona sahip feature'ları döndürür.
+    Calculates correlation between features and target (numeric + categorical).
+    Returns top_n features with highest correlation.
     """
     df = X.copy()
     df["__target__"] = y.values
-    
     corr_results = {}
 
     for col in df.drop(columns="__target__").columns:
         if pd.api.types.is_numeric_dtype(df[col]):
-            # Pearson korelasyonu (sayısal)
             corr = np.corrcoef(df[col], df["__target__"])[0,1]
         else:
-            # Kategorik: target mean encoding korelasyonu
             means = df.groupby(col)["__target__"].mean()
             encoded = df[col].map(means)
             corr = np.corrcoef(encoded, df["__target__"])[0,1]
-        
         corr_results[col] = abs(corr)
 
-    # Sıralı tablo
     corr_df = pd.DataFrame.from_dict(corr_results, orient="index", columns=["abs_corr"])
     corr_df = corr_df.sort_values("abs_corr", ascending=False).head(top_n)
-    
     return corr_df
-
 
 
 ################################################
 # 11. BASE MODELS & PIPELINE TESTS
 ################################################
 
-
-# Base Models
 def base_models(X, y, scoring="roc_auc"):
+    """
+    Evaluates basic classifiers with cross-validation.
+    """
     print("Base Models....")
     classifiers = [('LR', LogisticRegression()),
                    ('KNN', KNeighborsClassifier()),
-                   #("SVC", SVC()),
                    ("CART", DecisionTreeClassifier()),
                    ("RF", RandomForestClassifier()),
-                   #('Adaboost', AdaBoostClassifier()),
-                   #('GBM', GradientBoostingClassifier()),
-                   ('XGBoost', XGBClassifier(eval_metric='logloss')),           # use_label_encoder=False
-                   ('LightGBM', LGBMClassifier(verbosity=-1, force_row_wise=True)),
-                   # ('CatBoost', CatBoostClassifier(verbose=False))
-                   ]
+                   ('XGBoost', XGBClassifier(eval_metric='logloss')),           
+                   ('LightGBM', LGBMClassifier(verbosity=-1, force_row_wise=True))]
 
     for name, classifier in classifiers:
         cv_results = cross_validate(classifier, X, y, cv=3, scoring=scoring)
@@ -609,24 +620,18 @@ def base_models(X, y, scoring="roc_auc"):
 
 def base_models_pipeline(X, y, preprocessor, scoring="roc_auc", cv=3):
     """
-    X, y: veri seti
-    preprocessor: ön işleme pipeline 
-    scoring: metric, default roc_auc
-    cv: cross-validation fold sayısı
+    Evaluates base classifiers within a preprocessing pipeline.
     """
     print("Base Models...\n")
-    
-    # Hızlı çalışacak modeller
     classifiers = [
         ("LR", LogisticRegression(max_iter=1000, class_weight="balanced")),
         ("CART", DecisionTreeClassifier()),
         ("RF", RandomForestClassifier(n_estimators=200)),
         ("LightGBM", LGBMClassifier()),
-        ("XGBoost", XGBClassifier(eval_metric='logloss', verbose = -1))
+        ("XGBoost", XGBClassifier(eval_metric='logloss', verbose=-1))
     ]
     
     results = {}
-    
     for name, clf in classifiers:
         pipe = Pipeline([
             ("prep", preprocessor),
@@ -639,12 +644,11 @@ def base_models_pipeline(X, y, preprocessor, scoring="roc_auc", cv=3):
     
     return results
 
-
 ################################################
 # 12. HYPERPARAMETER OPTIMIZATION
 ################################################
 
-# Model parametreleri
+# Model parameters
 knn_params = {"n_neighbors": range(2, 50)}
 
 cart_params = { 
@@ -672,9 +676,9 @@ lightgbm_params = {
     "colsample_bytree": [0.7, 1]
 }
 
-# Güncellenmiş classifier listesi
+# Updated classifier list
 classifiers = [
-    # ('KNN', KNeighborsClassifier(), knn_params),  # opsiyonel
+    # ('KNN', KNeighborsClassifier(), knn_params),  # optional
     ("CART", DecisionTreeClassifier(), cart_params),
     ("RF", RandomForestClassifier(), rf_params),
     ('XGBoost', XGBClassifier(use_label_encoder=False, eval_metric='logloss'), xgboost_params),
@@ -682,16 +686,15 @@ classifiers = [
 ]
 
 
-
 def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, classifiers, cv=3, scoring="roc_auc"):
-    print("Hyperparameter Optimization on Processed Data (Pipeline yok)...\n")
+    print("Hyperparameter Optimization on Processed Data (without Pipeline)...\n")
     best_models = {}
     model_scores = []
 
     for name, model, params in classifiers:
         print(f"########## {name} ##########")
 
-        # Başlangıç CV skoru
+        # Initial CV score
         cv_score = cross_val_score(model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV Before): {cv_score.mean():.4f}")
 
@@ -699,22 +702,22 @@ def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, clas
         gs = GridSearchCV(model, params, cv=cv, n_jobs=-1, verbose=1, scoring=scoring)
         gs.fit(X_train, y_train)
 
-        # En iyi model
+        # Best model
         best_model = gs.best_estimator_
 
-        # En iyi CV skoru
+        # CV score after tuning
         cv_after = cross_val_score(best_model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV After): {cv_after.mean():.4f}")
 
-        # Test skoru
+        # Test score
         y_pred_proba = best_model.predict_proba(X_test)[:, 1]
         test_score = roc_auc_score(y_test, y_pred_proba)
         print(f"{scoring} (Test): {round(test_score, 4)}")
 
-        # En iyi parametreler
+        # Best parameters
         print(f"{name} best params: {gs.best_params_}\n")
 
-         # Sözlüğe kaydet
+        # Save results to dictionary
         model_scores.append({
             "Model": name,
             "CV_Before": cv_score.mean(),
@@ -724,11 +727,9 @@ def hyperparameter_optimization_processed(X_train, y_train, X_test, y_test, clas
 
         best_models[name] = best_model
 
-         # DataFrame oluştur
+    # Convert results to DataFrame
     scores_df = pd.DataFrame(model_scores)
     return best_models, scores_df
-
-
 
 def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_test, y_test, classifiers, cv=3, scoring="roc_auc"):
     
@@ -739,7 +740,7 @@ def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_tes
     for name, model, params in classifiers:
         print(f"########## {name} ##########")
 
-        # Başlangıç skoru (default parametreler)
+        # Initial CV score (default parameters)
         cv_score = cross_validate(model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV Before): {round(cv_score['test_score'].mean(), 4)}")
 
@@ -747,17 +748,17 @@ def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_tes
         gs = GridSearchCV(model, params, cv=cv, n_jobs=-1, verbose=1, scoring=scoring)
         gs.fit(X_train, y_train)
 
-        # En iyi model
+        # Best model
         best_model = gs.best_estimator_
 
-        # En iyi CV skoru
+        # CV score after tuning
         cv_after = cross_validate(best_model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV After): {round(cv_after['test_score'].mean(), 4)}")
 
-        # Test set olasılık tahminleri
+        # Predicted probabilities on test set
         y_pred_proba = best_model.predict_proba(X_test)[:, 1]
 
-        # ROC-AUC testi
+        # Test ROC-AUC score
         test_roc_auc = roc_auc_score(y_test, y_pred_proba)
         print(f"{scoring} (Test): {round(test_roc_auc, 4)}")
 
@@ -768,7 +769,7 @@ def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_tes
         print(f"Optimal F1 threshold: {best_thresh:.3f}")
         print(f"F1 at optimal threshold: {f1_score(y_test, y_pred_proba >= best_thresh):.4f}\n")
 
-        # Model ve skorları kaydet
+        # Save model and scores
         model_scores.append({
             "Model": name,
             "CV_Before": cv_score["test_score"].mean(),
@@ -785,16 +786,14 @@ def hyperparameter_optimization_processed_with_threshold(X_train, y_train, X_tes
 
     scores_df = pd.DataFrame(model_scores)
     return best_models, scores_df
-
-
-# multi_classifiers parameters
+# Multi-class classifier parameters
 cart_params_multi = {
     "max_depth": [5, 10, 15, None],
     "min_samples_split": [2, 5, 10],
     "min_samples_leaf": [1, 2, 4]
 }
 
-# Random Forest parametreleri
+# Random Forest parameters for multi-class
 rf_params_multi = {
     "n_estimators": [100, 200, 300],
     "max_depth": [8, 15, None],
@@ -803,7 +802,7 @@ rf_params_multi = {
     "max_features": ["auto", "sqrt"]
 }
 
-# XGBoost parametreleri
+# XGBoost parameters for multi-class
 xgboost_params_multi = {
     "n_estimators": [100, 200],
     "learning_rate": [0.01, 0.1],
@@ -811,7 +810,7 @@ xgboost_params_multi = {
     "colsample_bytree": [0.5, 1]
 }
 
-# LightGBM parametreleri
+# LightGBM parameters for multi-class
 lightgbm_params_multi = {
     "n_estimators": [300, 500],
     "learning_rate": [0.01, 0.1],
@@ -819,9 +818,9 @@ lightgbm_params_multi = {
     "colsample_bytree": [0.7, 1]
 }
 
-# Model listesi
+# Multi-class classifier list
 multi_classifiers = [
-   # ('KNN', KNeighborsClassifier(), knn_params),
+    # ('KNN', KNeighborsClassifier(), knn_params),
     ("CART", DecisionTreeClassifier(), cart_params_multi),
     ("RF", RandomForestClassifier(), rf_params_multi),
     ('XGBoost', XGBClassifier(use_label_encoder=False, eval_metric='logloss'), xgboost_params_multi),
@@ -829,16 +828,15 @@ multi_classifiers = [
 ]
 
 
-
 def hyperparameter_optimization_multiclass(X_train, y_train, X_test, y_test, multi_classifiers, cv=3, scoring="accuracy"):         
-    print("Hyperparameter Optimization for Multi-class...\n")
+    print("Hyperparameter Optimization for Multi-class Classification...\n")
     best_models = {}
     model_scores = []
 
     for name, model, params in multi_classifiers:
         print(f"########## {name} ##########")
 
-        # Başlangıç CV skoru
+        # Initial CV score
         cv_score = cross_val_score(model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV Before): {cv_score.mean():.4f}")
 
@@ -848,15 +846,16 @@ def hyperparameter_optimization_multiclass(X_train, y_train, X_test, y_test, mul
 
         best_model = gs.best_estimator_
 
+        # CV score after tuning
         cv_after = cross_val_score(best_model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV After): {cv_after.mean():.4f}")
 
-        # ---- Test set skoru ----
+        # ---- Test set score ----
         y_pred = best_model.predict(X_test)
         test_score = accuracy_score(y_test, y_pred)
         print(f"{scoring} (Test): {test_score:.4f}\n")
 
-        # Sözlüğe kaydet
+        # Save results to dictionary
         model_scores.append({
             "Model": name,
             "CV_Before": cv_score.mean(),
@@ -866,20 +865,20 @@ def hyperparameter_optimization_multiclass(X_train, y_train, X_test, y_test, mul
 
         best_models[name] = best_model
 
-    # DataFrame oluştur
+    # Convert results to DataFrame
     scores_df = pd.DataFrame(model_scores)
     return best_models, scores_df
 
 ##--- REGRESSION
 
-# CART (Decision Tree Regressor) parametreleri
+# CART (Decision Tree Regressor) parameters
 cart_params_reg = {
     "max_depth": [5, 10, 15, None],
     "min_samples_split": [2, 5, 10],
     "min_samples_leaf": [1, 2, 4]
 }
 
-# Random Forest Regressor parametreleri
+# Random Forest Regressor parameters
 rf_params_reg = {
     "n_estimators": [100, 200, 300],
     "max_depth": [8, 15, None],
@@ -888,7 +887,7 @@ rf_params_reg = {
     "max_features": ["auto", "sqrt"]
 }
 
-# XGBoost Regressor parametreleri
+# XGBoost Regressor parameters
 xgboost_params_reg = {
     "n_estimators": [100, 200],
     "learning_rate": [0.01, 0.1],
@@ -896,7 +895,7 @@ xgboost_params_reg = {
     "colsample_bytree": [0.5, 1]
 }
 
-# LightGBM Regressor parametreleri
+# LightGBM Regressor parameters
 lightgbm_params_reg= {
     "n_estimators": [300, 500],
     "learning_rate": [0.01, 0.1],
@@ -904,7 +903,7 @@ lightgbm_params_reg= {
     "colsample_bytree": [0.7, 1]
 }
 
-# Regressor listesi
+# Regressor list
 regressors = [
     ("CART", DecisionTreeRegressor(), cart_params_reg),
     ("RF", RandomForestRegressor(), rf_params_reg),
@@ -920,7 +919,7 @@ def hyperparameter_optimization_regression(X_train, y_train, X_test, y_test, reg
     for name, model, params in regressors:
         print(f"########## {name} ##########")
         
-        # Başlangıç skoru (default parametreler)
+        # Initial score (default parameters)
         cv_score = cross_val_score(model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV Before): {cv_score.mean():.4f}")
         
@@ -930,28 +929,34 @@ def hyperparameter_optimization_regression(X_train, y_train, X_test, y_test, reg
         
         best_model = gs.best_estimator_
         
+        # CV score after tuning
         cv_score_after = cross_val_score(best_model, X_train, y_train, cv=cv, scoring=scoring)
         print(f"{scoring} (CV After): {cv_score_after.mean():.4f}")
         
-        # Test skoru
+        # Test score
         test_score = best_model.score(X_test, y_test)
         print(f"{scoring} (Test): {test_score:.4f}")
         
+        # Best parameters
         print(f"{name} best params: {gs.best_params_}\n")
         best_models[name] = best_model
 
     return best_models
 
-    
 ################################################
 # 13. ENSEMBLE LEARNING
 ################################################
 # Stacking & Ensemble Learning
 def voting_classifier(best_models, X, y):
     print("Voting Classifier...")
-    voting_clf = VotingClassifier(estimators=[('CART', best_models["CART"]),('XGBoost', best_models["XGBoost"]), 
-                                              ('RF', best_models["RF"]),('LightGBM', best_models["LightGBM"]), ],
-                                  voting='soft').fit(X, y)
+    voting_clf = VotingClassifier(
+        estimators=[('CART', best_models["CART"]),
+                    ('XGBoost', best_models["XGBoost"]), 
+                    ('RF', best_models["RF"]),
+                    ('LightGBM', best_models["LightGBM"])],
+        voting='soft'
+    ).fit(X, y)
+
     cv_results = cross_validate(voting_clf, X, y, cv=3, scoring=["accuracy", "f1", "roc_auc"])
     print(f"Accuracy: {cv_results['test_accuracy'].mean()}")
     print(f"F1Score: {cv_results['test_f1'].mean()}")
@@ -959,34 +964,40 @@ def voting_classifier(best_models, X, y):
     
     return voting_clf
 
-
-
 ################################################
 # 14. MODEL EVALUATION CURVES
 ################################################
 
 def val_curve_params(model, X, y, param_name, param_range, scoring="roc_auc", cv=10):
     """
-    Validation curve çizimi için fonksiyon. None değerlerini de label olarak gösterebilir.
+    Function to plot validation curves.
+    Can also display None values as labels on the x-axis.
     """
     from sklearn.model_selection import validation_curve
     import numpy as np
     import matplotlib.pyplot as plt
 
-    # Validation curve hesapla
+    # Calculate validation curve
     train_score, test_score = validation_curve(
-        model, X=X, y=y, param_name=param_name, param_range=param_range, scoring=scoring, cv=cv
+        model,
+        X=X,
+        y=y,
+        param_name=param_name,
+        param_range=param_range,
+        scoring=scoring,
+        cv=cv
     )
 
+    # Mean training and validation scores
     mean_train_score = np.mean(train_score, axis=1)
     mean_test_score = np.mean(test_score, axis=1)
 
-    # Grafik çizimi
+    # Plotting
     plt.figure(figsize=(8,5))
     plt.plot(mean_train_score, label="Training Score", marker='o', color='blue')
     plt.plot(mean_test_score, label="Validation Score", marker='s', color='green')
 
-    # xticks için param_range kullan, None varsa "None" olarak göster
+    # Use param_range as x-ticks; show "None" if parameter is None
     x_labels = [str(p) if p is not None else "None" for p in param_range]
     plt.xticks(range(len(param_range)), x_labels)
 
@@ -997,17 +1008,19 @@ def val_curve_params(model, X, y, param_name, param_range, scoring="roc_auc", cv
     plt.legend(loc='best')
     plt.tight_layout()
     plt.show()
+
+
 ########################################################################################################
-# 15. SMOTE KONTROL 
+# 15. SMOTE STRATEGY COMPARISON 
 def compare_sampling_strategies(X_train, y_train, X_test, y_test, random_state=42):
     """
-    4 stratejiyi karşılaştırır:
-    1. Baseline (hiçbir dengeleme yok)
+    Compares 4 strategies:
+    1. Baseline (no balancing)
     2. SMOTE
     3. Class Weights
     4. SMOTE + Class Weights
 
-    Dönen sonuçlar: scores_df (F1-weighted skorları içerir)
+    Returns a DataFrame with weighted F1 scores for each strategy.
     """
 
     results = []
@@ -1069,10 +1082,7 @@ def compare_sampling_strategies(X_train, y_train, X_test, y_test, random_state=4
     f1_sw = f1_score(y_test, y_pred_sw, average="weighted")
     results.append({"Strategy": "SMOTE + Class Weights", "F1_weighted": f1_sw})
 
-    # --- DataFrame olarak döndür ---
+    # --- Return results as DataFrame ---
     scores_df = pd.DataFrame(results)
 
     return scores_df
-
-
-
